@@ -1,4 +1,4 @@
-            <section class="relative overflow-hidden border-top">
+            <section class="relative overflow-hidden">
                 <div class="container">
                     <div class="row g-4">
                         <div class="col-lg-6 offset-lg-3 text-center">

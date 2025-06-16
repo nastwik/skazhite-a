@@ -8,4 +8,8 @@
 
    <? require_once 'include/main_page/doctors.php' ?>
 
+   <? require_once 'include/main_page/about.php' ?>
+
+   <? require_once 'include/main_page/lidmagnit.php' ?>
+
 <? require_once 'footer.php' ?>

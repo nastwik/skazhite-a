@@ -2,7 +2,7 @@
                 <div class="container">
                     <div class="row g-4">
                         <div class="col-lg-6 offset-lg-3 text-center">
-                            <div class="subtitle wow fadeInUp mb-3">Behind the Scene</div>
+                            <div class="subtitle wow fadeInUp mb-3">Врачи</div>
                             <h2 class="wow fadeInUp" data-wow-delay=".2s">Our Team</h2>
                         </div>
                     </div>

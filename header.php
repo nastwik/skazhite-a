@@ -48,9 +48,13 @@
                                 <!-- logo begin -->
                                 <div id="logo">
                                     <a href="index.html">
-                                        <img class="logo-main" src="images/logo-black.webp" alt="" >
-                                        <img class="logo-scroll" src="images/logo-black.webp" alt="" >
-                                        <img class="logo-mobile" src="images/logo-black.webp" alt="" >
+                                        <img class="logo-main" src="images/logo.png" alt="" >
+                                        <img class="logo-scroll" src="images/logo.png" alt="" >
+                                        <img class="logo-mobile" src="images/logo.png" alt="" ><!-- 
+                                        <div>
+                                            <span>Скажите «А»</span>
+                                            <span>Частная лор-клиника</span>
+                                        </div> -->
                                     </a>
                                 </div>
                                 <!-- logo close -->

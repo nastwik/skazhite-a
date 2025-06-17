@@ -1632,10 +1632,10 @@
          jQuery('#menu-btn').on("click", function() {
 
             var h = jQuery('header')[0].scrollHeight;
-
+        
             if (mobile_menu_show === 0) {
                 jQuery('header').addClass('menu-open');
-                jQuery('header').css('height',$(window).innerHeight());
+                jQuery('header').css('height', $(window).innerHeight());
                 mobile_menu_show = 1;
 
                 jQuery('#mainmenu').css({
@@ -1647,7 +1647,7 @@
                 jQuery(this).addClass("menu-open");
             } else {
                 jQuery('header').removeClass('menu-open');
-                jQuery('header').css('height','auto');
+                jQuery('header').css('height', 'auto');
                 mobile_menu_show = 0;
 
                 jQuery('#mainmenu').css({
@@ -1659,6 +1659,18 @@
                 jQuery(this).removeClass("menu-open");
             }
         });
+
+        jQuery(window).on('resize', function() {
+            if ($(window).width() > 992) {
+                jQuery('#mainmenu').css({
+                    'visibility': 'visible',
+                    'opacity': '1',
+                    'transform': 'translateX(0)'
+                });
+                mobile_menu_show = 0; 
+            }
+        });
+        
          jQuery("a.btn").on("click", function(evn) {
              if (this.href.indexOf('#') === -1) {
                  evn.preventDefault();

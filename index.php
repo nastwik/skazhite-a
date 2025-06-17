@@ -12,4 +12,10 @@
 
    <? require_once 'include/main_page/lidmagnit.php' ?>
 
+   <? require_once 'include/main_page/gallery.php' ?>
+
+   <? require_once 'include/main_page/reviews.php' ?>
+
+   <? require_once 'include/main_page/contacts.php' ?>
+
 <? require_once 'footer.php' ?>

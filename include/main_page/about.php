@@ -4,13 +4,13 @@
                         <div class="col-lg-6">
                             <div class="row g-4">
                                 <div class="col-6">
-                                    <img src="images/misc/11.webp" class="img-fluid rounded-10 mb-4 w-70 ms-30 wow scaleIn" alt="">
-                                    <img src="images/misc/3.webp" class="img-fluid rounded-10 wow scaleIn" alt="">
+                                    <img src="images/background/plug.png" class="img-fluid rounded-10 mb-4 w-70 ms-30 wow scaleIn" alt="">
+                                    <img src="images/background/plug.png" class="img-fluid rounded-10 wow scaleIn" alt="">
                                 </div>
                                 <div class="col-6">
                                     <div class="spacer-single sm-hide"></div>
-                                    <img src="images/misc/10.webp" class="img-fluid rounded-10 mb-4 wow scaleIn" alt="">
-                                    <img src="images/misc/8.webp" class="img-fluid rounded-10 w-70 wow scaleIn" alt="">
+                                    <img src="images/background/plug.png" class="img-fluid rounded-10 mb-4 wow scaleIn" alt="">
+                                    <img src="images/background/plug.png" class="img-fluid rounded-10 w-70 wow scaleIn" alt="">
                                 </div>
                             </div>
                         </div>

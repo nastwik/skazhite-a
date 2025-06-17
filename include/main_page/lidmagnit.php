@@ -17,7 +17,7 @@
                                             1
                                         </div>
                                         <h4>Заголовок</h4>
-                                        <p>Описание шага.</p>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
                                     </div>
                                 </div>
 
@@ -27,7 +27,7 @@
                                             2
                                         </div>
                                         <h4>Заголовок</h4>
-                                        <p>Описание шага.</p>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
                                     </div>
                                 </div>
 
@@ -37,7 +37,7 @@
                                             3
                                         </div>
                                         <h4>Заголовок</h4>
-                                        <p>Описание шага.</p>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
                                     </div>
                                 </div>
 

@@ -1632,19 +1632,33 @@
          jQuery('#menu-btn').on("click", function() {
 
             var h = jQuery('header')[0].scrollHeight;
-			
-             if (mobile_menu_show === 0) {
-                 jQuery('header').addClass('menu-open');
-                 jQuery('header').css('height',$(window).innerHeight());
-                 mobile_menu_show = 1;
-                 jQuery(this).addClass("menu-open");
-             } else {
+
+            if (mobile_menu_show === 0) {
+                jQuery('header').addClass('menu-open');
+                jQuery('header').css('height',$(window).innerHeight());
+                mobile_menu_show = 1;
+
+                jQuery('#mainmenu').css({
+                    'visibility': 'visible',
+                    'opacity': '1',
+                    'transform': 'translateX(0)'
+                });
+
+                jQuery(this).addClass("menu-open");
+            } else {
                 jQuery('header').removeClass('menu-open');
                 jQuery('header').css('height','auto');
-                 mobile_menu_show = 0;
-                 jQuery(this).removeClass("menu-open");
-             }
-         })
+                mobile_menu_show = 0;
+
+                jQuery('#mainmenu').css({
+                    'visibility': 'hidden',
+                    'opacity': '0',
+                    'transform': 'translateX(100%)'
+                });
+
+                jQuery(this).removeClass("menu-open");
+            }
+        });
          jQuery("a.btn").on("click", function(evn) {
              if (this.href.indexOf('#') === -1) {
                  evn.preventDefault();

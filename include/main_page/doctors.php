@@ -3,62 +3,49 @@
                     <div class="row g-4">
                         <div class="col-lg-6 offset-lg-3 text-center">
                             <div class="subtitle wow fadeInUp mb-3">Врачи</div>
-                            <h2 class="wow fadeInUp" data-wow-delay=".2s">Our Team</h2>
+                            <h2 class="wow fadeInUp" data-wow-delay=".2s">Наши профессионалы</h2>
                         </div>
                     </div>
                     <div class="row g-4">
-                        <div class="col-lg-3">
-                            <img src="images/team/1.webp" class="img-fluid rounded-10px" alt="">
-                            <div class="p-3 text-center
-                            ">
-                                <h4 class="mb-0">Barbara Charline</h4>
-                                <p class="mb-2">Senior Cleaning Specialist</p>
-                                <div class="social-icons">
-                                    <a href="#"><i class="bg-white id-color bg-hover-2 text-hover-white fa-brands fa-facebook-f"></i></a>
-                                    <a href="#"><i class="bg-white id-color bg-hover-2 text-hover-white fa-brands fa-x-twitter"></i></a>
-                                    <a href="#"><i class="bg-white id-color bg-hover-2 text-hover-white fa-brands fa-instagram"></i></a>
+                        <div class="col-lg-4 col-md-6 text-center">
+                            <div class="team_member">
+                                <div class="team_img">
+                                    <img src="images/doctors/doctor-01.jpeg" alt="team member">
+                                </div>
+                                <h3>Ольга Князева</h3>
+                                <p class="role">ЛОР-врач</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus expedita non quasi iste tempore modi quidem esse quam dolorum placeat, ducimus, nemo sapiente molestias? </p>
+                                <div class="team_butns">
+                                    <a class="btn-main wow fadeInUp" data-wow-delay=".4s" href="book-service.html">Подробнее</a>
+                                    <a class="btn-main wow fadeInUp" data-wow-delay=".4s" href="book-service.html">Записаться</a>
                                 </div>
                             </div>
                         </div>
-
-                        <div class="col-lg-3">
-                            <img src="images/team/2.webp" class="img-fluid rounded-10px" alt="">
-                            <div class="p-3 text-center
-                            ">
-                                <h4 class="mb-0">Thomas Bennett</h4>
-                                <p class="mb-2">Deep Cleaning Specialist</p>
-                                <div class="social-icons">
-                                    <a href="#"><i class="bg-white id-color bg-hover-2 text-hover-white fa-brands fa-facebook-f"></i></a>
-                                    <a href="#"><i class="bg-white id-color bg-hover-2 text-hover-white fa-brands fa-x-twitter"></i></a>
-                                    <a href="#"><i class="bg-white id-color bg-hover-2 text-hover-white fa-brands fa-instagram"></i></a>
+                        <div class="col-lg-4 col-md-6 text-center">
+                            <div class="team_member">
+                                <div class="team_img">
+                                    <img src="images/doctors/doctor-01.jpeg" alt="team member">
+                                </div>
+                                <h3>Ольга Князева</h3>
+                                <p class="role">ЛОР-врач</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus expedita non quasi iste tempore modi quidem esse quam dolorum placeat, ducimus, nemo sapiente molestias? </p>
+                                <div class="team_butns">
+                                    <a class="btn-main wow fadeInUp" data-wow-delay=".4s" href="book-service.html">Подробнее</a>
+                                    <a class="btn-main wow fadeInUp" data-wow-delay=".4s" href="book-service.html">Записаться</a>
                                 </div>
                             </div>
                         </div>
-
-                        <div class="col-lg-3">
-                            <img src="images/team/3.webp" class="img-fluid rounded-10px" alt="">
-                            <div class="p-3 text-center
-                            ">
-                                <h4 class="mb-0">Madison Jane</h4>
-                                <p class="mb-2">Appliance and Specialty Cleaner</p>
-                                <div class="social-icons">
-                                    <a href="#"><i class="bg-white id-color bg-hover-2 text-hover-white fa-brands fa-facebook-f"></i></a>
-                                    <a href="#"><i class="bg-white id-color bg-hover-2 text-hover-white fa-brands fa-x-twitter"></i></a>
-                                    <a href="#"><i class="bg-white id-color bg-hover-2 text-hover-white fa-brands fa-instagram"></i></a>
+                        <div class="col-lg-4 col-md-6 text-center">
+                            <div class="team_member">
+                                <div class="team_img">
+                                    <img src="images/doctors/doctor-01.jpeg" alt="team member">
                                 </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3">
-                            <img src="images/team/4.webp" class="img-fluid rounded-10px" alt="">
-                            <div class="p-3 text-center
-                            ">
-                                <h4 class="mb-0">Joshua Henry</h4>
-                                <p class="mb-2">Move-In/Move-Out Cleaner</p>
-                                <div class="social-icons">
-                                    <a href="#"><i class="bg-white id-color bg-hover-2 text-hover-white fa-brands fa-facebook-f"></i></a>
-                                    <a href="#"><i class="bg-white id-color bg-hover-2 text-hover-white fa-brands fa-x-twitter"></i></a>
-                                    <a href="#"><i class="bg-white id-color bg-hover-2 text-hover-white fa-brands fa-instagram"></i></a>
+                                <h3>Ольга Князева</h3>
+                                <p class="role">ЛОР-врач</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus expedita non quasi iste tempore modi quidem esse quam dolorum placeat, ducimus, nemo sapiente molestias? </p>
+                                <div class="team_butns">
+                                    <a class="btn-main wow fadeInUp" data-wow-delay=".4s" href="book-service.html">Подробнее</a>
+                                    <a class="btn-main wow fadeInUp" data-wow-delay=".4s" href="book-service.html">Записаться</a>
                                 </div>
                             </div>
                         </div>

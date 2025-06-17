@@ -50,8 +50,8 @@
                                     <a href="index.html">
                                         <img class="logo-main" src="images/logo.png" alt="" >
                                         <img class="logo-scroll" src="images/logo.png" alt="" >
-                                        <img class="logo-mobile" src="images/logo.png" alt="" ><!-- 
-                                        <div>
+                                        <img class="logo-mobile" src="images/logo.png" alt="" >
+                                        <!-- <div>
                                             <span>Скажите «А»</span>
                                             <span>Частная лор-клиника</span>
                                         </div> -->

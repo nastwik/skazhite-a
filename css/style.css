@@ -12902,3 +12902,50 @@ img {
     height: 100%;
     object-fit: cover;
 }
+
+.singl-news.news-border-bottom {
+	padding-bottom: 31px;
+	border-bottom: 2px solid #e3ecf2;
+	margin-bottom: 31px;
+}
+
+.latest-news-content .logo_prodoctorov img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+.latest-news-content p a{
+  color: #10111e;
+}
+.latest-news-content p a:hover{
+  color: var(--primary-color);
+  transition: 0.5s;
+}
+.meta-date {
+	margin-right: 29px;
+}
+
+.meta-date i {
+	margin-right: 5px;
+}
+
+.meta-date a {
+	color: var(--body-font-color);
+}
+
+@media(max-width:768px) {
+    .meta-date {
+        display: none;
+    }
+    .cs_reviews_card-meta-box .meta-date {
+        display: initial;
+    }
+}
+
+.cs_reviews_card-meta-box {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    min-height: 65px;
+    justify-content: center;
+}

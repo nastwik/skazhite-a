@@ -9,8 +9,8 @@
 
                                        <div class="spacer-10"></div>
 
-                                       <a href="tel:+78632049558" class="btn-main wow fadeInUp" data-wow-delay=".4s" href="book-service.html">+7 (863) 204-95-58</a>
-                                       <a href="" class="btn-main wow fadeInUp" data-wow-delay=".4s" href="book-service.html">На новую МИС</a>
+                                       <a href="tel:+78632049558" class="btn-main btn-red wow fadeInUp" data-wow-delay=".4s" href="book-service.html">+7 (863) 204-95-58</a>
+                                       <a href="" class="btn-main btn-blue wow fadeInUp" data-wow-delay=".4s" href="book-service.html">На новую МИС</a>
                                        <div class=""></div>
 
                                        <div class="spacer-double"></div>

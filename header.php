@@ -150,7 +150,7 @@
                                         <span>Need Help?</span>
                                         <h5>+1 5000 6000</h5>
                                     </div>    
-                                    <a href="book-service.html" class="btn-main">Book Service Now</a>
+                                    <a href="book-service.html" class="btn-main btn-red">Book Service Now</a>
                                     <span id="menu-btn"></span>
                                 </div>
                             </div>

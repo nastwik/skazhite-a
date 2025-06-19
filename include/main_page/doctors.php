@@ -16,8 +16,8 @@
                                 <p class="role">ЛОР-врач</p>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus expedita non quasi iste tempore modi quidem esse quam dolorum placeat, ducimus, nemo sapiente molestias? </p>
                                 <div class="team_butns">
-                                    <a class="btn-main wow fadeInUp" data-wow-delay=".4s" href="book-service.html">Подробнее</a>
-                                    <a class="btn-main wow fadeInUp" data-wow-delay=".4s" href="book-service.html">Записаться</a>
+                                    <a class="btn-main btn-red wow fadeInUp" data-wow-delay=".4s" href="book-service.html">Подробнее</a>
+                                    <a class="btn-main btn-blue wow fadeInUp" data-wow-delay=".4s" href="book-service.html">Записаться</a>
                                 </div>
                             </div>
                         </div>
@@ -30,8 +30,8 @@
                                 <p class="role">ЛОР-врач</p>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus expedita non quasi iste tempore modi quidem esse quam dolorum placeat, ducimus, nemo sapiente molestias? </p>
                                 <div class="team_butns">
-                                    <a class="btn-main wow fadeInUp" data-wow-delay=".4s" href="book-service.html">Подробнее</a>
-                                    <a class="btn-main wow fadeInUp" data-wow-delay=".4s" href="book-service.html">Записаться</a>
+                                    <a class="btn-main btn-red wow fadeInUp" data-wow-delay=".4s" href="book-service.html">Подробнее</a>
+                                    <a class="btn-main btn-blue wow fadeInUp" data-wow-delay=".4s" href="book-service.html">Записаться</a>
                                 </div>
                             </div>
                         </div>
@@ -44,8 +44,8 @@
                                 <p class="role">ЛОР-врач</p>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus expedita non quasi iste tempore modi quidem esse quam dolorum placeat, ducimus, nemo sapiente molestias? </p>
                                 <div class="team_butns">
-                                    <a class="btn-main wow fadeInUp" data-wow-delay=".4s" href="book-service.html">Подробнее</a>
-                                    <a class="btn-main wow fadeInUp" data-wow-delay=".4s" href="book-service.html">Записаться</a>
+                                    <a class="btn-main btn-red wow fadeInUp" data-wow-delay=".4s" href="book-service.html">Подробнее</a>
+                                    <a class="btn-main btn-blue wow fadeInUp" data-wow-delay=".4s" href="book-service.html">Записаться</a>
                                 </div>
                             </div>
                         </div>

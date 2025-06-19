@@ -24,8 +24,8 @@
                                 <div class="widget">
                                     <h5>Company</h5>
                                     <ul>
-                                        <li><a href="index.html">Home</a></li>
-                                        <li><a href="services.html">Our Services</a></li>
+                                        <li><a href="index.php">Главная</a></li>
+                                        <li><a href="services.php">Услуги</a></li>
                                         <li><a href="projects.html">Projects</a></li>
                                         <li><a href="about.html">About Us</a></li>
                                         <li><a href="blog.html">Blog</a></li>

@@ -1,4 +1,4 @@
-            <section>
+            <section data-bgimage="url(/images/background/2.webp)">
                 <div class="container">
                     <div class="row g-4">
                         <div class="col-lg-6 offset-lg-3 text-center">
@@ -88,7 +88,7 @@
                                     </div>
                                 </div>
                                 <div class="col-12 text-center">
-                                    <a target="_blank" href="https://prodoctorov.ru/rostov-na-donu/vrach/472480-knyazeva/" class="btn-main wow fadeInUp" data-wow-delay=".4s">Больше отзывов ПроДокторов</a>
+                                    <a target="_blank" href="https://prodoctorov.ru/rostov-na-donu/vrach/472480-knyazeva/" class="btn-main btn-blue wow fadeInUp" data-wow-delay=".4s">Больше отзывов ПроДокторов</a>
                                 </div>
 
                             </div>

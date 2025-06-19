@@ -11,11 +11,11 @@
          <div class="container relative z-1000">
             <div class="row g-3 align-items-center">
                <div class="col-lg-6">
-                     <div class="relative z-1000">
-                        <h1 class="wow fadeInUp mb-2" data-wow-delay=".2s">Наши услуги</h1>
-                        <p class="lead col-lg-10 mb-0 wow fadeInUp" data-wow-delay=".4s">Подзаголовок</p>
-                        <div class="spacer-single"></div>
-                     </div>
+                  <div class="relative z-1000">
+                     <h1 class="wow fadeInUp mb-2" data-wow-delay=".2s">Наши услуги</h1>
+                     <p class="lead col-lg-10 mb-0 wow fadeInUp" data-wow-delay=".4s">Подзаголовок</p>
+                     <div class="spacer-single"></div>
+                  </div>
                </div>
                <div class="col-lg-6">
                   <div class="template-offer__img">

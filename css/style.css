@@ -12986,3 +12986,39 @@ img {
   display: flex;
   gap: 15px
 }
+
+
+.services-price:nth-child(2) {
+    margin-bottom: 48px;
+}
+
+.services-price>p {
+    text-align: left;
+    margin-bottom: 32px;
+    margin-top: 32px;
+}
+
+.fl-table {
+    overflow:auto;
+    border-radius: var(--rounded-1);
+}
+
+table {
+    width: 100%;
+    background-color: #fff;
+    border-radius: var(--rounded-1);
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+    padding: 16px;
+}
+
+table th {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+table tr td:nth-child(1), table tr td:nth-child(3){
+  text-align: center;
+}

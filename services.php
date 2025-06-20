@@ -19,7 +19,7 @@
                </div>
                <div class="col-lg-6">
                   <div class="template-offer__img">
-                     <img src="images/misc/head-structures.png" class="w-100" data-wow-delay=".6s" alt="" data-0="transform: translateY(0px);" data-500="transform: translateY(300px);">
+                     <img src="images/misc/2.png" class="w-100" data-wow-delay=".6s" alt="" data-0="transform: translateY(0px);" data-500="transform: translateY(300px);">
                   </div>
                </div>    
             </div>

@@ -27,6 +27,7 @@
                                         <li><a href="index.php">Главная</a></li>
                                         <li><a href="services.php">Услуги</a></li>
                                         <li><a href="price-list.php">Прайс</a></li>
+                                        <li><a href="documents.php">Документы</a></li>
                                         <li><a href="contacts.php">Контакты</a></li>
                                     </ul>
                                 </div>

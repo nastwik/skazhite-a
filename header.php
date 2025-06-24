@@ -144,7 +144,7 @@
                             </div>
                             <div class="de-flex-col">
                                 <div class="menu_side_area">   
-                                    <a href="book-service.html" class="btn-main btn-red">Book Service Now</a>
+                                    <a href="tel:+78632049558" class="btn-main btn-red">+7 (863) 204-95-58</a>
                                     <span id="menu-btn"></span>
                                 </div>
                             </div>

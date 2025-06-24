@@ -352,7 +352,7 @@ header.header-light.smaller{
 }
 
 .scroll-down {
-    margin-top: -90px;
+    margin-top: -120px;
 }
 
 .scroll-up {
@@ -771,8 +771,8 @@ header.smaller #mainmenu>li::before{
 #mainmenu a {
   position: relative;
   display: inline-block;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 45px;
+  padding-bottom: 45px;
   text-decoration: none;
   color: #ffffff;
   text-align: center;
@@ -2400,13 +2400,13 @@ header.header-light .h-phone span{
 
 .success {
   display: none;
-  color: #96c346;
-  margin-top: 30px;
+  color: #000;
+  margin-top: 50px;
   clear: both;
   padding-top: 20px;
   padding: 20px;
   background: rgba(150, 195, 70, .1);
-  border: solid 1px #96c346;
+  border: solid 1px #2f8f26;
 }
 
 .error img {
@@ -2453,18 +2453,11 @@ header.header-light .h-phone span{
 
 #contact_form input[type=checkbox] {
   position: relative;
-  border: solid 1px var(--primary-color);
-  background: none;
+  appearance: none;
+  border: 1px solid var(--primary-color);
+  width: 20px; 
+  height: 20px; 
   cursor: pointer;
-  line-height: 0;
-  margin: 4px .6em 0 0;
-  outline: 0;
-  padding: 0 !important;
-  vertical-align: text-top;
-  height: 15px;
-  width: 15px;
-  -webkit-appearance: none;
-  opacity: .5;
 }
 
 .form-control {
@@ -2517,6 +2510,17 @@ header.header-light .h-phone span{
   opacity: 1;
 }
 
+#contact_form input[type=checkbox]:checked::after {
+    content: '';
+    position: absolute;
+    left: 5px; /* Положение галочки внутри чекбокса */
+    top: 0; 
+    min-width: 10px; 
+    min-height: 10px; 
+    border: solid white; /* Цвет галочки */
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg); /* Поворот галочки для создания эффекта */
+}
 
 #contact_form.s2 .radio-img input[type="radio"] + label, 
 #contact_form.s2 .radio-img input[type="checkbox"] + label,
@@ -3724,7 +3728,7 @@ hr {
   background: rgba(0, 0, 0, .025);
   border-radius: 2px;
   -moz-border-radius: 2px;
-  -webkit-border-radius: 2px;
+  -webkit-border-radius: 10px;
   height: auto;
   box-shadow: none;
   -moz-box-shadow: none;
@@ -10577,6 +10581,11 @@ border-radius:30px 0 0 30px;
 .de-switch input[type=checkbox]:checked+label:after {
   left: 23px;
 }
+.de-switch input[type=checkbox] + label {
+  position: relative;
+  padding-left: 30px;
+  cursor: pointer;
+}
 
 .de-switch label {
   transition: all 200ms ease-in-out;
@@ -12945,12 +12954,12 @@ img {
 }
 
 @media(max-width:768px) {
-    .meta-date {
-        display: none;
-    }
-    .cs_reviews_card-meta-box .meta-date {
-        display: initial;
-    }
+  .meta-date {
+      display: none;
+  }
+  .cs_reviews_card-meta-box .meta-date {
+      display: initial;
+  }
 }
 
 .cs_reviews_card-meta-box {
@@ -12987,7 +12996,7 @@ img {
   gap: 15px
 }
 
-
+/* TABLE FOR PRICE */
 .services-price:nth-child(2) {
     margin-bottom: 48px;
 }
@@ -13021,4 +13030,55 @@ table th {
 
 table tr td:nth-child(1), table tr td:nth-child(3){
   text-align: center;
+}
+
+
+/* FORM MESSAGE */
+.success, .error {
+    display: block;
+    color: white;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+
+/* LOGO */
+.main-header__logo a{
+  display: flex;
+  align-items: center;
+}
+
+.main-header__logo a>div {
+  margin-left: 14px;
+}
+
+.main-header__logo a>div div:first-child{
+  font-size: 20px;
+  text-transform: uppercase;
+  color: var(--heading-font-color);
+  font-weight: 800;
+  line-height: 1;
+}
+
+.main-header__logo a>div div:last-child{
+  font-size: 14px;
+  text-transform: uppercase;
+  color: var(--heading-font-color);
+  font-weight: 600;
+}
+
+@media (max-width: 1399px) {
+  .main-header__logo {
+    margin-right: 60px;
+  }
+}
+@media (max-width: 1199px) {
+  .main-header__logo {
+    margin-right: 0;
+  }
+}
+@media (max-width: 360px) {
+  .main-header__logo img {
+    width: 90px;
+  }
 }

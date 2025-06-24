@@ -69,7 +69,7 @@
       </section>
       <section class="bg-blue section-dark">
          <div class="container relative">
-            <div class="row g-4 gx-5 align-items-center">
+            <div class="row g-4 justify-content-between align-items-center">
                <div class="col-lg-6 relative">
                   <div class="relative z-1000">
                      <h3>Реквизиты</h3>
@@ -82,37 +82,33 @@
                   </div>
                </div>
 
-               <div class="col-lg-6">
-                  <div class="bg-white p-40 shadow-soft h-100 rounded-1">
-                     <div class="ps-lg-5">
+               <div class="col-lg-5">
+                  <div class="bg-white p-40 shadow-soft h-100 rounded-1 contact-form">
                         <h3>Запись на прием</h3>
                         <p>Администратор перезвонит вам в течение 30 сек</p>
                         <form name="contactForm" id="contact_form" class="form-border" method="post" action="contact.php">
-                           <div class="row g-4">
-                              <div class="col-md-8 mb-3">
-                                 <div class="field-set">
-                                       <input type="text" name="phone" id="phone" class="form-control" placeholder="+7(___)___-__-__" required>
+                           <div class="row g-3">
+                              <div class="col-12">
+                                    <div class="field-set">
+                                       <input type="text" id="phone1" name="phone" class="form-control" placeholder="+7(___)___--" required>
+                                    </div>
+                              </div>
+                              <div class="col-12 mb-3">
+                                 <div id='submit' class="w-100">
+                                    <input type='submit' id='send_message' value='Отправить' class="btn-main btn-red w-100">
                                  </div>
                               </div>
                            </div>
-                           <div class="checkbox-policy checkbox-policy_offer">
-                              <input type="checkbox" id="policy-checkbox-offer" class="policy-checkbox" checked=""> 
-                              <label for="policy-checkbox-offer">Я согласен с <a href="/polit/"> политикой конфиденциальности</a></label>
-                           </div>
+                           <p>Нажимая на кнопку "Отправить", я даю согласие на обработку персональных данных и принимаю условия политики обработки персональных данных</p>
                            
-                           <div id='submit' class="mt20">
-                              <input type='submit' id='send_message' value='Отправить' class="btn-main btn-red">
+                           <div id="success_message" class='success' style="display: none;">
+                              Ваше сообщение было успешно отправлено!
                            </div>
-                           
-                           <div id="success_message" class='success'>
-                              Ваше сообщение было отправлено. Обновите страницу, если хотите отправить больше сообщений.
-                           </div>
-                           <div id="error_message" class='error'>
-                              Извините, произошла ошибка при отправке вашей формы.
+                           <div id="error_message" class='error' style="display: none;">
+                              Произошла ошибка! Пожалуйста, проверьте введенные данные.
                            </div>
                         </form>
                         
-                     </div>
                   </div>
                </div>
 

@@ -1911,7 +1911,60 @@
         ]
     });
 
-});
+    /* --------------------------------------------------
+    * form | inputmask
+    * --------------------------------------------------*/
 
-    
+    $(document).ready(function() {
+        $('#phone1').val('+7 ');
+
+        $('#phone1').inputmask("+7 (999) 999-99-99");
+
+        $('#phone1').on('focus', function() {
+            if ($(this).val() === '+7 ') {
+                $(this).val('');
+            }
+        });
+
+        $('#phone1').on('blur', function() {
+            if ($(this).val() === '') {
+                $(this).val('+7 ');
+            }
+        });
+    });
+
+    $(document).ready(function() {
+        $('#contact_form').on('submit', function(event) {
+            event.preventDefault(); // Предотвращение стандартного отправления формы
+            
+            let phone = $('#phone1').val();
+
+            // Проверка корректности номера телефона
+            if (!/^\+7\s\(\d{3}\)\s\d{3}-\d{2}-\d{2}$/.test(phone)) {
+                alert('Пожалуйста, введите корректный номер телефона.');
+                return;
+            }
+
+            // Отправка формы через AJAX
+            $.ajax({
+                type: 'POST',
+                url: 'contact.php',
+                data: $(this).serialize(),
+                success: function(response) {
+                    if (response === 'sent') {
+                        $('#success_message').show(); // Показываем сообщение об успехе
+                    } else if (response === 'invalid_phone') {
+                        alert('Пожалуйста, введите корректный номер телефона.');
+                    } else {
+                        alert('Извините, произошла ошибка при отправке вашей формы. Попробуйте еще раз.');
+                    }
+                },
+                error: function() {
+                    alert('Извините, произошла ошибка. Попробуйте еще раз.');
+                }
+            });
+        });
+    });
+
+}); 
  })(jQuery);

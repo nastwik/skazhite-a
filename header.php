@@ -47,18 +47,16 @@
                         <div class="de-flex sm-pt10">
                             <div class="de-flex-col">
                                 <!-- logo begin -->
-                                <div id="logo">
-                                    <a href="index.html">
-                                        <img class="logo-main" src="images/logo.png" alt="" >
-                                        <img class="logo-scroll" src="images/logo.png" alt="" >
-                                        <img class="logo-mobile" src="images/logo.png" alt="" >
-                                        <!-- <div>
-                                            <span>Скажите «А»</span>
-                                            <span>Частная лор-клиника</span>
-                                        </div> -->
+                                <div class="main-header__logo">
+                                    <a href="/">
+                                        <img src="images/logo.png" alt="logo" width="75">
+                                        <div>
+                                            <div>Скажите «А»</div>
+                                            <div>Частная лор-клиника</div>
+                                        </div>
                                     </a>
-                                </div>
-                                <!-- logo close -->
+								</div>
+                                <!-- logo end -->
                             </div>
                             <div class="de-flex-col header-col-mid">
                                 <ul id="mainmenu">
@@ -145,11 +143,7 @@
                                 </ul>
                             </div>
                             <div class="de-flex-col">
-                                <div class="menu_side_area">
-                                    <div class="h-phone xs-hide">
-                                        <span>Need Help?</span>
-                                        <h5>+1 5000 6000</h5>
-                                    </div>    
+                                <div class="menu_side_area">   
                                     <a href="book-service.html" class="btn-main btn-red">Book Service Now</a>
                                     <span id="menu-btn"></span>
                                 </div>

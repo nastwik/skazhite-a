@@ -1,33 +1,20 @@
 <?php
-$subject = 'New Contact Message'; // Subject of your email
-$to = 'contact@designesia.com';  //Recipient's E-mail
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $phone = trim($_POST['phone']);
 
-$emailTo = $_POST['email'];
-$name = $_POST['name'];
-$email = $_POST['email'];
-$phone = $_POST['phone'];
-$msg = $_POST['message'];
+    if (!preg_match('/^\+7\s\(\d{3}\)\s\d{3}-\d{2}-\d{2}$/', $phone)) {
+        echo 'invalid_phone';
+        exit;
+    }
 
-$email_from = $name. ' ' . '<'.$email.'>';
+    $to = '';
+    $subject = 'New Phone Number';
+    $message = 'Phone: ' . $phone;
 
-$headers = "MIME-Version: 1.1";
-$headers .= "Content-type: text/html; charset=iso-8859-1";
-$headers .= "From: ".$name.'<'.$email.'>'."\r\n"; // Sender's E-mail
-$headers .= "Return-Path:"."From:" . $email;
-
-$message .= 'Name : ' . $name . "\n";
-$message .= 'Email : ' . $email . "\n";
-$message .= 'Phone : ' . $phone . "\n";
-$message .= 'Message : ' . $msg;
-
-if (@mail($to, $subject, $message, $email_from))
-{
-	// Transfer the value 'sent' to ajax function for showing success message.
-	echo 'sent';
-}
-else
-{
-	// Transfer the value 'failed' to ajax function for showing error message.
-	echo 'failed';
+    if (mail($to, $subject, $message)) {
+        echo 'sent';
+    } else {
+        echo 'failed';
+    }
 }
 ?>

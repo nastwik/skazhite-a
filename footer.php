@@ -22,14 +22,12 @@
                         <div class="row">
                             <div class="col-lg-4 col-sm-6">
                                 <div class="widget">
-                                    <h5>Company</h5>
+                                    <h5>Страницы</h5>
                                     <ul>
                                         <li><a href="index.php">Главная</a></li>
                                         <li><a href="services.php">Услуги</a></li>
-                                        <li><a href="contacts.php">Контакты</a></li>
                                         <li><a href="price-list.php">Прайс</a></li>
-                                        <li><a href="blog.html">Blog</a></li>
-                                        <li><a href="contact.html">Contact</a></li>
+                                        <li><a href="contacts.php">Контакты</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -99,6 +97,7 @@
     <script src="js/jquery.twentytwenty.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://www.sng-it.ru/bitrix/templates/master/js/jquery.inputmask.bundle.min.js"></script>
 
     <script>
     $(window).on("load", function(){

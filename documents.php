@@ -29,8 +29,8 @@
          <div class="container">
             <div class="row g-4">
                <div class="col-lg-6 offset-lg-3 text-center">
-                  <div class="subtitle wow fadeInUp mb-3">39 решений для вашего здоровья</div>
-                  <h2 class="wow fadeInUp" data-wow-delay=".2s">Полный спектр лор-услуг</h2>
+                  <div class="subtitle wow fadeInUp mb-3">Гарантия качественного лечения</div>
+                  <h2 class="wow fadeInUp" data-wow-delay=".2s">Сертифицированный специалист с дипломом и большим опытом</h2>
                   <div class="spacer-single"></div>
                </div>
             </div>

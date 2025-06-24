@@ -25,6 +25,7 @@
                                     <h5>Страницы</h5>
                                     <ul>
                                         <li><a href="index.php">Главная</a></li>
+                                        <li><a href="about.php">О центре</a></li>
                                         <li><a href="services.php">Услуги</a></li>
                                         <li><a href="price-list.php">Прайс</a></li>
                                         <li><a href="documents.php">Документы</a></li>

@@ -30,6 +30,7 @@
                                         <li><a href="price-list.php">Прайс</a></li>
                                         <li><a href="documents.php">Документы</a></li>
                                         <li><a href="contacts.php">Контакты</a></li>
+                                        <li><a href="page-policy.php">Политика конфиденциальности</a></li>
                                     </ul>
                                 </div>
                             </div>

@@ -56,9 +56,6 @@
       </section>
 
       <? require_once 'include/main_page/gallery.php' ?>
-      
 
-
-      
    </div>
 <? require_once 'footer.php' ?>

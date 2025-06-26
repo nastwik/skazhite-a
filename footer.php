@@ -31,6 +31,7 @@
                                         <li><a href="price-list.php">Прайс</a></li>
                                         <li><a href="documents.php">Документы</a></li>
                                         <li><a href="categories.php">Категории</a></li>
+                                        <li><a href="single-doctor.php">О враче</a></li>
                                         <li><a href="contacts.php">Контакты</a></li>
                                     </ul>
                                 </div>
@@ -55,7 +56,7 @@
 
                             <div class="spacer-20"></div>
 
-                            <div class="fw-bold text-white"><i class="icofont-location-pin me-2 id-color-2"></i>Телефон</div>
+                            <div class="fw-bold text-white"><i class="icofont-phone me-2 id-color-2"></i>Телефон</div>
                             <a href="">+7 (863) 204-95-58</a>
 
                             <div class="spacer-20"></div>

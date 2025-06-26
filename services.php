@@ -70,10 +70,10 @@
          <div class="container">
             <div class="row g-4">
                <div class="col-lg-6 offset-lg-3 text-center">
-                     <div class="subtitle wow fadeInUp mb-3">Подзаголовок</div>
-                     <h2 class="wow fadeInUp" data-wow-delay=".2s">Наша формула к быстрому выздоровлению</h2>
-                     <div class="spacer-single"></div>
-                     <div class="spacer-half"></div>
+                  <div class="subtitle wow fadeInUp mb-3">Подзаголовок</div>
+                  <h2 class="wow fadeInUp" data-wow-delay=".2s">Наша формула к быстрому выздоровлению</h2>
+                  <div class="spacer-single"></div>
+                  <div class="spacer-half"></div>
                </div>
             </div>
             <div class="row g-4">
@@ -117,15 +117,15 @@
          <div class="container relative">
             <div class="row g-4 gx-5 align-items-center">
                <div class="col-lg-8 relative">
-                     <div class="relative z-1000">
-                        <div class="subtitle wow fadeInUp" data-wow-delay=".0s">Обращение</div>
-                        <h3>"Не ждите, пока само пройдет — приходите! Мы гарантируем профессиональный подход, современные методы и тёплый приём. Даже если случай кажется вам безнадежным — давайте разбираться! Ваше здоровье важнее скромных сомнений."</h3>
-                        <div class="fw-500">Ольга Князева</div>
-                     </div>
+                  <div class="relative z-1000">
+                     <div class="subtitle wow fadeInUp" data-wow-delay=".0s">Обращение</div>
+                     <h3>"Не ждите, пока само пройдет — приходите! Мы гарантируем профессиональный подход, современные методы и тёплый приём. Даже если случай кажется вам безнадежным — давайте разбираться! Ваше здоровье важнее скромных сомнений."</h3>
+                     <div class="fw-500">Ольга Князева</div>
+                  </div>
                </div>
 
                <div class="col-lg-4">
-                     <img src="images/doctors/olga.png" class="w-100" alt="">
+                  <img src="images/doctors/olga.png" class="w-100" alt="">
                </div>
 
             </div>

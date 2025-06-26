@@ -3,7 +3,7 @@
                     <div class="row g-4">
                         <div class="col-lg-6 offset-lg-3 text-center">
                             <div class="subtitle wow fadeInUp mb-3">Врачи</div>
-                            <h2 class="wow fadeInUp" data-wow-delay=".2s">Наши профессионалы</h2>
+                            <h2 class="wow fadeInUp" data-wow-delay=".2s">О враче</h2>
                         </div>
                     </div>
                     <div class="row g-4">

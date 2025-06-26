@@ -9798,7 +9798,7 @@ section.no-padding {
 }
 
 .red {
-  color: #ff0000;
+  color: var(----primary-color);
 }
 
 .teal {
@@ -13087,6 +13087,15 @@ table tr td:nth-child(1), table tr td:nth-child(3){
   color: var(--heading-font-color);
   font-size: var(--h4-font-size);
   font-weight: var(--h4-font-weight);
+  letter-spacing: var(--h4-letter-spacing);
+  line-height: var(--h4-line-height);
+  margin-bottom: 5px;
+}
+
+.price{
+  color: var(--primary-color);
+  font-size: var(--h4-font-size);
+  font-weight: 700;
   letter-spacing: var(--h4-letter-spacing);
   line-height: var(--h4-line-height);
   margin-bottom: 5px;

@@ -3,7 +3,7 @@
                     <div class="row g-4">
                         <div class="col-lg-6 offset-lg-3 text-center">
                             <div class="subtitle wow fadeInUp mb-3">Услуги</div>
-                            <h2 class="wow fadeInUp" data-wow-delay=".2s">Заголовок</h2>
+                            <h2 class="wow fadeInUp" data-wow-delay=".2s">Помощь, которую оказываем</h2>
                             <!-- <p class="lead mb-0 wow fadeInUp">Whether it's a quick refresh or a deep clean transformation, our expert touch leaves your home or office shining.</p> -->
                             <div class="spacer-single"></div>
                             <div class="spacer-half"></div>

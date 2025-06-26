@@ -53,19 +53,19 @@
                      <h5>Медицинская лицензия №ЛО-61-01-007441</h5>
                   </div>
                </div>
-               <div class="col-md-4 wow fadeInRight" data-wow-delay=".8s">
+               <div class="col-md-4 wow fadeInRight" data-wow-delay=".2s">
                   <div class="text-center">
                      <img src="images/icons/steps/notes.png" class="bg-color w-100px p-15 rounded-1 mb-3 wow scaleIn" alt="">                              
                      <h5>Санитарно-эпидемиологическое заключение</h5>
                   </div>
                </div>
-               <div class="col-md-4 wow fadeInRight" data-wow-delay="1s">
+               <div class="col-md-4 wow fadeInRight" data-wow-delay=".4s">
                   <div class="text-center">       
                      <img src="images/icons/steps/notes.png" class="bg-color w-100px p-15 rounded-1 mb-3 wow scaleIn" alt="">                       
                      <h5>Сертификат специалиста</h5>
                   </div>
                </div>
-               <div class="col-md-4 wow fadeInRight" data-wow-delay="1s">
+               <div class="col-md-4 wow fadeInRight" data-wow-delay=".6s">
                   <div class="text-center">       
                      <img src="images/icons/steps/notes.png" class="bg-color w-100px p-15 rounded-1 mb-3 wow scaleIn" alt="">                       
                      <h5>Свидетельство о регистрации ИП</h5>
@@ -74,8 +74,6 @@
             </div>
          </div>
       </section>
-
-
       
    </div>
 <? require_once 'footer.php' ?>

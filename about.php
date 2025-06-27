@@ -11,7 +11,6 @@
                <div class="col-lg-6">
                   <div class="relative z-1000">
                      <h1 class="wow fadeInUp mb-2" data-wow-delay=".2s">О центре</h1>
-                     <p class="lead col-lg-10 mb-0 wow fadeInUp" data-wow-delay=".4s">Подзаголовок</p>
                      <div class="spacer-single"></div>
                   </div>
                </div>

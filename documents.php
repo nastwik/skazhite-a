@@ -3,7 +3,7 @@
       <div id="top"></div>
 
       <section class="bg-blue section-dark pb-0 relative overflow-hidden">
-         <img src="images/deco/s1.webp" class="w-5 mt-min-60 abs start-10 bottom-10 wow scaleOut" alt="">
+         
          <div id="shine-wrapper">
             <div class="template shine"></div>
          </div>
@@ -11,8 +11,7 @@
             <div class="row g-3 align-items-center">
                <div class="col-lg-6">
                   <div class="relative z-1000">
-                     <h1 class="wow fadeInUp mb-2" data-wow-delay=".2s">Документы</h1>
-                     <p class="lead col-lg-10 mb-0 wow fadeInUp" data-wow-delay=".4s">Подзаголовок</p>
+                     <h1 class="wow fadeInUp mb-2" data-wow-delay=".2s">Информация о юридическом лице</h1>
                      <div class="spacer-single"></div>
                   </div>
                </div>

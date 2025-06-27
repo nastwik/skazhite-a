@@ -60,86 +60,28 @@
                             </div>
                             <div class="de-flex-col header-col-mid">
                                 <ul id="mainmenu">
-                                    <li><a class="menu-item" href="index.html">Home</a>
-                                        <ul class="mega">
-                                            <li>
-                                                <div class="container">
-                                                    <div class="sb-menu p-4">
-                                                        <div class="row g-3">
-                                                            <div class="col-lg-2 col-md-4 text-center">
-                                                                <div class="relative hover text-center overflow-hidden soft-shadow rounded-1">
-                                                                    <a href="index.html" class="p-0">
-                                                                        <img src="images/demo/homepage-1.webp" class="w-100 relative hover-scale-1-1" alt="">
-                                                                    </a>
-                                                                </div>                            
-                                                                <h5 class="mt-3 mb-1">Homepage 1</h5>
-                                                            </div>
-                                                            
-                                                            <div class="col-lg-2 col-md-4 text-center">
-                                                                <div class="relative hover text-center overflow-hidden soft-shadow rounded-1">
-                                                                    <a href="homepage-2.html" class="p-0">
-                                                                        <img src="images/demo/homepage-2.webp" class="w-100 relative hover-scale-1-1" alt="">
-                                                                    </a>
-                                                                </div>                            
-                                                                <h5 class="mt-3 mb-1">Homepage 2</h5>
-                                                            </div>
-
-                                                            <div class="col-lg-2 col-md-4 text-center">
-                                                                <div class="relative hover text-center overflow-hidden soft-shadow rounded-1">
-                                                                    <a href="homepage-3.html" class="p-0">
-                                                                        <img src="images/demo/homepage-3.webp" class="w-100 relative hover-scale-1-1" alt="">
-                                                                    </a>
-                                                                </div>                            
-                                                                <h5 class="mt-3 mb-1">Homepage 3</h5>
-                                                            </div>
-
-                                                            <div class="col-lg-2 col-md-4 text-center">
-                                                                <div class="relative hover text-center overflow-hidden soft-shadow rounded-1">
-                                                                    <a href="homepage-4.html" class="p-0">
-                                                                        <img src="images/demo/homepage-4.webp" class="w-100 relative hover-scale-1-1" alt="">
-                                                                    </a>
-                                                                </div>                            
-                                                                <h5 class="mt-3 mb-1">Homepage 4</h5>
-                                                            </div>
-
-                                                            <div class="col-lg-2 col-md-4 text-center">
-                                                                <div class="relative hover text-center overflow-hidden soft-shadow rounded-1">
-                                                                    <a href="homepage-5.html" class="p-0">
-                                                                        <img src="images/demo/homepage-5.webp" class="w-100 relative hover-scale-1-1" alt="">
-                                                                    </a>
-                                                                </div>                            
-                                                                <h5 class="mt-3 mb-1">Homepage 5</h5>
-                                                            </div>
-
-                                                            <div class="col-lg-2 col-md-4 text-center">
-                                                                <div class="relative hover text-center overflow-hidden soft-shadow rounded-1">
-                                                                    <a href="homepage-6.html" class="p-0">
-                                                                        <img src="images/demo/homepage-6.webp" class="w-100 relative hover-scale-1-1" alt="">
-                                                                    </a>
-                                                                </div>                            
-                                                                <h5 class="mt-3 mb-1">Homepage 6</h5>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>                                                
-                                            </li>
-                                        </ul>
+                                    <li><a class="menu-item" href="index.php">Главная</a>
                                     </li>
-                                    <li><a class="menu-item" href="services.html">Services</a>
+                                    <li><a class="menu-item" href="about.php">О центре</a></li>
+                                    <li><a class="menu-item" href="services.php">Услуги</a>
                                         <ul>
-                                            <li><a class="menu-item" href="service-single.html">Residential Cleaning</a></li>
-                                            <li><a class="menu-item" href="service-single.html">Commercial Cleaning</a></li>
-                                            <li><a class="menu-item" href="service-single.html">Deep Cleaning</a></li>
-                                            <li><a class="menu-item" href="service-single.html">Move-In/Move-Out Cleaning</a></li>
-                                            <li><a class="menu-item" href="service-single.html">Post-Construction Cleaning</a></li>
-                                            <li><a class="menu-item" href="service-single.html">Carpet and Upholstery Cleaning</a></li>
+                                            <li><a class="menu-item" href="categories.php">Категории</a></li>
+                                            <li><a class="menu-item" href="price.php">Прайс</a></li>
                                         </ul>
                                     </li>
-                                    <li><a class="menu-item" href="how-it-works.html">How It Works</a></li>
-                                    <li><a class="menu-item" href="about.html">About</a></li>
-                                    <li><a class="menu-item" href="projects.html">Projects</a></li>
-                                    <li><a class="menu-item" href="blog.html">Blog</a></li>
-                                    <li><a class="menu-item" href="contact.html">Contact</a></li>
+                                    <li><a class="menu-item" href="archive-doctors.php">Врачи</a>
+                                        <ul>
+                                            <li><a class="menu-item" href="single-doctor.php">Князева О.А.</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="menu-item" href="price.php">Цены</a></li>
+                                    <li><a class="menu-item" href="#">Документы</a>
+                                        <ul>
+                                            <li><a class="menu-item" href="documents.php">Информация о юридическом лице</a></li>
+                                            <li><a class="menu-item" href="#">Правовая информация</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="menu-item" href="contacts.php">Контакты</a></li>
                                 </ul>
                             </div>
                             <div class="de-flex-col">

@@ -8,47 +8,6 @@
                     <div class="col-lg-4 col-sm-6">
                         <img src="images/logo.webp" class="w-150px" alt="" >
                         <div class="spacer-20"></div>
-                        <p>
-                            <br><strong>ИП</strong> Емельяненко Ольга Александровна
-                            <br><strong>ИНН</strong> 6165155663
-                            <br><strong>КПП</strong> 616301001
-                            <br><strong>ОГРН</strong> 1096165002438
-                        </p>
-                        <p class="mb-sm-30">
-                            <br>Фактический адрес: 344000, г.Ростов-на-Дону, ул. Соколова 61/52
-                            <br>Юридический адрес: 344000, г.Ростов-на-Дону, пр. Ворошиловский, 52, помещение 1
-                        </p>
-                    </div>
-                    <div class="col-lg-4 col-sm-12 order-lg-1 order-sm-2">
-                        <div class="row">
-                            <div class="col-lg-4 col-sm-6">
-                                <div class="widget">
-                                    <h5>Страницы</h5>
-                                    <ul>
-                                        <li><a href="index.php">Главная</a></li>
-                                        <li><a href="about.php">О центре</a></li>
-                                        <li><a href="services.php">Услуги</a></li>
-                                        <li><a href="price-list.php">Прайс</a></li>
-                                        <li><a href="documents.php">Документы</a></li>
-                                        <li><a href="categories.php">Категории</a></li>
-                                        <li><a href="single-doctor.php">О враче</a></li>
-                                        <li><a href="contacts.php">Контакты</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-lg-8 col-sm-6">
-                                <div class="widget">
-                                    <h5>Полезная информация</h5>
-                                    <ul>
-                                        <li><a href="service-single.html">Информация о юридическом лице</a></li>
-                                        <li><a href="service-single.html">Правовая информация</a></li>
-                                        <li><a href="page-policy.php">Политика конфиденциальности</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 order-lg-2 order-sm-1">
                         <div class="widget">
                             <div class="fw-bold text-white"><i class="icofont-wall-clock me-2 id-color-2"></i>Режим работы</div>
                             ПН - ПТ 9:00-17:00, СБ 9:00 - 15:00
@@ -65,6 +24,31 @@
                             <a href="">lorcentrrostov@mail.ru</a>
                         </div>
                     </div>
+                    <div class="col-lg-4 col-sm-12 order-lg-1 order-sm-2">
+                        <div class="widget">
+                            <h5>Полезная информация</h5>
+                            <ul>
+                                <li><a href="service-single.html">Информация о юридическом лице</a></li>
+                                <li><a href="service-single.html">Правовая информация</a></li>
+                                <li><a href="page-policy.php">Политика конфиденциальности</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 order-lg-2 order-sm-1">
+                        <div class="widget">
+                            <h5>Реквизиты</h5>
+                            <ul>
+                                <li><strong>ИП</strong> Емельяненко Ольга Александровна</li>
+                                <li><strong>ИНН</strong> 6165155663</li>
+                                <li><strong>КПП</strong> 616301001</li>
+                                <li><strong>ОГРН</strong> 1096165002438</li>
+                            </ul>
+                            <p>
+                                <br>Фактический адрес: 344000, г.Ростов-на-Дону, ул. Соколова 61/52
+                                <br>Юридический адрес: 344000, г.Ростов-на-Дону, пр. Ворошиловский, 52, помещение 1
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="subfooter">
@@ -73,11 +57,10 @@
                         <div class="col-md-12">
                             <div class="de-flex">
                                 <div class="de-flex-col">
-                                    Copyright 2025 - Uclean by Designesia
+                                    Все права защищены © 2025. Разработка сайта <a href="https://flamingo.expert/" target="_blank" style="color:#EA1C26"> Flamingo.expert</a>
                                 </div>
                                 <ul class="menu-simple">
-                                    <li><a href="#">Terms &amp; Conditions</a></li>
-                                    <li><a href="#">Privacy Policy</a></li>
+                                    <li><a href="#">Согласие на обработку персональных данных</a></li>
                                 </ul>
                             </div>
                         </div>

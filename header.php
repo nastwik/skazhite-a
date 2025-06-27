@@ -3,7 +3,7 @@
 
 <head>
     <title>Uclean — Cleaning Service Website Template</title>
-    <link rel="icon" href="images/icon.png" type="image/gif" sizes="16x16">
+    <link rel="icon" href="images/favicon.png" type="image/gif">
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
     <meta content="width=device-width, initial-scale=1.0" name="viewport" >
     <meta content="Uclean — Cleaning Service Website Template" name="description" >
@@ -31,7 +31,7 @@
 <body>
     <div id="wrapper">
         <div class="float-text show-on-scroll">
-            <span><a href="#">Scroll to top</a></span>
+            <span><a href="#">НАВЕРХ</a></span>
         </div>
         <div class="scrollbar-v show-on-scroll"></div>
 

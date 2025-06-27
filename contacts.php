@@ -11,7 +11,7 @@
             <div class="row g-3 align-items-center">
                <div class="col-lg-6">
                   <div class="relative z-1000">
-                     <h1 class="wow fadeInUp mb-2" data-wow-delay=".2s">Контакты</h1>
+                     <div class="header-title wow fadeInUp mb-2" data-wow-delay=".2s">Контакты</div>
                      <div class="spacer-single"></div>
                   </div>
                </div>
@@ -30,35 +30,35 @@
                <div class="col-md-1-5 wow fadeInRight" data-wow-delay=".2s">
                   <div class="text-center">       
                      <img src="images/icons/steps/notes.png" class="bg-color w-100px p-15 rounded-1 mb-3 wow scaleIn" alt="">                     
-                     <h4>Юридический адрес</h4>
+                     <div class="item-title">Юридический адрес</div>
                      <p class="mb-0">344034 г. Ростов-на-Дону,<br> пер. Парусный, д. 48, кв. 102</p>
                   </div>
                </div>
                <div class="col-md-1-5 wow fadeInRight" data-wow-delay=".4s">
                   <div class="text-center">                  
                      <img src="images/icons/white/location.png" class="bg-color w-100px p-15 rounded-1 mb-3 wow scaleIn" alt="">            
-                     <h4>Фактический адрес</h4>
+                     <div class="item-title">Фактический адрес</div>
                      <p class="mb-0">344033, г .Ростов-на-Дону,<br> ул. Магнитогорская, 1/1</p>
                   </div>
                </div>
                <div class="col-md-1-5 wow fadeInRight" data-wow-delay=".6s">
                   <div class="text-center">
                      <img src="images/icons/white/calendar.webp" class="bg-color w-100px p-15 rounded-1 mb-3 wow scaleIn" alt="">                              
-                     <h4>Режим работы</h4>
+                     <div class="item-title">Режим работы</div>
                      <p class="mb-0">ПН-ПТ 9:00-17:00, СБ 9:00 - 15:00, Воскресенье выходной</p>
                   </div>
                </div>
                <div class="col-md-1-5 wow fadeInRight" data-wow-delay=".8s">
                   <div class="text-center contact__link">                         
                      <img src="images/icons/white/phone.png" class="bg-color w-100px p-15 rounded-1 mb-3 wow scaleIn" alt="">     
-                     <h4>Телефон</h4>
+                     <div class="item-title">Телефон</div>
                      <a href="tel:+78632049558" class="mb-0">+7 (863) 204-95-58</a><br>
                   </div>
                </div>
                <div class="col-md-1-5 wow fadeInRight" data-wow-delay="1s">
                   <div class="text-center contact__link">       
                      <img src="images/icons/white/email.png" class="bg-color w-100px p-15 rounded-1 mb-3 wow scaleIn" alt="">                       
-                     <h4>Почта</h4>
+                     <div class="item-title">Почта</div>
                      <a href="mailto:o-knyazeva89@bk.ru">o-knyazeva89@bk.ru</a>
                   </div>
                </div>
@@ -70,7 +70,7 @@
             <div class="row g-4 justify-content-between align-items-center">
                <div class="col-lg-6 relative">
                   <div class="relative z-1000">
-                     <h3>Реквизиты</h3>
+                     <div class="middle-title">Реквизиты</div>
 
                      <ul class="ul-style-2">
                         <li><strong>ИП</strong> Князева О.А.</li>
@@ -82,7 +82,7 @@
 
                <div class="col-lg-5">
                   <div class="bg-white p-40 shadow-soft h-100 rounded-1 contact-form">
-                        <h3>Запись на прием</h3>
+                        <div class="middle-title">Запись на прием</div>
                         <p>Администратор перезвонит вам в течение 30 сек</p>
                         <form name="contactForm" id="contact_form" class="form-border" method="post" action="contact.php">
                            <div class="row g-3">

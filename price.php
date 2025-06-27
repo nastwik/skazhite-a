@@ -11,7 +11,7 @@
             <div class="row g-3 align-items-center">
                <div class="col-lg-6">
                   <div class="relative z-1000">
-                     <h1 class="wow fadeInUp mb-2" data-wow-delay=".2s">Прайс</h1>
+                     <div class="header-title wow fadeInUp mb-2" data-wow-delay=".2s">Прайс</div>
                      <div class="spacer-single"></div>
                   </div>
                </div>
@@ -28,7 +28,7 @@
             <div class="row g-4">
                <div class="col-lg-6 offset-lg-3 text-center">
                   <div class="subtitle wow fadeInUp mb-3">39 решений для вашего здоровья</div>
-                  <h2 class="wow fadeInUp" data-wow-delay=".2s">Полный спектр лор-услуг</h2>
+                  <div class="section-title wow fadeInUp" data-wow-delay=".2s">Полный спектр лор-услуг</div>
                   <div class="spacer-single"></div>
                </div>
             </div>

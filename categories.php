@@ -10,7 +10,7 @@
             <div class="row g-3 align-items-center">
                <div class="col-lg-6">
                   <div class="relative z-1000">
-                     <h1 class="wow fadeInUp mb-2" data-wow-delay=".2s">Категории</h1>
+                     <div class="header-title wow fadeInUp mb-2" data-wow-delay=".2s">Категории</div>
                      <div class="spacer-single"></div>
                   </div>
                </div>
@@ -28,7 +28,7 @@
             <div class="row g-4">
                <div class="col-lg-6 offset-lg-3 text-center">
                      <div class="subtitle wow fadeInUp mb-3">Устраняем лор-заболевания — от насморка до отита</div>
-                     <h2 class="wow fadeInUp" data-wow-delay=".2s">Быстро. Персонально. В любой стадии</h2>
+                     <div class="section-title wow fadeInUp" data-wow-delay=".2s">Быстро. Персонально. В любой стадии</div>
                      <div class="spacer-single"></div>
                </div>
             </div>
@@ -37,8 +37,8 @@
                      <div class="bg-white text-center p-40 shadow-soft h-100 rounded-1">
                         <img src="images/icons/white/consultation.png" class="bg-color w-100px p-15 rounded-1 mb-3 wow scaleIn" alt="">
                         <div class="relative wow fadeInUp">
-                           <h4>Первичный прием с консультацией</h4>
-                           <div class="middle-title price">2500₽</div>
+                           <div class="item-title">Первичный прием с консультацией</div>
+                           <div class="item-title price">2500₽</div>
                         </div>
                      </div>
                </div>
@@ -47,8 +47,8 @@
                      <div class="bg-white text-center p-40 shadow-soft h-100 rounded-1">
                         <img src="images/icons/white/repeat_visit.png" class="bg-color w-100px p-15 rounded-1 mb-3 wow scaleIn" alt="">
                         <div class="relative wow fadeInUp">
-                           <h4>Повторный прием с консультацией</h4>
-                           <div class="middle-title price">2000₽</div>
+                           <div class="item-title">Повторный прием с консультацией</div>
+                           <div class="item-title price">2000₽</div>
                         </div>
                      </div>
                </div>

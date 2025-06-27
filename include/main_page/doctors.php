@@ -3,7 +3,7 @@
                     <div class="row g-4">
                         <div class="col-lg-6 offset-lg-3 text-center">
                             <div class="subtitle wow fadeInUp mb-3">Врачи</div>
-                            <h2 class="wow fadeInUp" data-wow-delay=".2s">О враче</h2>
+                            <div class="section-title wow fadeInUp" data-wow-delay=".2s">О враче</div>
                         </div>
                     </div>
                     <div class="row g-4 justify-content-center">
@@ -12,7 +12,7 @@
                                 <div class="team_img">
                                     <img src="images/doctors/doctor-01.jpeg" alt="team member">
                                 </div>
-                                <h3>Ольга Князева</h3>
+                                <div class="middle-title">Ольга Князева</div>
                                 <p class="role">ЛОР-врач</p>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus expedita non quasi iste tempore modi quidem esse quam dolorum placeat, ducimus, nemo sapiente molestias? </p>
                                 <div class="team_butns">

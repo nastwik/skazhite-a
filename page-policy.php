@@ -10,7 +10,7 @@
             <div class="row g-3 align-items-center">
                <div class="col-lg-6">
                   <div class="relative z-1000">
-                     <h1 class="wow fadeInUp mb-2" data-wow-delay=".2s">Политика конфиденциальности</h1>
+                     <div class="header-title wow fadeInUp mb-2" data-wow-delay=".2s">Политика конфиденциальности</div>
                      <div class="spacer-single"></div>
                   </div>
                </div>

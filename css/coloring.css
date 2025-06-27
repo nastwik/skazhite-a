@@ -187,12 +187,12 @@ a.bc-btn,
 .pricing-table .bottom i,
 .topbar-widget a span,
 .de-icon,
-a#cookit-link {
+a#cookit-link,
+footer .widget a:hover {
     color: var(--primary-color);
 }
 
 
-footer .widget a:hover,
 .id-color-2,
 .id-color-secondary,
 span.id-color-2,

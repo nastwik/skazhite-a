@@ -11,7 +11,7 @@
             <div class="row g-3 align-items-center">
                <div class="col-lg-6">
                   <div class="relative z-1000">
-                     <h1 class="wow fadeInUp mb-2" data-wow-delay=".2s">Врачи</h1>
+                     <div class="header-title wow fadeInUp mb-2" data-wow-delay=".2s">Врачи</div>
                      <div class="spacer-single"></div>
                   </div>
                </div>
@@ -29,7 +29,7 @@
             <div class="row g-4">
                <div class="col-lg-6 offset-lg-3 text-center">
                      <div class="subtitle wow fadeInUp mb-3">Ваш лор-эксперт</div>
-                     <h2 class="wow fadeInUp" data-wow-delay=".2s">Врач со стажем +10. Фанат прогресса. Дважды мама.</h2>
+                     <div class="section-title wow fadeInUp" data-wow-delay=".2s">Врач со стажем +10. Фанат прогресса. Дважды мама.</div>
                </div>
             </div>
             <div class="row g-4 justify-content-center">
@@ -38,7 +38,7 @@
                         <div class="team_img">
                            <img src="images/doctors/doctor-01.jpeg" alt="team member">
                         </div>
-                        <h3>Ольга Князева</h3>
+                        <div class="middle-title">Ольга Князева</div>
                         <p class="role">ЛОР-врач</p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus expedita non quasi iste tempore modi quidem esse quam dolorum placeat, ducimus, nemo sapiente molestias? </p>
                         <div class="team_butns">

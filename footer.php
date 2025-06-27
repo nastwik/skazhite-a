@@ -6,7 +6,17 @@
             <div class="container">
                 <div class="row gx-5">
                     <div class="col-lg-4 col-sm-6">
-                        <img src="images/logo.webp" class="w-150px" alt="" >
+                        <div class="de-flex-col">
+                            <div class="footer__logo">
+                                <a href="/">
+                                    <img src="images/logo.png" alt="logo" width="75">
+                                    <div>
+                                        <div>Скажите «А»</div>
+                                        <div>Частная лор-клиника</div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
                         <div class="spacer-20"></div>
                         <div class="widget">
                             <div class="fw-bold text-white"><i class="icofont-wall-clock me-2 id-color-2"></i>Режим работы</div>
@@ -26,17 +36,17 @@
                     </div>
                     <div class="col-lg-4 col-sm-12 order-lg-1 order-sm-2">
                         <div class="widget">
-                            <h5>Полезная информация</h5>
+                            <div class="link-name">Полезная информация</div>
                             <ul>
-                                <li><a href="service-single.html">Информация о юридическом лице</a></li>
-                                <li><a href="service-single.html">Правовая информация</a></li>
+                                <li><a href="documents.php">Информация о юридическом лице</a></li>
+                                <li><a href="#">Правовая информация</a></li>
                                 <li><a href="page-policy.php">Политика конфиденциальности</a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6 order-lg-2 order-sm-1">
                         <div class="widget">
-                            <h5>Реквизиты</h5>
+                            <div class="link-name">Реквизиты</div>
                             <ul>
                                 <li><strong>ИП</strong> Емельяненко Ольга Александровна</li>
                                 <li><strong>ИНН</strong> 6165155663</li>
@@ -57,7 +67,7 @@
                         <div class="col-md-12">
                             <div class="de-flex">
                                 <div class="de-flex-col">
-                                    Все права защищены © 2025. Разработка сайта <a href="https://flamingo.expert/" target="_blank" style="color:#EA1C26"> Flamingo.expert</a>
+                                    Все права защищены © 2025. Разработка сайта <a href="https://flamingo.expert/" target="_blank" style="color:#EA1C26">&nbsp; Flamingo.expert</a>
                                 </div>
                                 <ul class="menu-simple">
                                     <li><a href="#">Согласие на обработку персональных данных</a></li>

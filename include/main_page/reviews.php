@@ -3,7 +3,7 @@
                     <div class="row g-4">
                         <div class="col-lg-6 offset-lg-3 text-center">
                             <div class="subtitle wow fadeInUp mb-3">Отзывы</div>
-                            <h2 class="wow fadeInUp" data-wow-delay=".2s">Отзывы с Яндекса и ПроДокторов</h2>
+                            <div class="section-title wow fadeInUp" data-wow-delay=".2s">Отзывы с Яндекса и ПроДокторов</div>
                             <div class="spacer-single"></div>
                         </div>
                     </div>
@@ -88,7 +88,7 @@
                                     </div>
                                 </div>
                                 <div class="col-12 text-center">
-                                    <a target="_blank" href="https://prodoctorov.ru/rostov-na-donu/vrach/472480-knyazeva/" class="btn-main btn-blue wow fadeInUp" data-wow-delay=".4s">Больше отзывов ПроДокторов</a>
+                                    <a target="_blank" href="https://prodoctorov.ru/rostov-na-donu/vrach/472480-knyazeva/" class="btn-main btn-blue wow fadeInUp" data-wow-delay=".2s">Больше отзывов ПроДокторов</a>
                                 </div>
 
                             </div>

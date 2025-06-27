@@ -4,7 +4,7 @@
                     <div class="row g-4 justify-content-between">
                         <div class="col-lg-5">
                             <div class="subtitle s2 mb-3 wow fadeInUp" data-wow-delay=".0s">Запись на приём</div>
-                            <h2 class="wow fadeInUp" data-wow-delay=".2s">Запишитесь сейчас!</h2>
+                            <div class="section-title wow fadeInUp" data-wow-delay=".2s">Запишитесь сейчас!</div>
                             <p class="wow fadeInUp" data-wow-delay=".4s">Три шага для оздоровления</p>
                             <a href="contact.html" class="btn-main">Перейти к записи</a>
                         </div>
@@ -16,7 +16,7 @@
                                         <div class="d-icon">
                                             1
                                         </div>
-                                        <h4>Заголовок</h4>
+                                        <div class="item-title">Заголовок</div>
                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
                                     </div>
                                 </div>
@@ -26,7 +26,7 @@
                                         <div class="d-icon">
                                             2
                                         </div>
-                                        <h4>Заголовок</h4>
+                                        <div class="item-title">Заголовок</div>
                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
                                     </div>
                                 </div>
@@ -36,7 +36,7 @@
                                         <div class="d-icon">
                                             3
                                         </div>
-                                        <h4>Заголовок</h4>
+                                        <div class="item-title">Заголовок</div>
                                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
                                     </div>
                                 </div>

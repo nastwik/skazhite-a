@@ -42,7 +42,7 @@ Table of content:
 
 /* ================================================== */
 
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
@@ -69,7 +69,7 @@ Table of content:
   --body-font-color-dark: rgba(255, 255, 255, .75);
   --body-font-weight: 400;
 
-  --heading-font: "Nunito", Helvetica, Arial, sans-serif;  
+  --heading-font: "Montserrat", Helvetica, Arial, sans-serif;  
   --heading-font-weight: 600;
   --heading-font-color: #161c2d;
   --heading-text-transform: none;
@@ -152,7 +152,6 @@ Table of content:
   -webkit-border-radius: var(--rounded-1) !important;
 }
 .alt-font-1{font-family:var(--alt-font-1);}
-
 /* ================================================== */
 
 
@@ -880,7 +879,7 @@ header.header-light #mainmenu a {
   z-index: 10;
   visibility: hidden;
   opacity: 0;
-  border-radius: 3px;
+  border-radius: var(--rounded-1);
 }
 
 #mainmenu ul li b {
@@ -3149,12 +3148,12 @@ a.btn-line,
   outline: 0;
   font-weight: var(--btn-font-weight);
   text-decoration: none;
-  padding: 3px 25px;
+  padding: 15px 30px;
   font-size: 15px;
   border: none;
-  border-radius:var(--button-rounded);
-  -moz-border-radius:var(--button-rounded);
-  -webkit-border-radius:var(--button-rounded);
+  border-radius:var(--rounded-1);
+  -moz-border-radius:var(--rounded-1);
+  -webkit-border-radius:var(--rounded-1);
 }
 
 a.btn-main.fx-slide{
@@ -12903,7 +12902,6 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
-  justify-content: center;
   align-items: center;
 }
 
@@ -13250,4 +13248,30 @@ footer .link-name{
   width: 100%;
   height: 100%;
   object-fit: contain;
+}
+
+.slider-area{
+  display: flex;
+  align-items: end;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100vh;
+}
+
+.slider-area p{
+  color: var(--heading-font-color);
+}
+
+#mainmenu li ul{
+  border-radius: var(--rounded-1);
+}
+
+#mainmenu li ul li:first-child a.menu-item {
+    border-top-left-radius: var(--rounded-1);
+    border-top-right-radius: var(--rounded-1);
+}
+
+#mainmenu li ul li:last-child a.menu-item {
+    border-bottom-left-radius: var(--rounded-1);
+    border-bottom-right-radius: var(--rounded-1);
 }

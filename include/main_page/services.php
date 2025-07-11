@@ -11,7 +11,7 @@
 
                     <div class="row g-4">
                         <div class="col-lg-4 col-sm-6">
-                            <div class="relative">
+                            <div class="relative shadow-soft">
                                 <a href="service-single.html" class="d-block hover">
                                     <div class="relative overflow-hidden rounded-1 shadow-soft">
                                         <div class="absolute z-2 start-0 w-100 abs-middle fs-36 text-white text-center">
@@ -28,7 +28,7 @@
                         </div>
 
                         <div class="col-lg-4 col-sm-6">
-                            <div class="relative">
+                            <div class="relative shadow-soft">
                                 <a href="service-single.html" class="d-block hover">
                                     <div class="relative overflow-hidden rounded-1 shadow-soft">
                                         <div class="absolute z-2 start-0 w-100 abs-middle fs-36 text-white text-center">
@@ -44,7 +44,7 @@
                         </div>
 
                         <div class="col-lg-4 col-sm-6">
-                            <div class="relative">
+                            <div class="relative shadow-soft">
                                 <a href="service-single.html" class="d-block hover">
                                     <div class="relative overflow-hidden rounded-1 shadow-soft">
                                         <div class="absolute z-2 start-0 w-100 abs-middle fs-36 text-white text-center">

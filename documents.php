@@ -28,28 +28,28 @@
          <div class="container">
             <div class="row g-5">
                <div class="col-lg-6 wow fadeInLeft">
-                     <div class="p-40 bg-light rounded-30 h-100">
-                        <div class="middle-title" class="mb-4">Реквизиты</div>
-                           <strong>ИП</strong> Князева О.А.
-                           <br><strong>ИНН</strong>: 615524416390
-                           <br><strong>КПП</strong>: 616301001
-                           <br><strong>ОГРН</strong>: 1096165002438
-                           <br><strong>ОГРНИП</strong>: 318619600231488
-                           <br><strong>Юридический адрес</strong>: 344000, г.Ростов-на-Дону, пр. Ворошиловский, 52, помещение 1
-                           <br><strong>Фактический адрес</strong>: 344000, г.Ростов-на-Дону, ул. Соколова 61/52
-                     </div>
+                  <div class="p-40 bg-light rounded-1 h-100 shadow-soft">
+                     <div class="middle-title" class="mb-4">Реквизиты</div>
+                        <strong>ИП</strong> Князева О.А.
+                        <br><strong>ИНН</strong>: 615524416390
+                        <br><strong>КПП</strong>: 616301001
+                        <br><strong>ОГРН</strong>: 1096165002438
+                        <br><strong>ОГРНИП</strong>: 318619600231488
+                        <br><strong>Юридический адрес</strong>: 344000, г.Ростов-на-Дону, пр. Ворошиловский, 52, помещение 1
+                        <br><strong>Фактический адрес</strong>: 344000, г.Ростов-на-Дону, ул. Соколова 61/52
+                  </div>
                </div>
 
                <div class="col-lg-6 wow fadeInRight">
-                     <div class="p-40 bg-light rounded-30 h-100">
-                        <div class="middle-title" class="mb-4">Контакты</div>
-                        <strong>Телефон</strong>: <a href="tel:+78632049558" class="mb-0">+7 (863) 204-95-58</a>
-                        <br><strong>Почта</strong>: <a href="mailto:o-knyazeva89@bk.ru">o-knyazeva89@bk.ru</a>
-                        <div class="middle-title mt-4 mb-4">График работы</div>
-                        <strong>ПН-ПТ</strong>: 9:00-17:00
-                        <br><strong>СБ</strong>: 9:00 - 15:00
-                        <br><strong>Воскресенье</strong>: выходной
-                     </div>
+                  <div class="p-40 bg-light rounded-1 h-100 shadow-soft">
+                     <div class="middle-title" class="mb-4">Контакты</div>
+                     <strong>Телефон</strong>: <a href="tel:+78632049558" class="mb-0">+7 (863) 204-95-58</a>
+                     <br><strong>Почта</strong>: <a href="mailto:o-knyazeva89@bk.ru">o-knyazeva89@bk.ru</a>
+                     <div class="middle-title mt-4 mb-4">График работы</div>
+                     <strong>ПН-ПТ</strong>: 9:00-17:00
+                     <br><strong>СБ</strong>: 9:00 - 15:00
+                     <br><strong>Воскресенье</strong>: выходной
+                  </div>
                </div>                 
             </div>
          </div>

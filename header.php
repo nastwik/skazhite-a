@@ -52,7 +52,7 @@
                                         <img src="images/logo.png" alt="logo" width="75">
                                         <div>
                                             <div>Скажите «А»</div>
-                                            <div>Частная лор-клиника</div>
+                                            <div>ЛОР центр</div>
                                         </div>
                                     </a>
 								</div>
@@ -85,8 +85,9 @@
                                 </ul>
                             </div>
                             <div class="de-flex-col">
+                                <a class="fw-bold text-dark"><i class="icofont-search-1"></i></a>
                                 <div class="menu_side_area">   
-                                    <a href="tel:+78632049558" class="btn-main btn-red">+7 (863) 204-95-58</a>
+                                    <a href="tel:+78632049558" class="btn-main btn-red">Версия для слабовидящих</a>
                                     <span id="menu-btn"></span>
                                 </div>
                             </div>

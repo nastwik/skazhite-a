@@ -75,6 +75,8 @@
                      <ul class="ul-style-2">
                         <li><strong>ИП</strong> Князева О.А.</li>
                         <li><strong>ИНН</strong>: 615524416390</li>
+                        <li><strong>КПП</strong>: 616301001</li>
+                        <li><strong>ОГРН</strong>: 1096165002438</li>
                         <li><strong>ОГРНИП</strong>: 318619600231488</li>
                      </ul>
                   </div>

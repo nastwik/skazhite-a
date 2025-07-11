@@ -3721,14 +3721,15 @@ hr {
 .form-border input[type=password],
 .form-border input[type=date],
 .form-border select {
-  padding: 8px;
+  padding: 15px 30px;
   margin-bottom: 10px;
+  font-size: 15px;
   border: none;
   border: solid 2px #eeeeee;
   background: rgba(0, 0, 0, .025);
   border-radius: 2px;
   -moz-border-radius: 2px;
-  -webkit-border-radius: 10px;
+  -webkit-border-radius: 12px;
   height: auto;
   box-shadow: none;
   -moz-box-shadow: none;
@@ -12862,7 +12863,7 @@ img {
 
 .team_member{
   background-color: var(--bg-blue);
-  margin: 100px 0 50px;
+  margin-top: 100px;
   padding: 20px;
   position: relative;
   border-radius: var(--rounded-1);
@@ -12997,10 +12998,6 @@ img {
 }
 
 /* TABLE FOR PRICE */
-.services-price:nth-child(2) {
-    margin-bottom: 48px;
-}
-
 .services-price>p {
     text-align: left;
     margin-bottom: 32px;

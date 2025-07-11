@@ -1,4 +1,4 @@
-            <section class="pt-0 pb-40 relative overflow-hidden">
+            <section class="relative overflow-hidden">
                 <div class="container relative z-1000">
                     <div class="spacer-double sm-hide"></div>                    
                     <div class="row g-4 justify-content-between">

@@ -37,7 +37,7 @@
                </div>
 
                <div class="col-lg-6 wow fadeInRight">
-                  <div class="p-40 bg-light rounded-30 h-100">
+                  <div class="p-40 bg-light rounded-1 h-100 shadow-soft">
                      <div class="middle-title" class="mb-4">«Тревожные звоночки», чтобы обратиться к ЛОРу:</div>
                      <ol class="ol-style-1">
                         <li>долгая заложенность носа</li>
@@ -50,18 +50,7 @@
                      </ol>
                   </div>
                </div>
-               <!-- <div class="spacer-single"></div>
-
-                  <div class="col-lg-3">
-                        <div class="middle-title">Наша просьба</div>
-                  </div>
-
-                  <div class="col-lg-9">
-                        <p class="lead">Не ждите, пока само пройдет — приходите! Мы гарантируем профессиональный подход, современные методы и тёплый приём. Даже если случай кажется вам безнадежным — давайте разбираться! Ваше здоровье важнее скромных сомнений.</p>
-                  </div>
-
-                  <div class="spacer-single"></div>
-            </div> -->
+            </div>
          </div>
       </section>
       <section class="relative bg-blue">
@@ -76,7 +65,7 @@
             </div>
             <div class="row g-4">
                <div class="col-lg-4 col-md-6">
-                  <div class="relative bg-white p-4 rounded-1 formula-content">
+                  <div class="relative bg-white p-4 rounded-1 formula-content shadow-soft">
                      <div class="icons-container">
                         <img src="images/icons/red/individuality.png">
                      </div>
@@ -87,7 +76,7 @@
                </div>
                
                <div class="col-lg-4 col-md-6">
-                  <div class="relative bg-white p-4 rounded-1 formula-content">
+                  <div class="relative bg-white p-4 rounded-1 formula-content shadow-soft">
                      <div class="icons-container">
                         <img src="images/icons/red/equipment.png">
                      </div>
@@ -98,7 +87,7 @@
                </div>
                
                <div class="col-lg-4 col-md-6">
-                  <div class="relative bg-white p-4 rounded-1 formula-content">
+                  <div class="relative bg-white p-4 rounded-1 formula-content shadow-soft">
                      <div class="icons-container">
                         <img src="images/icons/red/qualification.png">
                      </div>

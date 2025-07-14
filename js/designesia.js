@@ -176,7 +176,7 @@
       * plugin | enquire.js
       * --------------------------------------------------*/
      function init_resize() {
-         enquire.register("screen and (min-width: 993px)", {
+         enquire.register("screen and (min-width: 1399px)", {
              match: function() {
                  mobile_menu_show = 1;
              },
@@ -185,7 +185,7 @@
                  jQuery("#menu-btn").show();
              }
          });
-         enquire.register("screen and (max-width: 993px)", {
+         enquire.register("screen and (max-width: 1399px)", {
              match: function() {
                  $('header').addClass("header-mobile");
 				 var body = jQuery('body');
@@ -209,7 +209,7 @@
          header.removeClass('logo-smaller');
          header.removeClass('clone');
 
-         var mx = window.matchMedia("(max-width: 992px)");
+         var mx = window.matchMedia("(max-width: 1399px)");
 		 var osw = jQuery('.owl-slide-wrapper');
          if (mx.matches) {			 
              osw.find("img").css("height", $(window).innerHeight());

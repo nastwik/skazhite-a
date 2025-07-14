@@ -44,7 +44,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="de-flex sm-pt10">
+                        <div class="de-flex xl-pt10">
                             <div class="de-flex-col">
                                 <!-- logo begin -->
                                 <div class="main-header__logo">
@@ -87,7 +87,7 @@
                             <div class="de-flex-col">
                                 <a class="fw-bold text-dark"><i class="icofont-search-1"></i></a>
                                 <div class="menu_side_area">   
-                                    <a href="tel:+78632049558" class="btn-main btn-red">Версия для слабовидящих</a>
+                                    <a href="tel:+78632049558" class="btn-main btn-blue-2 hidden">Версия для слабовидящих</a>
                                     <span id="menu-btn"></span>
                                 </div>
                             </div>

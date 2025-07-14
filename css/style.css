@@ -11788,9 +11788,11 @@ img {
   header.header-mobile #mainmenu ul {
     background: none;
   }
+
   #mainmenu ul:not(.mega) {
     border: none;
   }
+
   #mainmenu li ul {
     border-top: solid 1px #eee;
     top: auto;
@@ -11800,6 +11802,7 @@ img {
     visibility: visible;
     opacity: 1;
   }
+
   .header-col-mid #mainmenu {
     position: absolute;
     top: 90px;
@@ -11885,16 +11888,20 @@ img {
     top: 0;
     right: 0;
   }
+
   #mainmenu>li::before{
     display: none;
   }
+
   header.autoshow #mainmenu li a {
     background: none;
   }
-    header.header-mobile {
+
+  header.header-mobile {
     overflow: hidden;
     position: relative;
   }
+
   header.header-mobile #mainmenu>li>span {
     width: 36px;
     height: 36px;
@@ -11905,7 +11912,8 @@ img {
     z-index: 1000;
     cursor: pointer;
   }
-    header.header-mobile #mainmenu li>ul>li>span {
+
+  header.header-mobile #mainmenu li>ul>li>span {
     width: 36px;
     height: 36px;
     background: url(../images/ui/arrow-down.png) center no-repeat;
@@ -11915,7 +11923,8 @@ img {
     z-index: 1000;
     cursor: pointer;
   }
-    header.header-light.header-mobile #mainmenu>li>span,
+
+  header.header-light.header-mobile #mainmenu>li>span,
   header.header-light.header-mobile #mainmenu li>ul>li>span {
     background: url(../images/ui/arrow-down.png) center no-repeat;
   }
@@ -11924,16 +11933,20 @@ img {
   header.header-light.header-mobile #mainmenu li>ul>li>span.active {
     background: url(../images/ui/arrow-up.png) center no-repeat;
   }
+
   header #mainmenu li ul li:first-child {
     border-top: solid 1px var(--bg-dark-3);
   }
+
   header.header-mobile #mainmenu li ul li {
     border: none;
     padding-left: 40px;
   }
+
   header a.btn-main{
     display: none !important;
   }
+
   .xl-pt10 {
     padding-top: 10px;
   }
@@ -11946,7 +11959,6 @@ img {
 }
 
 @media only screen and (max-width: 992px) {
-
   .container{
     max-width: 100%;
   }  
@@ -11978,7 +11990,6 @@ img {
   .countdown-s2 .countdown-amount {
     font-size: 20px;
   }
-
 
   .mb-sm-20 {
     margin-bottom: 20px;
@@ -12032,14 +12043,6 @@ img {
     padding-top: 10px;
   }
 
-/*   #menu-btn {
-    display: block;
-    float: right;
-    z-index: 1000;
-    top: 0;
-    right: 0;
-  } */
-
   .inner-padding {
     padding: 40px;
   }
@@ -12048,18 +12051,6 @@ img {
   .header-col-right {
     padding-top: 16px;
   }
-
-  /* .header-col-mid #mainmenu {
-    position: absolute;
-    top: 90px;
-    width: 100%;
-    padding: 0 0 0 0;
-    left: 20px;
-  } */
-
-/*   #mainmenu>li::before{
-    display: none;
-  } */
 
   header {
     display: none;
@@ -12084,10 +12075,6 @@ img {
     height: auto;
     top: 0;
   }
-
-/*   header.autoshow #mainmenu li a {
-    background: none;
-  } */
 
   header.header-mobile-sticky {
     position: fixed;
@@ -12124,39 +12111,6 @@ img {
     height: 0;
   }
 
-  /* #mainmenu {
-    position: fixed;
-    height: 100%;
-    z-index: 200;
-    width: 200px;
-    margin: 0;
-    margin-top: 10px;
-    padding: 0;
-    padding-top: 20px;
-    padding-bottom: 100px !important;
-    overflow-y: auto;
-    top: 100px;
-    visibility: hidden;
-    opacity: 0;
-  } */
-
-/*   #mainmenu ul {
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-  } */
-
-/*   #mainmenu a.menu-item {
-    text-align: left;
-    padding-left: 0;
-    padding-top: 10px;
-    padding-bottom: 10px;
-  } */
-
-/*   #mainmenu li.has-child:after {
-    display: none;
-  }
-
   #mainmenu li li a.menu-item,
   #mainmenu li li li a.menu-item {
     padding-left: 0;
@@ -12175,14 +12129,7 @@ img {
     position: inherit;
     margin: 0;
     width: 100%;
-  } */
-
-/*   #mainmenu li {
-    border-bottom: solid 1px var(--bg-dark-3);
-    margin: 0;
-    width: 100%;
-    display: block;
-  } */
+  } 
 
   #mainmenu li a.menu-item:after {
     display: none;
@@ -12191,16 +12138,6 @@ img {
   #mainmenu li:last-child {
     margin-bottom: 30px;
   }
-
-/*   #mainmenu li ul {
-    border-top: solid 1px #eee;
-    top: auto;
-    width: auto;
-    height: auto;
-    position: inherit;
-    visibility: visible;
-    opacity: 1;
-  } */
 
   #mainmenu>li.menu-item-has-children>a.menu-item {
     position: relative;
@@ -12248,10 +12185,6 @@ img {
     color: #fff;
   }
 
-/*   #mainmenu ul:not(.mega) {
-    border: none;
-  } */
-
   #mainmenu>li ul.mega .sb-menu {
     border: none;
   }
@@ -12259,48 +12192,6 @@ img {
   #back-to-top {
     display: none;
   }
-
-/*   header.header-mobile {
-    overflow: hidden;
-    position: relative;
-  } */
-
-  /* header.header-mobile #mainmenu {
-    width: 100%;
-    padding-right: 30px;
-  } */
-
-/*   header.header-mobile #mainmenu ul {
-    background: none;
-  } */
-
-/*   header.header-mobile #mainmenu a.menu-item {
-    text-align: left;
-    padding-top: 10px;
-    padding-bottom: 10px;
-  } */
-
-/*   header.header-light.header-mobile #mainmenu a.menu-item{
-    color:var(--heading-font-color);
-  } */
-
-/*   header.header-mobile #mainmenu a.menu-item:hover {
-    background: none;
-  } */
-
-/*   header.header-mobile #mainmenu li ul {
-    display: block;
-    position: inherit;
-    margin: 0;
-    width: 100%;
-  } */
-
-/*   header.header-mobile #mainmenu li {
-    border-bottom: solid 1px rgba(255, 255, 255, .2);
-    margin: 0;
-    width: 100%;
-    display: block;
-  } */
 
   .dark-scheme header.header-mobile #mainmenu li {
     border-bottom-color: rgba(255, 255, 255, .1);
@@ -12313,11 +12204,6 @@ img {
   header.header-mobile #mainmenu li ul.mega .menu-content {
     background: #fff;
   }
-
-/*   header.header-light.header-mobile #mainmenu li, */
-/*   header.header-light.header-mobile #mainmenu li ul li a.menu-item {
-    border-color: #eee;
-  } */
 
   header.header-dark.header-mobile {
     background: #222;
@@ -12339,25 +12225,11 @@ img {
     margin-bottom: 30px;
   }
 
-/*   header.header-mobile #mainmenu li ul {
-    border-top: none;
-    top: auto;
-  } */
-
   header.header-mobile #mainmenu li ul a.menu-item {
     width: 100%;
     background: none;
     border: none;
   }
-
-/*   header.header-mobile #mainmenu li ul li {
-    border: none;
-    padding-left: 40px;
-  } */
-
-/*   header #mainmenu li ul li:first-child {
-    border-top: solid 1px var(--bg-dark-3);
-  } */
 
   .dark-scheme header #mainmenu li ul li:first-child {
     border-top-color: rgba(255, 255, 255, .1);
@@ -12384,36 +12256,14 @@ img {
   .dark-scheme header.header-mobile #mainmenu li a.menu-item {
     color: #ffffff;
   }
-  
-/*   header.header-mobile #mainmenu li a.menu-item:hover {
-    color: var(--secondary-color);
-  } */
 
   .dark-scheme header.header-mobile #mainmenu li a.menu-item:hover {
     color: #fff;
   }
 
-/*   header.header-mobile #mainmenu li ul {
-    height: 0;
-    overflow: hidden;
-    position: relative;
-    left: 0;
-  } */
-
   header.header-mobile #mainmenu li ul li ul {
     margin-bottom: 10px;
   }
-
-/*   header.header-mobile #mainmenu>li>span {
-    width: 36px;
-    height: 36px;
-    background: url(../images/ui/arrow-down-light.png) center no-repeat;
-    position: absolute;
-    right: 0;
-    margin-top: 10px;
-    z-index: 1000;
-    cursor: pointer;
-  } */
 
   .dark-scheme header.header-mobile #mainmenu>li>span {
     background: url(../images/ui/arrow-down-light.png) center no-repeat;
@@ -12426,17 +12276,6 @@ img {
   .dark-scheme header.header-mobile #mainmenu li span.active {
     background: url(../images/ui/arrow-up-light.png) center no-repeat;
   }
-
-/*   header.header-mobile #mainmenu li>ul>li>span {
-    width: 36px;
-    height: 36px;
-    background: url(../images/ui/arrow-down.png) center no-repeat;
-    position: absolute;
-    right: 0;
-    margin-top: -45px;
-    z-index: 1000;
-    cursor: pointer;
-  } */
 
   header.header-mobile #mainmenu>li>ul>li>span.active {
     background: url(../images/ui/arrow-up.png) center no-repeat;
@@ -12453,16 +12292,6 @@ img {
   header.header-mobile #mainmenu li ul li:last-child>a.menu-item {
     border-bottom: none;
   }
-
-/*   header.header-light.header-mobile #mainmenu>li>span,
-  header.header-light.header-mobile #mainmenu li>ul>li>span {
-    background: url(../images/ui/arrow-down.png) center no-repeat;
-  }
-
-  header.header-light.header-mobile #mainmenu>li>span.active,
-  header.header-light.header-mobile #mainmenu li>ul>li>span.active {
-    background: url(../images/ui/arrow-up.png) center no-repeat;
-  } */
 
   #mainmenu li ul.mega {
     position: fixed;
@@ -12542,7 +12371,6 @@ img {
   .de_tab.tab_methods.style-2 .de_nav li.active .arrow {
     margin-top: -40px;
     margin-bottom: 40px;
-
   }
 
   .table-custom-1 {

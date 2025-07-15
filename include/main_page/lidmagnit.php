@@ -6,7 +6,7 @@
                             <div class="subtitle s2 mb-3 wow fadeInUp" data-wow-delay=".0s">Запись на приём</div>
                             <div class="section-title wow fadeInUp" data-wow-delay=".2s">Запишитесь сейчас!</div>
                             <p class="wow fadeInUp" data-wow-delay=".4s">Три шага для оздоровления</p>
-                            <a href="contact.html" class="btn-main">Перейти к записи</a>
+                            <a href="contact.html" class="btn-main btn-blue">Перейти к записи</a>
                         </div>
 
                         <div class="col-lg-6">

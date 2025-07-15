@@ -7,7 +7,7 @@
                             <div class="spacer-single"></div>
                         </div>
                     </div>
-                    <div class="row g-4 justify-content-center">
+                    <!-- <div class="row g-4 justify-content-center">
                         <div class="col-lg-4 col-md-6 mb-4">
                             <a href="images/background/plug_large.png" data-fancybox="gallery" class="d-block">
                                 <div class="image-container">
@@ -50,6 +50,33 @@
                                 </div>
                             </a>
                         </div>
-                    </div>
+                    </div> -->
+                        <div class="row">
+                            <p class="imglist">
+                                <a href="images/background/plug.png" data-fancybox="images">
+                                    <img src="images/background/mini-370x260.png">
+                                </a>
+                                
+                                <a href="images/background/plug.png" data-fancybox="images">
+                                    <img src="images/background/mini-370x260.png">
+                                </a>
+                                
+                                <a href="images/background/plug.png" data-fancybox="images">
+                                    <img src="images/background/mini-370x260.png">
+                                </a>
+                                
+                                <a href="images/background/plug.png" data-fancybox="images">
+                                    <img src="images/background/mini-370x260.png">
+                                </a>
+                                
+                                <a href="images/background/plug.png" data-fancybox="images">
+                                    <img src="images/background/mini-370x260.png">
+                                </a>
+
+                                <a href="images/background/plug.png" data-fancybox="images">
+                                    <img src="images/background/mini-370x260.png">
+                                </a>
+                            </p>
+                        </div>
                 </div>
             </section>

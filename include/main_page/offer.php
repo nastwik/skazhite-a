@@ -3,7 +3,7 @@
                            <div class="row g-4 align-items-center justify-content-between">
                               <div class="col-lg-6 offer_content">
                                     <div class="relative z-1000">
-                                       <div class="header-title wow fadeInUp" data-wow-delay=".0s">Прием отоларинголога высшей категории</div>
+                                       <div class="header-title wow fadeInUp" data-wow-delay=".0s">Прием <span class="text-blue">отоларинголога</span><br>высшей категории</div>
 
                                        <p class="wow fadeInUp" data-wow-delay=".2s">Запишитесь удобным способом — по телефону или через форму онлайн-записи</p>
 

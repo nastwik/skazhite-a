@@ -11,8 +11,8 @@
                                 <a href="/">
                                     <img src="images/logo.png" alt="logo" width="75">
                                     <div>
-                                        <div>Скажите «А»</div>
-                                        <div>ЛОР центр</div>
+                                        <div class="text-white">Скажите «А»</div>
+                                        <div class="text-white">ЛОР центр</div>
                                     </div>
                                 </a>
                             </div>
@@ -65,7 +65,7 @@
                 <div class="container">
                     <div class="row g-4">
                         <div class="col-md-12">
-                            <div class="de-flex">
+                            <div class="subfooter-content de-flex">
                                 <div class="de-flex-col">
                                     Все права защищены © 2025. Разработка сайта <a href="https://flamingo.expert/" target="_blank" style="color:#EA1C26">&nbsp; Flamingo.expert</a>
                                 </div>

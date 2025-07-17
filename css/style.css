@@ -165,6 +165,7 @@ html {
   padding: 0;
   margin: 0;
   background: var(--bg-dark-1);
+  height: 100%;
 }
 
 body {
@@ -174,8 +175,10 @@ body {
   font-weight: var(--body-font-weight);;
   color: var(--body-font-color);
   padding: 0;
+  margin: 0;
   line-height: 1.8em;
   word-spacing: 0px;
+  height: 100%;
 }
 
 body.dark-scheme {
@@ -8288,6 +8291,10 @@ background-size: 100% 100%;
   padding-bottom: 30px;
 }
 
+.de-timeline-s2 .d-item:last-child{
+  padding-bottom: 0px;
+}
+
 .de-timeline-s2.color .d-item{
   border-left-color: var(--secondary-color);
 }
@@ -8328,6 +8335,13 @@ background-size: 100% 100%;
 .de-timeline-s2 .d-item .d-text h4{
   margin-bottom: 5px;
 }
+
+@media (max-width: 991px) {
+  .de-timeline-s2{
+    margin-top: 30px;
+  }
+}
+
 
 @keyframes pulsing {
   from {
@@ -12922,7 +12936,7 @@ img {
   align-items: center;
 }
 @media(max-width:480px) {
-  .team_butns a{
+  .team_butns a, .single-btn a{
     width: 100%;
 }
 }
@@ -13313,14 +13327,20 @@ footer .link-name{
 
 @media (max-width: 992px) {
   .imglist a {
-      width: calc(100% / 2 - 60px);
+    width: calc(100% / 2 - 60px);
   }
-  .about-btn{
+  .about-btn, .subfooter-content{
     text-align: center;
+  }
+  .menu-simple li {
+    margin: 0;
   }
 }
 @media (max-width: 767px) {
   .imglist a {
-      width: calc(100% - 23px);
+    width: calc(100% - 23px);
+  }
+  .contacts-area{
+    margin-bottom: 30px;
   }
 }

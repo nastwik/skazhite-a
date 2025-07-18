@@ -3,22 +3,23 @@
       <div id="top"></div>
 
       <section class="bg-blue section-dark pb-0 relative overflow-hidden">
-         <div id="shine-wrapper">
-            <div class="template shine"></div>
-         </div>
          <div class="container relative z-1000">
-            <div class="row g-3 align-items-center">
-               <div class="col-lg-6">
+            <div class="row g-3 align-items-center page-header">
+               <div class="col-lg-6 page-header__text">
                   <div class="relative z-1000">
                      <div class="header-title wow fadeInUp mb-2" data-wow-delay=".2s">О центре</div>
+                        <ul class="floens-breadcrumb list-unstyled wow fadeInUp" data-wow-delay=".3s">
+                           <li><a href="/">Главная</a></li>
+                           <li><span>О центре</span></li>
+                        </ul>
                      <div class="spacer-single"></div>
                   </div>
                </div>
                <div class="col-lg-6">
                   <div class="template-offer__img">
-                     <img src="images/misc/1.png" class="w-100" data-wow-delay=".6s" alt="" data-0="transform: translateY(0px);" data-500="transform: translateY(300px);">
+                     <img src="images/misc/1.png" class="w-100 wow fadeInUp" data-wow-delay=".2s" alt="">
                   </div>
-               </div>    
+               </div>  
             </div>
          </div>
       </section>

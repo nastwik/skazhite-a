@@ -4,25 +4,27 @@
       <div id="top"></div>
 
       <section class="bg-blue section-dark pb-0 relative overflow-hidden">
-         <div id="shine-wrapper">
-            <div class="template shine"></div>
-         </div>
          <div class="container relative z-1000">
             <div class="row g-3 align-items-center">
                <div class="col-lg-6">
-                  <div class="relative z-1000">
+                  <div class="relative z-1000 section-dark__text">
                      <div class="header-title wow fadeInUp mb-2" data-wow-delay=".2s">Наши услуги</div>
+                        <ul class="floens-breadcrumb list-unstyled wow fadeInUp" data-wow-delay=".3s">
+                           <li><a href="/">Главная</a></li>
+                           <li><span>Наши услуги</span></li>
+                        </ul>
                      <div class="spacer-single"></div>
                   </div>
                </div>
                <div class="col-lg-6">
                   <div class="template-offer__img">
-                     <img src="images/misc/2.png" class="w-100" data-wow-delay=".6s" alt="" data-0="transform: translateY(0px);" data-500="transform: translateY(300px);">
+                     <img src="images/misc/2.png" class="w-100 wow fadeInUp" data-wow-delay=".2s" alt="">
                   </div>
                </div>    
             </div>
          </div>
       </section>
+
       <section>
          <div class="container relative">
             <div class="row g-4 gx-5 align-items-center">
@@ -37,7 +39,7 @@
                </div>
 
                <div class="col-lg-6 wow fadeInRight">
-                  <div class="p-40 bg-light rounded-1 h-100 shadow-soft">
+                  <div class="p-40 bg-light rounded-1 h-100">
                      <div class="middle-title" class="mb-4">«Тревожные звоночки», чтобы обратиться к ЛОРу:</div>
                      <ol class="ol-style-1">
                         <li>долгая заложенность носа</li>
@@ -103,15 +105,15 @@
       <section class="bg-color-3 text-light pt-30 pb-0">
          <div class="container relative">
             <div class="row g-4 gx-5 align-items-center">
-               <div class="col-lg-8 relative">
+               <div class="col-lg-8 relative wow fadeInLeft">
                   <div class="relative z-1000">
                      <div class="subtitle wow fadeInUp" data-wow-delay=".0s">Обращение</div>
-                     <div class="middle-title">"Не ждите, пока само пройдет — приходите! Мы гарантируем профессиональный подход, современные методы и тёплый приём. Даже если случай кажется вам безнадежным — давайте разбираться! Ваше здоровье важнее скромных сомнений."</div>
+                     <div class="middle-title appeal-text">"Не ждите, пока само пройдет — приходите! Мы гарантируем профессиональный подход, современные методы и тёплый приём. Даже если случай кажется вам безнадежным — давайте разбираться! Ваше здоровье важнее скромных сомнений."</div>
                      <div class="fw-500">Ольга Князева</div>
                   </div>
                </div>
 
-               <div class="col-lg-4">
+               <div class="col-lg-4 wow fadeInRight">
                   <img src="images/doctors/olga.png" class="w-100" alt="">
                </div>
 

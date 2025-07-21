@@ -68,7 +68,7 @@
             <div class="row g-4">
                <div class="col-lg-4 col-md-6">
                   <div class="relative bg-white p-4 rounded-1 formula-content shadow-soft">
-                     <div class="icons-container">
+                     <div class="services-icons__img">
                         <img src="images/icons/red/individuality.png">
                      </div>
                      <div>
@@ -79,7 +79,7 @@
                
                <div class="col-lg-4 col-md-6">
                   <div class="relative bg-white p-4 rounded-1 formula-content shadow-soft">
-                     <div class="icons-container">
+                     <div class="services-icons__img">
                         <img src="images/icons/red/equipment.png">
                      </div>
                      <div>
@@ -90,7 +90,7 @@
                
                <div class="col-lg-4 col-md-6">
                   <div class="relative bg-white p-4 rounded-1 formula-content shadow-soft">
-                     <div class="icons-container">
+                     <div class="services-icons__img">
                         <img src="images/icons/red/qualification.png">
                      </div>
                      <div>

@@ -4,22 +4,23 @@
       <div id="top"></div>
 
       <section class="bg-blue section-dark pb-0 relative overflow-hidden">
-         <div id="shine-wrapper">
-            <div class="template shine"></div>
-         </div>
          <div class="container relative z-1000">
-            <div class="row g-3 align-items-center">
-               <div class="col-lg-6">
+            <div class="row g-3 align-items-center page-header">
+               <div class="col-lg-6 page-header__text">
                   <div class="relative z-1000">
                      <div class="header-title wow fadeInUp mb-2" data-wow-delay=".2s">Контакты</div>
+                        <ul class="floens-breadcrumb list-unstyled wow fadeInUp" data-wow-delay=".3s">
+                           <li><a href="/">Главная</a></li>
+                           <li><span>Контакты</span></li>
+                        </ul>
                      <div class="spacer-single"></div>
                   </div>
                </div>
                <div class="col-lg-6">
                   <div class="template-offer__img">
-                     <img src="images/misc/4.png" class="w-100" data-wow-delay=".6s" alt="" data-0="transform: translateY(0px);" data-500="transform: translateY(300px);">
+                     <img src="images/misc/4.png" class="w-100 wow fadeInUp" data-wow-delay=".2s" alt="" >
                   </div>
-               </div>    
+               </div>  
             </div>
          </div>
       </section>
@@ -29,7 +30,7 @@
             <div class="row g-4 grid-divider">
                <div class="col-md-1-5 wow fadeInRight" data-wow-delay=".2s">
                   <div class="text-center">       
-                     <img src="images/icons/steps/notes.png" class="bg-color w-100px p-15 rounded-1 mb-3 wow scaleIn" alt="">                     
+                     <img src="images/icons/white/notes.png" class="bg-color w-100px p-15 rounded-1 mb-3 wow scaleIn" alt="">                     
                      <div class="item-title">Юридический адрес</div>
                      <p class="mb-0">344034 г. Ростов-на-Дону,<br> пер. Парусный, д. 48, кв. 102</p>
                   </div>
@@ -65,7 +66,7 @@
             </div>
          </div>
       </section>
-      <section class="bg-blue section-dark">
+      <section class="bg-blue">
          <div class="container relative">
             <div class="row g-4 justify-content-between align-items-center">
                <div class="col-lg-6 relative">
@@ -99,7 +100,7 @@
                                  </div>
                               </div>
                            </div>
-                           <p>Нажимая на кнопку "Отправить", я даю согласие на обработку персональных данных и принимаю условия политики обработки персональных данных</p>
+                           <p>Нажимая на кнопку "Отправить", я даю согласие на <a href="">обработку персональных данных</a> и принимаю условия <a href="">политики обработки персональных данных</a></p>
                            
                            <div id="success_message" class='success' style="display: none;">
                               Ваше сообщение было успешно отправлено!

@@ -2506,7 +2506,9 @@ header.header-light .h-phone span{
   opacity: 1;
 }
 
-
+#contact_form p{
+  margin-bottom: 0;
+}
 
 #contact_form input[type=checkbox]:checked{
   background: var(--primary-color);
@@ -13015,7 +13017,14 @@ img {
 }
 .formula-content{
   display: flex;
-  gap: 15px
+  gap: 15px;
+  align-items: center;
+}
+
+.services__img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /* TABLE FOR PRICE */
@@ -13292,7 +13301,11 @@ footer .link-name{
 .slider-area p{
   color: var(--heading-font-color);
 }
-
+.slider-area img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
 #mainmenu li ul{
   border-radius: var(--rounded-1);
 }
@@ -13336,6 +13349,9 @@ footer .link-name{
   .menu-simple li {
     margin: 0;
   }
+  .appeal__text{
+    font-size: var(--h4-font-size);
+  }
 }
 @media (max-width: 767px) {
   .imglist a {
@@ -13343,9 +13359,6 @@ footer .link-name{
   }
   .contacts-area{
     margin-bottom: 30px;
-  }
-  .appeal-text{
-    font-size: var(--h4-font-size);
   }
 }
 
@@ -13368,9 +13381,9 @@ footer .link-name{
   transition: all 500ms ease;
   color: var(--heading-font-color) !important;
 }
-.floens-breadcrumb li:first-child::after {
+.floens-breadcrumb li a::after {
   content: "/";
-  margin-left: 5px;
+  margin: 0 5px;
   color: var(--heading-font-color) !important;
 }
 .floens-breadcrumb li a:hover{
@@ -13378,9 +13391,6 @@ footer .link-name{
 }
 .floens-breadcrumb li span, .floens-breadcrumb li a {
   display: inline-flex;
-}
-.floens-breadcrumb li span{
-  padding-left: 5px;
 }
 .floens-breadcrumb li:not(:first-of-type) {
   color: var(--primary-color);
@@ -13416,5 +13426,8 @@ footer .link-name{
   }
   .page-header {
     margin-top: 0px;
+  }
+  .appeal .appeal__img{
+    display: none;
   }
 }

@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Uclean — Cleaning Service Website Template</title>
+    <title>Скажите "А"</title>
     <link rel="icon" href="images/favicon.png" type="image/gif">
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
     <meta content="width=device-width, initial-scale=1.0" name="viewport" >

@@ -3,23 +3,24 @@
       <div id="top"></div>
 
       <section class="bg-blue section-dark pb-0 relative overflow-hidden">
-         
-         <div id="shine-wrapper">
-            <div class="template shine"></div>
-         </div>
          <div class="container relative z-1000">
-            <div class="row g-3 align-items-center">
-               <div class="col-lg-6">
+            <div class="row g-3 align-items-center page-header">
+               <div class="col-lg-6 page-header__text">
                   <div class="relative z-1000">
                      <div class="header-title wow fadeInUp mb-2" data-wow-delay=".2s">Информация о юридическом лице</div>
+                        <ul class="floens-breadcrumb list-unstyled wow fadeInUp" data-wow-delay=".3s">
+                           <li><a href="/">Главная</a></li>
+                           <li><a href="#">Документы</a></li>
+                           <li><span>Информация о юридическом лице</span></li>
+                        </ul>
                      <div class="spacer-single"></div>
                   </div>
                </div>
                <div class="col-lg-6">
                   <div class="template-offer__img">
-                     <img src="images/misc/5.png" class="w-100" data-wow-delay=".6s" alt="" data-0="transform: translateY(0px);" data-500="transform: translateY(300px);">
+                     <img src="images/misc/5.png" class="w-100 wow fadeInUp" data-wow-delay=".2s" alt="" >
                   </div>
-               </div>    
+               </div>  
             </div>
          </div>
       </section>
@@ -28,7 +29,7 @@
          <div class="container">
             <div class="row g-5">
                <div class="col-lg-6 wow fadeInLeft">
-                  <div class="p-40 bg-light rounded-1 h-100 shadow-soft">
+                  <div class="p-40 bg-light rounded-1 h-100">
                      <div class="middle-title" class="mb-4">Реквизиты</div>
                         <strong>ИП</strong> Князева О.А.
                         <br><strong>ИНН</strong>: 615524416390
@@ -41,7 +42,7 @@
                </div>
 
                <div class="col-lg-6 wow fadeInRight">
-                  <div class="p-40 bg-light rounded-1 h-100 shadow-soft">
+                  <div class="p-40 bg-light rounded-1 h-100">
                      <div class="middle-title" class="mb-4">Контакты</div>
                      <strong>Телефон</strong>: <a href="tel:+78632049558" class="mb-0">+7 (863) 204-95-58</a>
                      <br><strong>Почта</strong>: <a href="mailto:o-knyazeva89@bk.ru">o-knyazeva89@bk.ru</a>
@@ -67,37 +68,37 @@
             <div class="row g-4 grid-divider">
                <div class="col-md-4 wow fadeInRight" data-wow-delay=".2s">
                   <div class="text-center">       
-                     <img src="images/icons/steps/notes.png" class="bg-color w-100px p-15 rounded-1 mb-3 wow scaleIn" alt="">                     
+                     <img src="images/icons/white/notes.png" class="bg-color w-100px p-15 rounded-1 mb-3 wow scaleIn" alt="">                     
                      <div class="link-name">Диплом с отличием о высшем образовании</div>
                   </div>
                </div>
                <div class="col-md-4 wow fadeInRight" data-wow-delay=".4s">
                   <div class="text-center">                  
-                     <img src="images/icons/steps/notes.png" class="bg-color w-100px p-15 rounded-1 mb-3 wow scaleIn" alt="">            
+                     <img src="images/icons/white/notes.png" class="bg-color w-100px p-15 rounded-1 mb-3 wow scaleIn" alt="">            
                      <div class="link-name">Диплом о профессиональном образование (ординатура)</div>
                   </div>
                </div>
                <div class="col-md-4 wow fadeInRight" data-wow-delay=".6s">
                   <div class="text-center">                         
-                     <img src="images/icons/steps/notes.png" class="bg-color w-100px p-15 rounded-1 mb-3 wow scaleIn" alt="">     
+                     <img src="images/icons/white/notes.png" class="bg-color w-100px p-15 rounded-1 mb-3 wow scaleIn" alt="">     
                      <div class="link-name">Медицинская лицензия №ЛО-61-01-007441</div>
                   </div>
                </div>
                <div class="col-md-4 wow fadeInRight" data-wow-delay=".2s">
                   <div class="text-center">
-                     <img src="images/icons/steps/notes.png" class="bg-color w-100px p-15 rounded-1 mb-3 wow scaleIn" alt="">                              
+                     <img src="images/icons/white/notes.png" class="bg-color w-100px p-15 rounded-1 mb-3 wow scaleIn" alt="">                              
                      <div class="link-name">Санитарно-эпидемиологическое заключение</div>
                   </div>
                </div>
                <div class="col-md-4 wow fadeInRight" data-wow-delay=".4s">
                   <div class="text-center">       
-                     <img src="images/icons/steps/notes.png" class="bg-color w-100px p-15 rounded-1 mb-3 wow scaleIn" alt="">                       
+                     <img src="images/icons/white/notes.png" class="bg-color w-100px p-15 rounded-1 mb-3 wow scaleIn" alt="">                       
                      <div class="link-name">Сертификат специалиста</div>
                   </div>
                </div>
                <div class="col-md-4 wow fadeInRight" data-wow-delay=".6s">
                   <div class="text-center">       
-                     <img src="images/icons/steps/notes.png" class="bg-color w-100px p-15 rounded-1 mb-3 wow scaleIn" alt="">                       
+                     <img src="images/icons/white/notes.png" class="bg-color w-100px p-15 rounded-1 mb-3 wow scaleIn" alt="">                       
                      <div class="link-name">Свидетельство о регистрации ИП</div>
                   </div>
                </div>

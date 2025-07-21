@@ -17,7 +17,9 @@
                                         <div class="absolute z-2 start-0 w-100 abs-middle fs-36 text-white text-center">
                                             <span class="btn-main hover-op-1">Узнать больше</span>
                                         </div>
-                                        <img src="images/services/1.jpg" class="img-fluid hover-scale-1-2" alt="">
+                                        <div class="services__img">
+                                            <img src="images/services/1.jpg" class="img-fluid hover-scale-1-2" alt="">
+                                        </div>
                                         <div class="hover-op-0 abs p-3 px-4 bottom-0 text-center text-light w-100 overlay-black-1 bg-blur">
                                             <div class="item-title">Консультация</div>
                                         </div>
@@ -34,7 +36,9 @@
                                         <div class="absolute z-2 start-0 w-100 abs-middle fs-36 text-white text-center">
                                             <span class="btn-main hover-op-1">Узнать больше</span>
                                         </div>
-                                        <img src="images/services/2.jpg" class="img-fluid hover-scale-1-2" alt="">
+                                        <div class="services__img">
+                                            <img src="images/services/2.jpg" class="img-fluid hover-scale-1-2" alt="">
+                                        </div>
                                         <div class="hover-op-0 abs p-3 px-4 bottom-0 text-center text-light w-100 overlay-black-1 bg-blur">
                                             <div class="item-title">Исследования</div>
                                         </div>
@@ -50,7 +54,9 @@
                                         <div class="absolute z-2 start-0 w-100 abs-middle fs-36 text-white text-center">
                                             <span class="btn-main hover-op-1">Узнать больше</span>
                                         </div>
-                                        <img src="images/services/3.jpg" class="img-fluid hover-scale-1-2" alt="">
+                                        <div class="services__img">
+                                            <img src="images/services/3.jpg" class="img-fluid hover-scale-1-2" alt="">
+                                        </div>
                                         <div class="hover-op-0 abs p-3 px-4 bottom-0 text-center text-light w-100 overlay-black-1 bg-blur">
                                             <div class="item-title">Процедуры</div>
                                         </div>

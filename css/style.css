@@ -13024,7 +13024,9 @@ img {
   gap: 15px;
   align-items: center;
 }
-
+.services__img{
+    position: relative;
+}
 .services__img img{
   width: 100%;
   height: 100%;
@@ -13439,4 +13441,19 @@ footer .link-name{
   .appeal .appeal__img{
     display: none;
   }
+}
+
+.overlay {
+  position: absolute;
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  background-color: rgba(0, 0, 0, 0.3);
+  opacity: 0; 
+  transition: opacity 0.5s ease; 
+}
+
+.hover:hover .overlay {
+  opacity: 1;
 }

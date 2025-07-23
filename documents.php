@@ -68,37 +68,37 @@
             <div class="row g-4 grid-divider">
                <div class="col-md-4 wow fadeInRight" data-wow-delay=".2s">
                   <div class="text-center">       
-                     <img src="images/icons/white/notes.png" class="bg-color w-100px p-15 rounded-1 mb-3 wow scaleIn" alt="">                     
+                     <img src="images/icons/white/notes.png" class="bg-color w-90px p-15 rounded-1 mb-3 wow scaleIn" alt="">                     
                      <div class="link-name">Диплом с отличием о высшем образовании</div>
                   </div>
                </div>
                <div class="col-md-4 wow fadeInRight" data-wow-delay=".4s">
                   <div class="text-center">                  
-                     <img src="images/icons/white/notes.png" class="bg-color w-100px p-15 rounded-1 mb-3 wow scaleIn" alt="">            
+                     <img src="images/icons/white/notes.png" class="bg-color w-90px p-15 rounded-1 mb-3 wow scaleIn" alt="">            
                      <div class="link-name">Диплом о профессиональном образование (ординатура)</div>
                   </div>
                </div>
                <div class="col-md-4 wow fadeInRight" data-wow-delay=".6s">
                   <div class="text-center">                         
-                     <img src="images/icons/white/notes.png" class="bg-color w-100px p-15 rounded-1 mb-3 wow scaleIn" alt="">     
+                     <img src="images/icons/white/notes.png" class="bg-color w-90px p-15 rounded-1 mb-3 wow scaleIn" alt="">     
                      <div class="link-name">Медицинская лицензия №ЛО-61-01-007441</div>
                   </div>
                </div>
                <div class="col-md-4 wow fadeInRight" data-wow-delay=".2s">
                   <div class="text-center">
-                     <img src="images/icons/white/notes.png" class="bg-color w-100px p-15 rounded-1 mb-3 wow scaleIn" alt="">                              
+                     <img src="images/icons/white/notes.png" class="bg-color w-90px p-15 rounded-1 mb-3 wow scaleIn" alt="">                              
                      <div class="link-name">Санитарно-эпидемиологическое заключение</div>
                   </div>
                </div>
                <div class="col-md-4 wow fadeInRight" data-wow-delay=".4s">
                   <div class="text-center">       
-                     <img src="images/icons/white/notes.png" class="bg-color w-100px p-15 rounded-1 mb-3 wow scaleIn" alt="">                       
+                     <img src="images/icons/white/notes.png" class="bg-color w-90px p-15 rounded-1 mb-3 wow scaleIn" alt="">                       
                      <div class="link-name">Сертификат специалиста</div>
                   </div>
                </div>
                <div class="col-md-4 wow fadeInRight" data-wow-delay=".6s">
                   <div class="text-center">       
-                     <img src="images/icons/white/notes.png" class="bg-color w-100px p-15 rounded-1 mb-3 wow scaleIn" alt="">                       
+                     <img src="images/icons/white/notes.png" class="bg-color w-90px p-15 rounded-1 mb-3 wow scaleIn" alt="">                       
                      <div class="link-name">Свидетельство о регистрации ИП</div>
                   </div>
                </div>

@@ -30,35 +30,35 @@
             <div class="row g-4 grid-divider">
                <div class="col-md-1-5 wow fadeInRight" data-wow-delay=".2s">
                   <div class="text-center">       
-                     <img src="images/icons/white/notes.png" class="bg-color w-100px p-15 rounded-1 mb-3 wow scaleIn" alt="">                     
+                     <img src="images/icons/white/notes.png" class="bg-color w-90px p-15 rounded-1 mb-3 wow scaleIn" alt="">                     
                      <div class="item-title">Юридический адрес</div>
                      <p class="mb-0">344034 г. Ростов-на-Дону,<br> пер. Парусный, д. 48, кв. 102</p>
                   </div>
                </div>
                <div class="col-md-1-5 wow fadeInRight" data-wow-delay=".4s">
                   <div class="text-center">                  
-                     <img src="images/icons/white/location.png" class="bg-color w-100px p-15 rounded-1 mb-3 wow scaleIn" alt="">            
+                     <img src="images/icons/white/location.png" class="bg-color w-90px p-15 rounded-1 mb-3 wow scaleIn" alt="">            
                      <div class="item-title">Фактический адрес</div>
                      <p class="mb-0">344033, г .Ростов-на-Дону,<br> ул. Магнитогорская, 1/1</p>
                   </div>
                </div>
                <div class="col-md-1-5 wow fadeInRight" data-wow-delay=".6s">
                   <div class="text-center">
-                     <img src="images/icons/white/calendar.webp" class="bg-color w-100px p-15 rounded-1 mb-3 wow scaleIn" alt="">                              
+                     <img src="images/icons/white/calendar.webp" class="bg-color w-90px p-15 rounded-1 mb-3 wow scaleIn" alt="">                              
                      <div class="item-title">Режим работы</div>
                      <p class="mb-0">ПН-ПТ 9:00-17:00, СБ 9:00 - 15:00, Воскресенье выходной</p>
                   </div>
                </div>
                <div class="col-md-1-5 wow fadeInRight" data-wow-delay=".8s">
                   <div class="text-center contact__link">                         
-                     <img src="images/icons/white/phone.png" class="bg-color w-100px p-15 rounded-1 mb-3 wow scaleIn" alt="">     
+                     <img src="images/icons/white/phone.png" class="bg-color w-90px p-15 rounded-1 mb-3 wow scaleIn" alt="">     
                      <div class="item-title">Телефон</div>
                      <a href="tel:+78632049558" class="mb-0">+7 (863) 204-95-58</a><br>
                   </div>
                </div>
                <div class="col-md-1-5 wow fadeInRight" data-wow-delay="1s">
                   <div class="text-center contact__link">       
-                     <img src="images/icons/white/email.png" class="bg-color w-100px p-15 rounded-1 mb-3 wow scaleIn" alt="">                       
+                     <img src="images/icons/white/email.png" class="bg-color w-90px p-15 rounded-1 mb-3 wow scaleIn" alt="">                       
                      <div class="item-title">Почта</div>
                      <a href="mailto:o-knyazeva89@bk.ru">o-knyazeva89@bk.ru</a>
                   </div>

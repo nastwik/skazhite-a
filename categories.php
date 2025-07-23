@@ -37,7 +37,7 @@
             <div class="row g-4 justify-content-center">
                <div class="col-lg-3 col-md-6">
                      <div class="bg-white text-center p-40 shadow-soft h-100 rounded-1">
-                        <img src="images/icons/white/consultation.png" class="bg-color w-100px p-15 rounded-1 mb-3 wow scaleIn" alt="">
+                        <img src="images/icons/white/consultation.png" class="bg-color w-90px p-15 rounded-1 mb-3 wow scaleIn" alt="">
                         <div class="relative wow fadeInUp">
                            <div class="item-title">Первичный прием с консультацией</div>
                            <div class="item-title price">2500₽</div>
@@ -47,16 +47,40 @@
 
                <div class="col-lg-3 col-md-6">
                      <div class="bg-white text-center p-40 shadow-soft h-100 rounded-1">
-                        <img src="images/icons/white/repeat_visit.png" class="bg-color w-100px p-15 rounded-1 mb-3 wow scaleIn" alt="">
+                        <img src="images/icons/white/repeat_visit.png" class="bg-color w-90px p-15 rounded-1 mb-3 wow scaleIn" alt="">
                         <div class="relative wow fadeInUp">
                            <div class="item-title">Повторный прием с консультацией</div>
                            <div class="item-title price">2000₽</div>
                         </div>
                      </div>
                </div>
-               <div class="text-center">
-                  <a target="_blank" href="about.php" class="btn-main btn-red wow fadeInUp" data-wow-delay=".2s">Полный список услуг</a>
-               </div>
+               <!-- <div class="text-center">
+                  <a target="_blank" href="price.php" class="btn-main btn-red wow fadeInUp" data-wow-delay=".2s">Полный список услуг</a>
+               </div> -->
+
+               <!-- pagination begin -->
+               <<!-- div class="col-lg-12 pt-4 text-center">
+                  <div class="d-inline-block">
+                     <nav aria-label="Page navigation example">
+                        <ul class="pagination">
+                        <li class="page-item">
+                           <a class="page-link" href="#" aria-label="Previous">
+                              <span aria-hidden="true"><i class="fa fa-chevron-left"></i></span>
+                           </a>
+                        </li>
+                        <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item" aria-current="page"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item">
+                           <a class="page-link" href="#" aria-label="Next">
+                              <span aria-hidden="true"><i class="fa fa-chevron-right"></i></span>
+                           </a>
+                        </li>
+                        </ul>
+                     </nav>
+                  </div>
+               </div> -->
+               <!-- pagination end -->
             </div>
             
          </div>

@@ -25,36 +25,86 @@
          </div>
       </section>
 
-      <section>
-         <div class="container relative">
-            <div class="row g-4 gx-5 align-items-center">
-               <div class="col-lg-6 relative wow fadeInLeft">
-                     <div class="relative z-1000">
-                        <div class="subtitle wow fadeInUp" data-wow-delay=".0s">Лечение за два визита</div>
-                        <div class="section-title">По формуле из трех элементов</div>
-                        <p class="lead">Горло першит, как после концерта рок-звезды?
-                        <br>Значит, вы по адресу! Ольга Александровна берется даже за сложные случаи.
-                        <br>Гайморит, отит, тонзиллит, фарингит, ларингит, аденоиды, искривлённая перегородка, серные пробки, потеря слуха — для любой проблемы у доктора есть решение.</p>
-                     </div>
+      <section class="relative overflow-hidden">
+         <div class="container">
+            <div class="row g-4">
+               <div class="col-lg-6 offset-lg-3 text-center">
+                     <div class="subtitle wow fadeInUp mb-3">«Тревожные звоночки», чтобы обратиться к ЛОРу</div>
+                     <h2 class="wow fadeInUp" data-wow-delay=".2s">Лечение за два визита</h2>
+                     <p class="lead mb-0 wow fadeInUp">Горло першит, как после концерта рок-звезды? Значит, вы по адресу! <br> Ольга Александровна берется даже за сложные случаи.
+                        <!-- <br>Гайморит, отит, тонзиллит, фарингит, ларингит, аденоиды, искривлённая перегородка, серные пробки, потеря слуха — для любой проблемы у доктора есть решение. --></p>
+                     <div class="spacer-single"></div>
+                     <div class="spacer-half"></div>
                </div>
+            </div>
 
-               <div class="col-lg-6 wow fadeInRight">
-                  <div class="p-40 bg-light rounded-1 h-100">
-                     <div class="middle-title" class="mb-4">«Тревожные звоночки», чтобы обратиться к ЛОРу:</div>
-                     <ol class="ol-style-1">
-                        <li>долгая заложенность носа</li>
-                        <li>боль в ухе</li>
-                        <li>осипший голос</li>
-                        <li>храп</li>
-                        <li>головокружения</li>
-                        <li>снижение слуха</li>
-                        <li>«ком» в горле</li>
-                     </ol>
+            <div class="row g-4">
+               <div class="col-lg-4 col-sm-6">
+                  <div class="bg-white p-40 shadow-soft h-100 rounded-1">
+                     <div class="bells_icons text-center">
+                        <img src="images/icons/white/ear.png" class="bg-color w-90px p-15 rounded-1 mb-3 wow scaleIn" alt="">
+                     </div>           
+                     <div class="relative wow fadeInUp">
+                        <div class="item-title text-center">Ухо</div>
+                        <div class="symptoms-block__ul">
+                           <div class="symptoms-block__item">Боли в ухе (стреляющие, острые, тянущие и пр.)</div>
+                           <div class="symptoms-block__item">Выделения из ушной раковины</div>
+                           <div class="symptoms-block__item">Ощущение инородного тела</div>
+                           <div class="symptoms-block__item">Снижение слуха</div>
+                           <div class="symptoms-block__item">Чувство заложенности</div>
+                           <div class="symptoms-block__item">Шум или звон в ушах</div>
+                           <div class="symptoms-block__item">Чувство давленияв ушных раковинах</div>
+                           <div class="symptoms-block__item">Травма уха и др.</div>
+                           <div class="symptoms-block__item">Боли в горле</div>
+                        </div>
+                     </div>
                   </div>
                </div>
+
+               <div class="col-lg-4 col-sm-6">
+                  <div class="bg-white p-40 shadow-soft h-100 rounded-1">
+                     <div class="bells_icons text-center">
+                        <img src="images/icons/white/throat.png" class="bg-color w-90px p-15 rounded-1 mb-3 wow scaleIn" alt="">
+                     </div>                      
+                     <div class="relative wow fadeInUp">
+                        <div class="item-title text-center">Горло</div>
+                        <div class="symptoms-block__ul">
+                           <div class="symptoms-block__item">Боли в горле</div>
+                           <div class="symptoms-block__item">Болезненное, затрудненное глотание</div>
+                           <div class="symptoms-block__item">Покраснения в горле</div>
+                           <div class="symptoms-block__item">Осиплость (охриплость), изменение тембра голоса</div>
+                           <div class="symptoms-block__item">Чувство першения в горле, сопровождаемое кашлем</div>
+                           <div class="symptoms-block__item">Увеличение лимфоузлов под челюстью</div>
+                           <div class="symptoms-block__item">Травмы в области горла и пр.</div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="col-lg-4 col-sm-6">
+                  <div class="bg-white p-40 shadow-soft h-100 rounded-1">
+                     <div class="bells_icons text-center">
+                        <img src="images/icons/white/nose.png" class="bg-color w-90px p-15 rounded-1 mb-3 wow scaleIn" alt="">
+                     </div>                      
+                     <div class="relative wow fadeInUp">
+                        <div class="item-title text-center">Нос</div>
+                        <div class="symptoms-block__ul">
+                           <div class="symptoms-block__item">Боли в области носовых пазух</div>
+                           <div class="symptoms-block__item">Затрудненное носовое дыхание</div>
+                           <div class="symptoms-block__item">Зуд в носу, частое чихание</div>
+                           <div class="symptoms-block__item">Затянувшийся насморк или, наоборот, сухость слизистых</div>
+                           <div class="symptoms-block__item">Частые носовые кровотечения</div>
+                           <div class="symptoms-block__item">Снижение обоняния</div>
+                           <div class="symptoms-block__item">Травмы носовых пазух и др.</div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
             </div>
          </div>
       </section>
+
       <section class="relative bg-blue">
          <div class="container">
             <div class="row g-4">
@@ -65,7 +115,7 @@
                   <div class="spacer-half"></div>
                </div>
             </div>
-            <div class="row g-4">
+            <!-- <div class="row g-4">
                <div class="col-lg-4 col-md-6">
                   <div class="relative bg-white p-4 rounded-1 formula-content shadow-soft">
                      <div class="services-icons__img">
@@ -97,6 +147,35 @@
                         <div class="item-title mb-0">квалифициро<wbr>ванная помощь</div>
                      </div>
                   </div>
+               </div>
+
+            </div> -->
+            <div class="row g-4 contacts-area">
+               <div class="col-lg-4 col-md-6">
+                     <div class="relative">
+                        <img src="images/icons/white/individuality.png" class="abs bg-color-3 w-90px p-15 rounded-1 mb-3 wow scaleIn" alt="">
+                        <div class="relative ps-100 ms-4 wow fadeInUp">
+                           <div class="item-title">индивидуаль<wbr>ный подход к каждому</div>
+                        </div>
+                     </div>
+               </div>
+
+               <div class="col-lg-4 col-md-6">
+                     <div class="relative">
+                        <img src="images/icons/white/otoscope.png" class="abs bg-color-3 w-90px p-15 rounded-1 mb-3 wow scaleIn" alt="">
+                        <div class="relative ps-100 ms-4 wow fadeInUp">
+                           <div class="item-title">профессио<wbr>нальное оборудование</div>
+                        </div>
+                     </div>
+               </div>
+
+               <div class="col-lg-4 col-md-6">
+                     <div class="relative">
+                        <img src="images/icons/white/qualification.png" class="abs bg-color-3 w-90px p-15 rounded-1 mb-3 wow scaleIn" alt="">
+                        <div class="relative ps-100 ms-4 wow fadeInUp contact__link">
+                           <div class="item-title">квалифициро<wbr>ванная помощь</div>
+                        </div>
+                     </div>
                </div>
 
             </div>

@@ -59,7 +59,7 @@
                </div> -->
 
                <!-- pagination begin -->
-               <<!-- div class="col-lg-12 pt-4 text-center">
+               <!-- div class="col-lg-12 pt-4 text-center">
                   <div class="d-inline-block">
                      <nav aria-label="Page navigation example">
                         <ul class="pagination">

@@ -8,35 +8,35 @@
                         </div>
                      </div>
                      <div class="row g-4 contacts-area">
-                            <div class="col-lg-4 col-md-6">
-                                <div class="relative">
-                                    <img src="images/icons/white/calendar.webp" class="abs bg-color-3 w-90px p-15 rounded-1 mb-3 wow scaleIn" alt="">
-                                    <div class="relative ps-100 ms-4 wow fadeInUp">
-                                        <div class="item-title">Режим работы</div>
-                                        <p class="mb-0">ПН-ПТ 9:00-17:00, СБ 9:00 - 15:00 <br> Воскресенье выходной</p>
-                                    </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="relative">
+                                <img src="images/icons/white/calendar.webp" class="abs bg-color-3 w-90px p-15 rounded-1 mb-3 wow scaleIn" alt="">
+                                <div class="relative ps-100 ms-4 wow fadeInUp">
+                                    <div class="item-title">Режим работы</div>
+                                    <p class="mb-0">ПН-ПТ 9:00-17:00, СБ 9:00 - 15:00 <br> Воскресенье выходной</p>
                                 </div>
                             </div>
+                        </div>
 
-                            <div class="col-lg-4 col-md-6">
-                                <div class="relative">
-                                    <img src="images/icons/white/location.png" class="abs bg-color-3 w-90px p-15 rounded-1 mb-3 wow scaleIn" alt="">
-                                    <div class="relative ps-100 ms-4 wow fadeInUp">
-                                        <div class="item-title">Адрес</div>
-                                        <p class="mb-0">344033, г. Ростов-на-Дону, <br> ул. Магнитогорская 1/1</p>
-                                    </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="relative">
+                                <img src="images/icons/white/location.png" class="abs bg-color-3 w-90px p-15 rounded-1 mb-3 wow scaleIn" alt="">
+                                <div class="relative ps-100 ms-4 wow fadeInUp">
+                                    <div class="item-title">Адрес</div>
+                                    <p class="mb-0">344033, г. Ростов-на-Дону, <br> ул. Магнитогорская 1/1</p>
                                 </div>
                             </div>
+                        </div>
 
-                            <div class="col-lg-4 col-md-6">
-                                <div class="relative">
-                                    <img src="images/icons/white/phone.png" class="abs bg-color-3 w-90px p-15 rounded-1 mb-3 wow scaleIn" alt="">
-                                    <div class="relative ps-100 ms-4 wow fadeInUp contact__link">
-                                        <div class="item-title">Телефон</div>
-                                        <a href="tel:+78632049558" class="mb-0">+7 (863) 204-95-58</a>
-                                    </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="relative">
+                                <img src="images/icons/white/phone.png" class="abs bg-color-3 w-90px p-15 rounded-1 mb-3 wow scaleIn" alt="">
+                                <div class="relative ps-100 ms-4 wow fadeInUp contact__link">
+                                    <div class="item-title">Телефон</div>
+                                    <a href="tel:+78632049558" class="mb-0">+7 (863) 204-95-58</a>
                                 </div>
                             </div>
+                        </div>
 
                      </div>
                   </div>

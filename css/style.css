@@ -13457,3 +13457,76 @@ footer .link-name{
 .hover:hover .overlay {
   opacity: 1;
 }
+
+.go-top {
+  position: fixed;
+  cursor: pointer;
+  bottom: -100px;
+  right: 20px;
+  background-color: var(--secondary-color);
+  z-index: 4;
+  width: 45px;
+  text-align: center;
+  height: 45px;
+  opacity: 0;
+  visibility: hidden;
+  border-radius: 50%;
+  font-size: 22px;
+  transition: 0.3s;
+  overflow: hidden;
+  -webkit-box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.go-top i {
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 45%;
+  -webkit-transform: translateY(-45%);
+  transform: translateY(-45%);
+  text-align: center;
+  font-size: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.go-top {
+    display: none;
+}
+
+.go-top.active {
+    display: block; 
+}
+
+.go-top.active {
+  opacity: 1;
+  visibility: visible;
+  bottom: 50px;
+}
+
+.go-top:hover {
+  background-color: var(--primary-color);
+  transition: 0.3s;
+}
+
+.fa-chevron-up:before {
+    content: "\f078";
+}
+
+.symptoms-block__ul{
+  padding-top: 10px;
+}
+
+.symptoms-block__item {
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.symptoms-block__item:before {
+  content: '+';
+  display: block;
+  color: var(--primary-color);
+  margin-right: 10px;
+  font-weight: bold;
+}

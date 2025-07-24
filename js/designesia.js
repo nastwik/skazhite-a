@@ -1966,5 +1966,33 @@
         });
     });
 
+    // Go to Top
+
+    $(document).ready(function() {
+        if ($(window).scrollTop() > 600) {
+            $('.go-top').addClass('active');
+        } else {
+            $('.go-top').removeClass('active');
+        }
+
+        $(window).on('scroll', function () {
+            var scrolled = $(window).scrollTop();
+            if (scrolled > 600) {
+                $('.go-top').addClass('active');
+            } else {
+                $('.go-top').removeClass('active');
+            }
+        });
+
+        $('.go-top').on('click', function () {
+            $("html, body").animate({ scrollTop: "0" }, 500);
+        });
+
+        jQuery(window).on('load', function () {
+            jQuery(".preloader").fadeOut(500);
+        });
+    });
+
+
 }); 
  })(jQuery);

@@ -78,8 +78,11 @@
                 </div>
             </div>
         </footer>
-        <!-- footer close -->
     </div>
+            <!-- footer close -->
+         <div class="go-top">
+            <i class="icofont-arrow-up text-white"></i>
+        </div>
 
 
     <!-- Javascript Files

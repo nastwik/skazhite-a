@@ -115,42 +115,8 @@
                   <div class="spacer-half"></div>
                </div>
             </div>
-            <!-- <div class="row g-4">
-               <div class="col-lg-4 col-md-6">
-                  <div class="relative bg-white p-4 rounded-1 formula-content shadow-soft">
-                     <div class="services-icons__img">
-                        <img src="images/icons/red/individuality.png">
-                     </div>
-                     <div>
-                        <div class="item-title mb-0">индивидуаль<wbr>ный подход к каждому</div>
-                     </div>
-                  </div>
-               </div>
-               
-               <div class="col-lg-4 col-md-6">
-                  <div class="relative bg-white p-4 rounded-1 formula-content shadow-soft">
-                     <div class="services-icons__img">
-                        <img src="images/icons/red/equipment.png">
-                     </div>
-                     <div>
-                        <div class="item-title mb-0">профессио<wbr>нальное оборудование</div>
-                     </div>
-                  </div>
-               </div>
-               
-               <div class="col-lg-4 col-md-6">
-                  <div class="relative bg-white p-4 rounded-1 formula-content shadow-soft">
-                     <div class="services-icons__img">
-                        <img src="images/icons/red/qualification.png">
-                     </div>
-                     <div>
-                        <div class="item-title mb-0">квалифициро<wbr>ванная помощь</div>
-                     </div>
-                  </div>
-               </div>
 
-            </div> -->
-            <div class="row g-4 contacts-area">
+            <div class="row g-4 formula-area">
                <div class="col-lg-4 col-md-6">
                      <div class="relative">
                         <img src="images/icons/white/individuality.png" class="abs bg-color-3 w-90px p-15 rounded-1 mb-3 wow scaleIn" alt="">

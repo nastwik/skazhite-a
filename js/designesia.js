@@ -1993,6 +1993,12 @@
         });
     });
 
+    // SEARCH BOX
+    $('.navbar .search').on('click', function (e) {
+      $(this).toggleClass('open');
+      $(".search-box").toggleClass('active');
+      $("body").toggleClass("overflow");
+    });
 
 }); 
  })(jQuery);

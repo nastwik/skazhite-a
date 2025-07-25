@@ -29,10 +29,13 @@
 </head>
 
 <body>
-    <div id="wrapper">
-        <div class="float-text show-on-scroll">
-            <span><a href="#">НАВЕРХ</a></span>
+    <div class="search-box">
+        <div class="inner">
+         <!-- get_search_form( $args );  -->
         </div>
+    </div>
+
+    <div id="wrapper">
         <div class="scrollbar-v show-on-scroll"></div>
 
         <!-- page preloader begin -->
@@ -85,7 +88,9 @@
                                 </ul>
                             </div>
                             <div class="de-flex-col">
-                                <a class="fw-bold text-dark"><i class="icofont-search-1"></i></a>
+                                <div class="search">
+                                    <a class="fw-bold text-dark"><i class="icofont-search-1"></i></a>
+                                </div>
                                 <div class="menu_side_area">   
                                     <a href="tel:+78632049558" class="btn-main btn-blue-2">Версия для слабовидящих</a>
                                     <span id="menu-btn"></span>

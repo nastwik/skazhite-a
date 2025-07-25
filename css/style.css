@@ -13349,6 +13349,14 @@ footer .link-name{
   height: 100%;
   object-fit: contain;
 }
+.formula-area .relative{
+  min-height: 90px;
+  align-content: center;
+}
+
+.appeal__text{
+  text-shadow: black 1px 1px 2px;
+}
 
 @media (max-width: 992px) {
   .imglist a {
@@ -13368,7 +13376,7 @@ footer .link-name{
   .imglist a {
     width: calc(100% - 23px);
   }
-  .contacts-area{
+  .contacts-area, .formula-area{
     margin-bottom: 30px;
   }
 }
@@ -13529,4 +13537,102 @@ footer .link-name{
   color: var(--primary-color);
   margin-right: 10px;
   font-weight: bold;
+}
+
+/* CONTACT FORM */
+
+.contact-one {
+  position: relative;
+  background-color: #F2EEEA;
+}
+
+.contact-one__map {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+/* SEARCH */
+
+.search{
+  cursor: pointer;
+}
+
+/* SEARCH BOX */
+.search-box {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 3;
+  background: #0b0b0b;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  transition-duration: 500ms;
+  -webkit-transition-duration: 500ms;
+  transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+  -webkit-transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+  opacity: 0;
+  visibility: hidden;
+  color: #fff;
+}
+
+.search-box .inner {
+  width: 50vw;
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.search-box .inner form {
+  width: 100%;
+  display: block;
+}
+
+.search-box .inner form input[type="text"] {
+  width: 100%;
+  height: 70px;
+  border: none;
+  border-bottom: 4px solid #232222;
+  background: none;
+  font-size: 20px;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.search-box .inner form input[type="submit"] {
+  height: 70px;
+  background: #feed01;
+  border: none;
+  font-weight: 600;
+  padding: 0 60px;
+}
+
+.search-box .inner form input[type="submit"]:hover {
+  color: #000;
+}
+
+.search-box.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+@media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
+  .search-box .inner {
+    width: 90vw;
+  }
 }

@@ -1966,6 +1966,7 @@
         });
     });
 
+
     // Go to Top
 
     $(document).ready(function() {
@@ -1993,11 +1994,34 @@
         });
     });
 
-    // SEARCH BOX
-    $('.navbar .search').on('click', function (e) {
-      $(this).toggleClass('open');
-      $(".search-box").toggleClass('active');
-      $("body").toggleClass("overflow");
+    
+    // Search Overlay
+
+    function openSearch() {
+        const overlay = document.getElementById("myOverlay");
+        overlay.classList.add("show");
+        document.body.style.overflow = 'hidden'; 
+    }
+
+    function closeSearch() {
+        const overlay = document.getElementById("myOverlay");
+        overlay.classList.remove("show");
+        document.body.style.overflow = ''; 
+    }
+
+    document.getElementById("myOverlay").addEventListener("click", function(e) {
+        if (e.target === this) {
+            closeSearch(); 
+        }
+    });
+
+    document.querySelector(".closebtn").addEventListener("click", function(e) {
+        closeSearch(); 
+    });
+
+    document.getElementById("search-button").addEventListener("click", function(e) {
+        e.preventDefault(); 
+        openSearch(); 
     });
 
 }); 

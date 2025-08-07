@@ -29,14 +29,8 @@
 </head>
 
 <body>
-    <div class="search-box">
-        <div class="inner">
-         <!-- get_search_form( $args );  -->
-        </div>
-    </div>
 
     <div id="wrapper">
-        <div class="scrollbar-v show-on-scroll"></div>
 
         <!-- page preloader begin -->
         <div id="de-loader"></div>
@@ -87,20 +81,41 @@
                                     <li><a class="menu-item" href="contacts.php">Контакты</a></li>
                                 </ul>
                             </div>
+                            
                             <div class="de-flex-col">
-                                <div class="search">
-                                    <a class="fw-bold text-dark"><i class="icofont-search-1"></i></a>
+                                <div id="init" class="search">
+                                    <a href="#" class="fw-bold text-dark" id="search-button">
+                                        <i class="icofont-search-1"></i>
+                                    </a>
                                 </div>
+
+                                <div id="myOverlay" class="search-overlay"> 
+                                    <div class="overlay-content">
+                                        <div class="overlay-header">
+                                            <div class="middle-title">Поиск</div>
+                                            <button class="closebtn"><i class="icofont-close"></i></button>
+                                        </div>
+                                        <div class="search-group">
+                                            <form action="action_page.php" style="flex-grow: 1; display: flex;">
+                                                <input type="text" placeholder="Введите для поиска" name="search" required>
+                                            </form>
+                                            <button type="submit" class="search-group__btn"><i class="fa fa-search"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+
                                 <div class="menu_side_area">   
                                     <a href="tel:+78632049558" class="btn-main btn-blue-2">Версия для слабовидящих</a>
                                     <span id="menu-btn"></span>
                                 </div>
                             </div>
+
                         </div>
                     </div>
                 </div>
             </div>
         </header>
+
         <!-- header close -->
         <!-- content begin -->
         <div class="no-bottom no-top" id="content">

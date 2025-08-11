@@ -79,10 +79,11 @@
             </div>
         </footer>
     </div>
-            <!-- footer close -->
-         <div class="go-top">
-            <i class="icofont-arrow-up text-white"></i>
-        </div>
+
+    <!-- footer close -->
+    <div class="go-top">
+        <i class="icofont-arrow-up text-white"></i>
+    </div>
 
 
     <!-- Javascript Files
@@ -97,12 +98,14 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
     <script src="https://www.sng-it.ru/bitrix/templates/master/js/jquery.inputmask.bundle.min.js"></script>
+    <script src="https://lidrekon.ru/slep/js/jquery.js"></script>
+    <script src="https://lidrekon.ru/slep/js/uhpv-hover-full.min.js"></script>
 
     <script>
-    $(window).on("load", function(){
-      $(".twentytwenty-container[data-orientation!='vertical']").twentytwenty({default_offset_pct: 0.5});
-      $(".twentytwenty-container[data-orientation='vertical']").twentytwenty({default_offset_pct: 0.5, orientation: 'vertical'});
-    });
+        $(window).on("load", function(){
+        $(".twentytwenty-container[data-orientation!='vertical']").twentytwenty({default_offset_pct: 0.5});
+        $(".twentytwenty-container[data-orientation='vertical']").twentytwenty({default_offset_pct: 0.5, orientation: 'vertical'});
+        });
     </script>
 
 </html>

@@ -6321,11 +6321,6 @@ object {
 
 /* --------------- map --------------- */
 
-#map {
-  width: 100%;
-  height: 500px;
-}
-
 .map iframe {
   width: 100%;
   border: solid 1px #ccc;
@@ -13544,6 +13539,7 @@ footer .link-name{
 .contact-one {
   position: relative;
   background-color: #F2EEEA;
+  overflow: hidden;
 }
 
 .contact-one__map {
@@ -13554,15 +13550,27 @@ footer .link-name{
   left: 0;
 }
 
+.contact-one #maps {
+  width: 100%;
+  height: 100vh;
+}
+
+.contact-one__map iframe{
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
 /* SEARCH */
 
 .de-flex-col {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .search {
-    cursor: pointer;
+  cursor: pointer;
+  color: #fff;
 }
 
 .search-overlay {
@@ -13646,4 +13654,24 @@ footer .link-name{
 
 .search-group__btn:active {
     transform: scale(0.95);
+}
+
+@media screen and (max-width: 980px) {
+  #glazd {
+      position:absolute;
+      top:10px;
+      right:100px;
+      z-index: 99999;
+      width:50px;
+  }
+}
+
+@media screen and (min-width: 980px) {
+  #glazd {
+      position:absolute;
+      top:20px;
+      left:50px;
+      z-index: 99999;
+      width:50px;
+  }
 }

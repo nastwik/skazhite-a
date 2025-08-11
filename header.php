@@ -105,7 +105,7 @@
                                 </div>
 
                                 <div class="menu_side_area">   
-                                    <a href="tel:+78632049558" class="btn-main btn-blue-2">Версия для слабовидящих</a>
+                                    <a id="specialButton" id='glazd' href="#" class="btn-main btn-blue-2">Версия для слабовидящих</a>
                                     <span id="menu-btn"></span>
                                 </div>
                             </div>

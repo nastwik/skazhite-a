@@ -105,7 +105,7 @@
                                 </div>
 
                                 <div class="menu_side_area">   
-                                    <a id="specialButton" id='glazd' href="#" class="btn-main btn-blue-2">Версия для слабовидящих</a>
+                                    <a href="#" class="btn-main btn-blue-2">Версия для слабовидящих</a>
                                     <span id="menu-btn"></span>
                                 </div>
                             </div>

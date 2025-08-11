@@ -9,27 +9,27 @@
                     </div>
                         <div class="row">
                             <p class="imglist">
-                                <a href="images/background/plug.png" data-fancybox="images" class="soft-shadow">
+                                <a href="images/background/plug.png" data-fancybox="images" class="shadow-soft">
                                     <img src="images/background/mini-370x260.png">
                                 </a>
                                 
-                                <a href="images/background/plug.png" data-fancybox="images" class="soft-shadow">
+                                <a href="images/background/plug.png" data-fancybox="images" class="shadow-soft">
                                     <img src="images/background/mini-370x260.png">
                                 </a>
                                 
-                                <a href="images/background/plug.png" data-fancybox="images" class="soft-shadow">
+                                <a href="images/background/plug.png" data-fancybox="images" class="shadow-soft">
                                     <img src="images/background/mini-370x260.png">
                                 </a>
                                 
-                                <a href="images/background/plug.png" data-fancybox="images" class="soft-shadow">
+                                <a href="images/background/plug.png" data-fancybox="images" class="shadow-soft">
                                     <img src="images/background/mini-370x260.png">
                                 </a>
                                 
-                                <a href="images/background/plug.png" data-fancybox="images" class="soft-shadow">
+                                <a href="images/background/plug.png" data-fancybox="images" class="shadow-soft">
                                     <img src="images/background/mini-370x260.png">
                                 </a>
 
-                                <a href="images/background/plug.png" data-fancybox="images" class="soft-shadow">
+                                <a href="images/background/plug.png" data-fancybox="images" class="shadow-soft">
                                     <img src="images/background/mini-370x260.png">
                                 </a>
                             </p>

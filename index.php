@@ -6,7 +6,9 @@
 
    <? require_once 'include/main_page/advantages.php' ?>
 
-   <? require_once 'include/main_page/doctors.php' ?>
+   <? /* require_once 'include/main_page/doctors.php' */ ?>
+
+   <? require_once 'include/main_page/doctor.php' ?>
 
    <? require_once 'include/main_page/about.php' ?>
 

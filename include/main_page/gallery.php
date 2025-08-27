@@ -9,28 +9,28 @@
                     </div>
                         <div class="row">
                             <p class="imglist">
-                                <a href="images/background/plug.png" data-fancybox="images" class="shadow-soft">
-                                    <img src="images/background/mini-370x260.png">
+                                <a href="<?php echo get_template_directory_uri(); ?>/images/background/plug.png" data-fancybox="images" class="shadow-soft">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/background/mini-370x260.png">
                                 </a>
                                 
-                                <a href="images/background/plug.png" data-fancybox="images" class="shadow-soft">
-                                    <img src="images/background/mini-370x260.png">
+                                <a href="<?php echo get_template_directory_uri(); ?>/images/background/plug.png" data-fancybox="images" class="shadow-soft">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/background/mini-370x260.png">
                                 </a>
                                 
-                                <a href="images/background/plug.png" data-fancybox="images" class="shadow-soft">
-                                    <img src="images/background/mini-370x260.png">
+                                <a href="<?php echo get_template_directory_uri(); ?>/images/background/plug.png" data-fancybox="images" class="shadow-soft">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/background/mini-370x260.png">
                                 </a>
                                 
-                                <a href="images/background/plug.png" data-fancybox="images" class="shadow-soft">
-                                    <img src="images/background/mini-370x260.png">
+                                <a href="<?php echo get_template_directory_uri(); ?>/images/background/plug.png" data-fancybox="images" class="shadow-soft">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/background/mini-370x260.png">
                                 </a>
                                 
-                                <a href="images/background/plug.png" data-fancybox="images" class="shadow-soft">
-                                    <img src="images/background/mini-370x260.png">
+                                <a href="<?php echo get_template_directory_uri(); ?>/images/background/plug.png" data-fancybox="images" class="shadow-soft">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/background/mini-370x260.png">
                                 </a>
 
-                                <a href="images/background/plug.png" data-fancybox="images" class="shadow-soft">
-                                    <img src="images/background/mini-370x260.png">
+                                <a href="<?php echo get_template_directory_uri(); ?>/images/background/plug.png" data-fancybox="images" class="shadow-soft">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/background/mini-370x260.png">
                                 </a>
                             </p>
                         </div>

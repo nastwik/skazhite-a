@@ -18,7 +18,7 @@
                </div>
                <div class="col-lg-6">
                   <div class="template-offer__img">
-                     <img src="images/misc/8.png" class="w-100 wow fadeInUp" data-wow-delay=".2s" alt="" >
+                     <img src="<?php echo get_template_directory_uri(); ?>/images/misc/8.png" class="w-100" alt="" >
                   </div>
                </div>  
             </div>
@@ -29,7 +29,7 @@
          <div class="container relative">
             <div class="row g-4 gx-5 align-items-center">
                <div class="col-lg-6">
-                  <img src="images/doctors/olga_black-bg.jpg" class="w-100 rounded-1" alt="">
+                  <img src="<?php echo get_template_directory_uri(); ?>/images/doctors/olga_black-bg.jpg" class="w-100 rounded-1" alt="">
                </div>
                <div class="col-lg-6 relative">
                   <div class="relative z-1000">
@@ -42,7 +42,7 @@
                   </div>
                   <div class="about-author d-flex align-items-center">
                      <div class="author-ava cs_author-painting">
-                        <img src="images/doctors/author-painting.png" alt="Подпись врача">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/doctors/author-painting.png" alt="Подпись врача">
                      </div>
                   </div>
                </div>

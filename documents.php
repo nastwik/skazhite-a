@@ -18,7 +18,7 @@
                </div>
                <div class="col-lg-6">
                   <div class="template-offer__img">
-                     <img src="images/misc/5.png" class="w-100 wow fadeInUp" data-wow-delay=".2s" alt="" >
+                     <img src="<?php echo get_template_directory_uri(); ?>/images/misc/5.png" class="w-100" alt="" >
                   </div>
                </div>  
             </div>
@@ -67,38 +67,40 @@
             </div>
             <div class="row g-4 grid-divider">
                <div class="col-md-4 wow fadeInRight" data-wow-delay=".2s">
-                  <div class="text-center">       
-                     <img src="images/icons/white/notes.png" class="bg-color w-90px p-15 rounded-1 mb-3 wow scaleIn" alt="">                     
+                  <div class="text-center">
+                     <a href="<?php echo get_template_directory_uri(); ?>/images/documents/diplom1.pdf" data-fancybox target="_blank">       
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/icons/white/notes.png" class="bg-color w-90px p-15 rounded-1 mb-3 wow scaleIn" alt="">
+                     </a>                     
                      <div class="link-name">Диплом с отличием о высшем образовании</div>
                   </div>
                </div>
                <div class="col-md-4 wow fadeInRight" data-wow-delay=".4s">
                   <div class="text-center">                  
-                     <img src="images/icons/white/notes.png" class="bg-color w-90px p-15 rounded-1 mb-3 wow scaleIn" alt="">            
+                     <img src="<?php echo get_template_directory_uri(); ?>/images/icons/white/notes.png" class="bg-color w-90px p-15 rounded-1 mb-3 wow scaleIn" alt="">            
                      <div class="link-name">Диплом о профессиональном образование (ординатура)</div>
                   </div>
                </div>
                <div class="col-md-4 wow fadeInRight" data-wow-delay=".6s">
                   <div class="text-center">                         
-                     <img src="images/icons/white/notes.png" class="bg-color w-90px p-15 rounded-1 mb-3 wow scaleIn" alt="">     
+                     <img src="<?php echo get_template_directory_uri(); ?>/images/icons/white/notes.png" class="bg-color w-90px p-15 rounded-1 mb-3 wow scaleIn" alt="">     
                      <div class="link-name">Медицинская лицензия №ЛО-61-01-007441</div>
                   </div>
                </div>
                <div class="col-md-4 wow fadeInRight" data-wow-delay=".2s">
                   <div class="text-center">
-                     <img src="images/icons/white/notes.png" class="bg-color w-90px p-15 rounded-1 mb-3 wow scaleIn" alt="">                              
+                     <img src="<?php echo get_template_directory_uri(); ?>/images/icons/white/notes.png" class="bg-color w-90px p-15 rounded-1 mb-3 wow scaleIn" alt="">                              
                      <div class="link-name">Санитарно-эпидемиологическое заключение</div>
                   </div>
                </div>
                <div class="col-md-4 wow fadeInRight" data-wow-delay=".4s">
                   <div class="text-center">       
-                     <img src="images/icons/white/notes.png" class="bg-color w-90px p-15 rounded-1 mb-3 wow scaleIn" alt="">                       
+                     <img src="<?php echo get_template_directory_uri(); ?>/images/icons/white/notes.png" class="bg-color w-90px p-15 rounded-1 mb-3 wow scaleIn" alt="">                       
                      <div class="link-name">Сертификат специалиста</div>
                   </div>
                </div>
                <div class="col-md-4 wow fadeInRight" data-wow-delay=".6s">
                   <div class="text-center">       
-                     <img src="images/icons/white/notes.png" class="bg-color w-90px p-15 rounded-1 mb-3 wow scaleIn" alt="">                       
+                     <img src="<?php echo get_template_directory_uri(); ?>/images/icons/white/notes.png" class="bg-color w-90px p-15 rounded-1 mb-3 wow scaleIn" alt="">                       
                      <div class="link-name">Свидетельство о регистрации ИП</div>
                   </div>
                </div>

@@ -17,14 +17,14 @@
     
     <!-- CSS Files
     ================================================== -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrap">
-    <link href="css/plugins.css" rel="stylesheet" type="text/css" >
-    <link href="css/swiper.css" rel="stylesheet" type="text/css" >
-    <link href="css/style.css" rel="stylesheet" type="text/css" >
-    <link href="css/coloring.css" rel="stylesheet" type="text/css" >
+    <link href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrap">
+    <link href="<?php echo get_template_directory_uri(); ?>/css/plugins.css" rel="stylesheet" type="text/css" >
+    <link href="<?php echo get_template_directory_uri(); ?>/css/swiper.css" rel="stylesheet" type="text/css" >
+    <link href="<?php echo get_template_directory_uri(); ?>/style.css" rel="stylesheet" type="text/css" >
+    <link href="<?php echo get_template_directory_uri(); ?>/css/coloring.css" rel="stylesheet" type="text/css" >
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
     <!-- color scheme -->
-    <link id="colors" href="css/colors/scheme-01.css" rel="stylesheet" type="text/css" >
+    <link id="colors" href="<?php echo get_template_directory_uri(); ?>/css/colors/scheme-01.css" rel="stylesheet" type="text/css" >
 
 </head>
 
@@ -46,7 +46,7 @@
                                 <!-- logo begin -->
                                 <div class="main-header__logo">
                                     <a href="/">
-                                        <img src="images/logo.png" alt="logo" width="75">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="logo" width="75">
                                         <div>
                                             <div>Скажите «А»</div>
                                             <div>ЛОР центр</div>

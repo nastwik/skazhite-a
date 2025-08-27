@@ -9,7 +9,7 @@
                         <div class="de-flex-col">
                             <div class="footer__logo">
                                 <a href="/">
-                                    <img src="images/logo.png" alt="logo" width="75">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="logo" width="75">
                                     <div>
                                         <div class="text-white">Скажите «А»</div>
                                         <div class="text-white">ЛОР центр</div>
@@ -88,13 +88,13 @@
 
     <!-- Javascript Files
     ================================================== -->
-    <script src="js/plugins.js"></script>
-    <script src="js/designesia.js"></script>
-    <script src="js/swiper.js"></script>
-    <script src="js/custom-marquee.js"></script>
-    <script src="js/custom-swiper-1.js"></script>
-    <script src="js/jquery.event.move.js"></script>
-    <script src="js/jquery.twentytwenty.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/plugins.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/designesia.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/swiper.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/custom-marquee.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/custom-swiper-1.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.event.move.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.twentytwenty.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
     <script src="https://www.sng-it.ru/bitrix/templates/master/js/jquery.inputmask.bundle.min.js"></script>

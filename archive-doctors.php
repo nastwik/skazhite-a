@@ -18,7 +18,7 @@
                </div>
                <div class="col-lg-6">
                   <div class="template-offer__img">
-                     <img src="images/misc/9.png" class="w-100 wow fadeInUp" data-wow-delay=".2s" alt="" >
+                     <img src="<?php echo get_template_directory_uri(); ?>/images/misc/9.png" class="w-100" alt="" >
                   </div>
                </div>  
             </div>
@@ -37,7 +37,7 @@
                <div class="col-lg-4 col-md-6 text-center">
                      <div class="team_member">
                         <div class="team_img">
-                           <img src="images/doctors/doctor-01.jpeg" alt="team member">
+                           <img src="<?php echo get_template_directory_uri(); ?>/images/doctors/doctor-01.jpeg" alt="team member">
                         </div>
                         <div class="middle-title">Ольга Князева</div>
                         <p class="role">ЛОР-врач</p>

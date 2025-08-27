@@ -2,7 +2,7 @@
                 <div class="container relative">
                     <div class="row g-4 gx-5 align-items-center">
                     <div class="col-lg-6">
-                        <img src="images/doctors/olga_black-mini.jpg" class="w-100 rounded-1" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/doctors/olga_black-mini.jpg" class="w-100 rounded-1" alt="">
                     </div>
                     <div class="col-lg-6 relative">
                         <div class="relative z-1000">

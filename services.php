@@ -18,7 +18,7 @@
                </div>
                <div class="col-lg-6">
                   <div class="template-offer__img">
-                     <img src="images/misc/2.png" class="w-100 wow fadeInUp" data-wow-delay=".2s" alt="">
+                     <img src="<?php echo get_template_directory_uri(); ?>/images/misc/2.png" class="w-100" alt="">
                   </div>
                </div>  
             </div>
@@ -42,7 +42,7 @@
                <div class="col-lg-4 col-sm-6">
                   <div class="bg-white p-40 shadow-soft h-100 rounded-1">
                      <div class="bells_icons text-center">
-                        <img src="images/icons/white/ear.png" class="bg-color w-90px p-15 rounded-1 mb-3 wow scaleIn" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/icons/white/ear.png" class="bg-color w-90px p-15 rounded-1 mb-3" alt="">
                      </div>           
                      <div class="relative wow fadeInUp">
                         <div class="item-title text-center">Ухо</div>
@@ -64,7 +64,7 @@
                <div class="col-lg-4 col-sm-6">
                   <div class="bg-white p-40 shadow-soft h-100 rounded-1">
                      <div class="bells_icons text-center">
-                        <img src="images/icons/white/throat.png" class="bg-color w-90px p-15 rounded-1 mb-3 wow scaleIn" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/icons/white/throat.png" class="bg-color w-90px p-15 rounded-1 mb-3" alt="">
                      </div>                      
                      <div class="relative wow fadeInUp">
                         <div class="item-title text-center">Горло</div>
@@ -84,7 +84,7 @@
                <div class="col-lg-4 col-sm-6">
                   <div class="bg-white p-40 shadow-soft h-100 rounded-1">
                      <div class="bells_icons text-center">
-                        <img src="images/icons/white/nose.png" class="bg-color w-90px p-15 rounded-1 mb-3 wow scaleIn" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/icons/white/nose.png" class="bg-color w-90px p-15 rounded-1 mb-3" alt="">
                      </div>                      
                      <div class="relative wow fadeInUp">
                         <div class="item-title text-center">Нос</div>
@@ -119,7 +119,7 @@
             <div class="row g-4 formula-area">
                <div class="col-lg-4 col-md-6">
                      <div class="relative">
-                        <img src="images/icons/white/individuality.png" class="abs bg-color-3 w-90px p-15 rounded-1 mb-3 wow scaleIn" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/icons/white/individuality.png" class="abs bg-color-3 w-90px p-15 rounded-1 mb-3" alt="">
                         <div class="relative ps-100 ms-4 wow fadeInUp">
                            <div class="item-title">индивидуаль<wbr>ный подход к каждому</div>
                         </div>
@@ -128,7 +128,7 @@
 
                <div class="col-lg-4 col-md-6">
                      <div class="relative">
-                        <img src="images/icons/white/otoscope.png" class="abs bg-color-3 w-90px p-15 rounded-1 mb-3 wow scaleIn" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/icons/white/otoscope.png" class="abs bg-color-3 w-90px p-15 rounded-1 mb-3" alt="">
                         <div class="relative ps-100 ms-4 wow fadeInUp">
                            <div class="item-title">профессио<wbr>нальное оборудование</div>
                         </div>
@@ -137,7 +137,7 @@
 
                <div class="col-lg-4 col-md-6">
                      <div class="relative">
-                        <img src="images/icons/white/qualification.png" class="abs bg-color-3 w-90px p-15 rounded-1 mb-3 wow scaleIn" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/icons/white/qualification.png" class="abs bg-color-3 w-90px p-15 rounded-1 mb-3" alt="">
                         <div class="relative ps-100 ms-4 wow fadeInUp contact__link">
                            <div class="item-title">квалифициро<wbr>ванная помощь</div>
                         </div>
@@ -160,7 +160,7 @@
 
                <div class="col-lg-4 wow fadeInRight">
                   <div class="appeal__img">
-                     <img src="images/doctors/olga.png" class="w-100" alt="">
+                     <img src="<?php echo get_template_directory_uri(); ?>/images/doctors/olga.png" class="w-100" alt="">
                   </div>
                </div>
 

@@ -18,7 +18,7 @@
                </div>
                <div class="col-lg-6">
                   <div class="template-offer__img">
-                     <img src="images/misc/7.png" class="w-100 wow fadeInUp" data-wow-delay=".2s" alt="">
+                     <img src="<?php echo get_template_directory_uri(); ?>/images/misc/7.png" class="w-100" alt="">
                   </div>
                </div>  
             </div>
@@ -37,7 +37,7 @@
             <div class="row g-4 justify-content-center">
                <div class="col-lg-3 col-md-6">
                      <div class="bg-white text-center p-40 shadow-soft h-100 rounded-1">
-                        <img src="images/icons/white/consultation.png" class="bg-color w-90px p-15 rounded-1 mb-3 wow scaleIn" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/icons/white/consultation.png" class="bg-color w-90px p-15 rounded-1 mb-3" alt="">
                         <div class="relative wow fadeInUp">
                            <div class="item-title">Первичный прием с консультацией</div>
                            <div class="item-title price">2500₽</div>
@@ -47,7 +47,7 @@
 
                <div class="col-lg-3 col-md-6">
                      <div class="bg-white text-center p-40 shadow-soft h-100 rounded-1">
-                        <img src="images/icons/white/repeat_visit.png" class="bg-color w-90px p-15 rounded-1 mb-3 wow scaleIn" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/icons/white/repeat_visit.png" class="bg-color w-90px p-15 rounded-1 mb-3" alt="">
                         <div class="relative wow fadeInUp">
                            <div class="item-title">Повторный прием с консультацией</div>
                            <div class="item-title price">2000₽</div>

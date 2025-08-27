@@ -17,7 +17,7 @@
                </div>
                <div class="col-lg-6">
                   <div class="template-offer__img">
-                     <img src="images/misc/1.png" class="w-100 wow fadeInUp" data-wow-delay=".2s" alt="">
+                     <img src="<?php echo get_template_directory_uri(); ?>/images/misc/1.png" class="w-100" alt="">
                   </div>
                </div>  
             </div>
@@ -40,13 +40,13 @@
                <div class="col-lg-6">
                   <div class="row g-4">
                      <div class="col-6">
-                        <img src="images/background/plug.png" class="img-fluid rounded-1 mb-4 w-70 ms-30 wow scaleIn shadow-soft" alt="">
-                        <img src="images/background/plug.png" class="img-fluid rounded-1 wow scaleIn shadow-soft" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/background/plug.png" class="img-fluid rounded-1 mb-4 w-70 ms-30 wow scaleIn shadow-soft" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/background/plug.png" class="img-fluid rounded-1 wow scaleIn shadow-soft" alt="">
                      </div>
                      <div class="col-6">
                         <div class="spacer-single sm-hide"></div>
-                        <img src="images/background/plug.png" class="img-fluid rounded-1 mb-4 wow scaleIn shadow-soft" alt="">
-                        <img src="images/background/plug.png" class="img-fluid rounded-1 w-70 wow scaleIn shadow-soft" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/background/plug.png" class="img-fluid rounded-1 mb-4 wow scaleIn shadow-soft" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/background/plug.png" class="img-fluid rounded-1 w-70 wow scaleIn shadow-soft" alt="">
                      </div>
                   </div>
                </div>

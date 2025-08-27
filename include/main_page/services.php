@@ -18,7 +18,7 @@
                                             <span class="btn-main hover-op-1">Узнать больше</span>
                                         </div>
                                         <div class="services__img">
-                                            <img src="images/services/1.jpg" class="img-fluid hover-scale-1-2" alt="">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/images/services/1.jpg" class="img-fluid hover-scale-1-2" alt="">
                                             <div class="overlay"></div>
                                         </div>
                                         <div class="hover-op-0 abs p-3 px-4 bottom-0 text-center text-light w-100 overlay-black-1 bg-blur">
@@ -37,7 +37,7 @@
                                             <span class="btn-main hover-op-1">Узнать больше</span>
                                         </div>
                                         <div class="services__img ">
-                                            <img src="images/services/2.jpg" class="img-fluid hover-scale-1-2" alt="">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/images/services/2.jpg" class="img-fluid hover-scale-1-2" alt="">
                                             <div class="overlay"></div>
                                         </div>
                                         <div class="hover-op-0 abs p-3 px-4 bottom-0 text-center text-light w-100 overlay-black-1 bg-blur">
@@ -56,7 +56,7 @@
                                             <span class="btn-main hover-op-1">Узнать больше</span>
                                         </div>
                                         <div class="services__img">
-                                            <img src="images/services/3.jpg" class="img-fluid hover-scale-1-2" alt="">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/images/services/3.jpg" class="img-fluid hover-scale-1-2" alt="">
                                             <div class="overlay"></div>
                                         </div>
                                         <div class="hover-op-0 abs p-3 px-4 bottom-0 text-center text-light w-100 overlay-black-1 bg-blur">

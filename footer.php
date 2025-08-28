@@ -85,25 +85,12 @@
         <i class="icofont-arrow-up text-white"></i>
     </div>
 
-
-    <!-- Javascript Files
-    ================================================== -->
-    <script src="<?php echo get_template_directory_uri(); ?>/js/plugins.js"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/js/designesia.js"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/js/swiper.js"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/js/custom-marquee.js"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/js/custom-swiper-1.js"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.event.move.js"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.twentytwenty.js"></script>
+    <!-- Javascript Files -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
     <script src="https://www.sng-it.ru/bitrix/templates/master/js/jquery.inputmask.bundle.min.js"></script>
 
-    <script>
-        $(window).on("load", function(){
-        $(".twentytwenty-container[data-orientation!='vertical']").twentytwenty({default_offset_pct: 0.5});
-        $(".twentytwenty-container[data-orientation='vertical']").twentytwenty({default_offset_pct: 0.5, orientation: 'vertical'});
-        });
-    </script>
+    <?php wp_footer(); ?>
 
+</body>
 </html>

@@ -3,7 +3,7 @@
 
 <head>
     <title>Скажите "А"</title>
-    <link rel="icon" href="images/favicon.png" type="image/gif">
+    <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/images/favicon.png" type="image/gif">
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
     <meta content="width=device-width, initial-scale=1.0" name="viewport" >
     <meta content="Uclean — Cleaning Service Website Template" name="description" >
@@ -15,17 +15,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     
-    <!-- CSS Files
-    ================================================== -->
-    <link href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrap">
-    <link href="<?php echo get_template_directory_uri(); ?>/css/plugins.css" rel="stylesheet" type="text/css" >
-    <link href="<?php echo get_template_directory_uri(); ?>/css/swiper.css" rel="stylesheet" type="text/css" >
-    <link href="<?php echo get_template_directory_uri(); ?>/style.css" rel="stylesheet" type="text/css" >
-    <link href="<?php echo get_template_directory_uri(); ?>/css/coloring.css" rel="stylesheet" type="text/css" >
+    <!-- CSS Files -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
-    <!-- color scheme -->
-    <link id="colors" href="<?php echo get_template_directory_uri(); ?>/css/colors/scheme-01.css" rel="stylesheet" type="text/css" >
 
+    <?php wp_head(); ?>
 </head>
 
 <body>

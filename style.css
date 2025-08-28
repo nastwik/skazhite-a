@@ -59,13 +59,13 @@ Table of content:
 
 /* ================================================== */
 
-@import url("../fonts/fontawesome4/css/font-awesome.css");
-@import url("../fonts/fontawesome6/css/fontawesome.css");
-@import url("../fonts/fontawesome6/css/brands.css");
-@import url("../fonts/fontawesome6/css/solid.css");
-@import url("../fonts/elegant_font/HTML_CSS/style.css");
-@import url("../fonts/et-line-font/style.css");
-@import url("../fonts/icofont/icofont.min.css");
+@import url("fonts/fontawesome4/css/font-awesome.css");
+@import url("fonts/fontawesome6/css/fontawesome.css");
+@import url("fonts/fontawesome6/css/brands.css");
+@import url("fonts/fontawesome6/css/solid.css");
+@import url("fonts/elegant_font/HTML_CSS/style.css");
+@import url("fonts/et-line-font/style.css");
+@import url("fonts/icofont/icofont.min.css");
 
 * {
   --body-font: "Open Sans", Helvetica, Arial, sans-serif;
@@ -11928,7 +11928,7 @@ img {
   header.header-mobile #mainmenu>li>span {
     width: 36px;
     height: 36px;
-    background: url(../images/ui/arrow-down-light.png) center no-repeat;
+    background: url(images/ui/arrow-down-light.png) center no-repeat;
     position: absolute;
     right: 0;
     margin-top: 10px;
@@ -11939,7 +11939,7 @@ img {
   header.header-mobile #mainmenu li>ul>li>span {
     width: 36px;
     height: 36px;
-    background: url(../images/ui/arrow-down.png) center no-repeat;
+    background: url(images/ui/arrow-down.png) center no-repeat;
     position: absolute;
     right: 0;
     margin-top: -45px;
@@ -11949,12 +11949,12 @@ img {
 
   header.header-light.header-mobile #mainmenu>li>span,
   header.header-light.header-mobile #mainmenu li>ul>li>span {
-    background: url(../images/ui/arrow-down.png) center no-repeat;
+    background: url(images/ui/arrow-down.png) center no-repeat;
   }
 
   header.header-light.header-mobile #mainmenu>li>span.active,
   header.header-light.header-mobile #mainmenu li>ul>li>span.active {
-    background: url(../images/ui/arrow-up.png) center no-repeat;
+    background: url(images/ui/arrow-up.png) center no-repeat;
   }
 
   header #mainmenu li ul li:first-child {

@@ -10,8 +10,10 @@
                                        <div class="spacer-10"></div>
 
                                        <div class="team_butns">
-                                          <a href="tel:+78632049558" class="btn-main btn-red wow fadeInUp" data-wow-delay=".4s" href="book-service.html">+7 (863) 204-95-58</a>
-                                          <a href="" class="btn-main btn-blue wow fadeInUp" data-wow-delay=".4s" href="book-service.html">На новую МИС</a>
+                                          <? if(carbon_get_theme_option( 'site_phone' )) { ?>
+                                             <a href="tel:<?php echo carbon_get_theme_option('site_phone_digits'); ?>" class="btn-main btn-red wow fadeInUp" data-wow-delay=".4s" href="book-service.html"><?php echo carbon_get_theme_option('site_phone'); ?></a>
+                                          <? } ?>
+                                          <a href="" class="btn-main btn-blue wow fadeInUp" data-wow-delay=".4s" href="#">На новую МИС</a>
                                        </div>
 
                                        <div class=""></div>

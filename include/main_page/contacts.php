@@ -8,41 +8,47 @@
                         </div>
                      </div>
                      <div class="row g-4 contacts-area">
-                        <div class="col-lg-4 col-md-6">
-                            <div class="relative">
-                                <img src="<?php echo get_template_directory_uri(); ?>/images/icons/white/calendar.webp" class="abs bg-color-3 w-90px p-15 rounded-1 mb-3" alt="">
-                                <div class="relative ps-100 ms-4 wow fadeInUp">
-                                    <div class="item-title">Режим работы</div>
-                                    <p class="mb-0">ПН-ПТ 9:00-17:00, СБ 9:00 - 15:00 <br> Воскресенье выходной</p>
+                        <? if(carbon_get_theme_option( 'site_work_time' )) { ?>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="relative">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/icons/white/calendar.webp" class="abs bg-color-3 w-90px p-15 rounded-1 mb-3" alt="">
+                                    <div class="relative ps-100 ms-4 wow fadeInUp">
+                                        <div class="item-title">Режим работы</div>
+                                        <p class="mb-0"><?php echo carbon_get_theme_option('site_work_time'); ?></p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        <? } ?>
 
-                        <div class="col-lg-4 col-md-6">
-                            <div class="relative">
-                                <img src="<?php echo get_template_directory_uri(); ?>/images/icons/white/location.png" class="abs bg-color-3 w-90px p-15 rounded-1 mb-3" alt="">
-                                <div class="relative ps-100 ms-4 wow fadeInUp">
-                                    <div class="item-title">Адрес</div>
-                                    <p class="mb-0">344033, г. Ростов-на-Дону, <br> ул. Магнитогорская 1/1</p>
+                        <? if(carbon_get_theme_option( 'site_fact_address' )) { ?>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="relative">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/icons/white/location.png" class="abs bg-color-3 w-90px p-15 rounded-1 mb-3" alt="">
+                                    <div class="relative ps-100 ms-4 wow fadeInUp">
+                                        <div class="item-title">Адрес</div>
+                                        <p class="mb-0"><?php echo carbon_get_theme_option('site_fact_address'); ?></p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        <? } ?>
 
-                        <div class="col-lg-4 col-md-6">
-                            <div class="relative">
-                                <img src="<?php echo get_template_directory_uri(); ?>/images/icons/white/phone.png" class="abs bg-color-3 w-90px p-15 rounded-1 mb-3" alt="">
-                                <div class="relative ps-100 ms-4 wow fadeInUp contact__link">
-                                    <div class="item-title">Телефон</div>
-                                    <a href="tel:+78632049558" class="mb-0">+7 (863) 204-95-58</a>
+                        <? if(carbon_get_theme_option( 'site_phone' )) { ?>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="relative">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/icons/white/phone.png" class="abs bg-color-3 w-90px p-15 rounded-1 mb-3" alt="">
+                                    <div class="relative ps-100 ms-4 wow fadeInUp contact__link">
+                                        <div class="item-title">Телефон</div>
+                                        <a href="tel:<?php echo carbon_get_theme_option('site_phone_digits'); ?>" class="mb-0"><?php echo carbon_get_theme_option('site_phone'); ?></a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        <? } ?>
 
                      </div>
                   </div>
                </section>
 
                <div id="maps">
-                  <iframe src="https://yandex.ru/map-widget/v1/?lang=ru_RU&amp;scroll=false&amp;source=constructor-api&amp;um=constructor%3A8dcbc8e8222c809abda083987ef3ffcf35bbd709d04f0b549d6bd9ea4a594d6f" frameborder="0" allowfullscreen="true" width="100%" height="400px" style="display: block;"></iframe>
+                  <?php echo carbon_get_theme_option('site_map_coordinates'); ?>
                </div>
 

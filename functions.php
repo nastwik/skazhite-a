@@ -1,39 +1,22 @@
 <?php
 
-add_filter('show_admin_bar', '__return_false');
+// Убираем ненужные стили и скрипты с head
+require_once 'functions/remove_actions.php';
 
-remove_action('wp_head',             'print_emoji_detection_script', 7 );
-remove_action('admin_print_scripts', 'print_emoji_detection_script' );
-remove_action('wp_print_styles',     'print_emoji_styles' );
-remove_action('admin_print_styles',  'print_emoji_styles' );
+// Подключение стилей
+require_once 'functions/action_styles.php';
 
-remove_action('wp_head', 'wp_resource_hints', 2 );
-remove_action('wp_head', 'wp_generator'); 
-remove_action('wp_head', 'wlwmanifest_link'); 
-remove_action('wp_head', 'rsd_link'); 
-remove_action('wp_head', 'rest_output_link_wp_head');
-remove_action('wp_head', 'rel_canonical'); 
-remove_action('wp_head', 'wp_shortlink_wp_head', 10);
-remove_action('wp_head', 'wp_oembed_add_discovery_links');
+// Подключение скриптов
+require_once 'functions/action_scripts.php';
+  
 
-add_action('wp_enqueue_scripts', 'site_scripts');
-function site_scripts(){
-    wp_dequeue_style( 'wp-block-library' );
-    wp_dequeue_style( 'global-styles' );
-    wp_dequeue_style( 'classic-theme-styles' );
+add_action( 'after_setup_theme', 'crb_load' );
+function crb_load() {
+    require_once( 'carbon-fields/vendor/autoload.php' );
+    \Carbon_Fields\Carbon_Fields::boot();
+}
 
-    wp_enqueue_style('bootstrap-min', get_template_directory_uri() . '/css/bootstrap.min.css', [], '0.0.0.0');
-    wp_enqueue_style('plugins', get_template_directory_uri() . '/css/plugins.css', [], '0.0.0.0');
-    wp_enqueue_style('swiper', get_template_directory_uri() . '/css/swiper.css', [], '0.0.0.0');
-    wp_enqueue_style('coloring', get_template_directory_uri() . '/css/coloring.css', [], '0.0.0.0');
-    wp_enqueue_style('colors-scheme', get_template_directory_uri() . '/css/colors/scheme-01.css', [], '0.0.0.0');
-    wp_enqueue_style('main-style', get_stylesheet_uri(), [], '0.0.0.0');
- 
-    wp_enqueue_script('plugins', get_template_directory_uri() . '/js/plugins.js', [], '0.0.0.0', true);
-    wp_enqueue_script('swiper', get_template_directory_uri() . '/js/swiper.js', [], '0.0.0.0', true);
-    wp_enqueue_script('custom-marquee', get_template_directory_uri() . '/js/custom-marquee.js', [], '0.0.0.0', true);
-    wp_enqueue_script('custom-swiper', get_template_directory_uri() . '/js/custom-swiper-1.js', [], '0.0.0.0', true);
-    wp_enqueue_script('jquery-event-move', get_template_directory_uri() . '/js/jquery.event.move.js', [], '0.0.0.0', true);
-    wp_enqueue_script('jquery-twentytwenty', get_template_directory_uri() . '/js/jquery.twentytwenty.js', [], '0.0.0.0', true);
-    wp_enqueue_script('main-js', get_template_directory_uri() . '/js/designesia.js', [], '0.0.0.0', true); 
-}   
+add_action('carbon_fields_register_fields', 'register_carbon_fields');
+function register_carbon_fields() {
+    require_once( 'carbon-fields-options/theme-options.php' );
+}

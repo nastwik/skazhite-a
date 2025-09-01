@@ -37,15 +37,17 @@
                         <div class="de-flex xl-pt10">
                             <div class="de-flex-col">
                                 <!-- logo begin -->
-                                <div class="main-header__logo">
-                                    <a href="/">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="logo" width="75">
-                                        <div>
-                                            <div>Скажите «А»</div>
-                                            <div>ЛОР центр</div>
-                                        </div>
-                                    </a>
-								</div>
+                                <? if(carbon_get_theme_option( 'site_logo' )) { ?>
+                                    <div class="main-header__logo">
+                                        <a href="/">
+                                            <img src="<?php echo wp_get_attachment_image_url(carbon_get_theme_option('site_logo')); ?>" alt="logo" width="75">
+                                            <div>
+                                                <div>Скажите «А»</div>
+                                                <div>ЛОР центр</div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                <? } ?>
                                 <!-- logo end -->
                             </div>
                             <div class="de-flex-col header-col-mid">

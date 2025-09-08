@@ -20,3 +20,8 @@ add_action('carbon_fields_register_fields', 'register_carbon_fields');
 function register_carbon_fields() {
     require_once( 'carbon-fields-options/theme-options.php' );
 }
+
+add_action( 'after_setup_theme', 'theme_support' );
+function theme_support() {
+  register_nav_menu( 'menu_main_header', 'Меню в шапке' );
+}

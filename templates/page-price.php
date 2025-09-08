@@ -1,4 +1,12 @@
-<? require_once 'header.php' ?>        
+<?php
+
+/*
+Template Name: Прайс
+*/
+
+get_header();
+?>
+
    <div class="no-bottom no-top" id="content">
 
       <div id="top"></div>
@@ -250,4 +258,4 @@
 
    </div>
 
-<? require_once 'footer.php' ?>
+<?php get_footer(); ?>

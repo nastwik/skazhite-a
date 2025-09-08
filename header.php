@@ -51,7 +51,7 @@
                                 <!-- logo end -->
                             </div>
                             <div class="de-flex-col header-col-mid">
-                                <ul id="mainmenu">
+                                <!-- <ul id="mainmenu" class="menu">
                                     <li><a class="menu-item" href="index.php">Главная</a>
                                     </li>
                                     <li><a class="menu-item" href="about.php">О центре</a></li>
@@ -74,7 +74,14 @@
                                         </ul>
                                     </li>
                                     <li><a class="menu-item" href="contacts.php">Контакты</a></li>
-                                </ul>
+                                </ul> -->
+                                <?php
+                                    wp_nav_menu( [
+                                        'theme_location'  => 'menu_main_header',
+                                        'menu_id'       => 'mainmenu', 
+                                        'menu_class'      => 'menu', 
+                                    ] );
+                                ?>
                             </div>
                             
                             <div class="de-flex-col">

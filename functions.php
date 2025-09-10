@@ -19,9 +19,17 @@ function crb_load() {
 add_action('carbon_fields_register_fields', 'register_carbon_fields');
 function register_carbon_fields() {
     require_once( 'carbon-fields-options/theme-options.php' );
+    require_once( 'carbon-fields-options/post-meta.php' );
 }
 
 add_action( 'after_setup_theme', 'theme_support' );
 function theme_support() {
   register_nav_menu( 'menu_main_header', 'Меню в шапке' );
+  register_nav_menu( 'menu_main_footer', 'Меню в подвале' );
+}
+
+
+function convertToWebpSrc($src) {
+  $src_webp = $src . '.webp';
+  return str_replace('uploads', 'uploads-webpc/uploads', $src_webp);
 }

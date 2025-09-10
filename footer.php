@@ -42,11 +42,12 @@
                     <div class="col-lg-4 col-sm-12 order-lg-1 order-sm-2">
                         <div class="widget">
                             <div class="link-name">Полезная информация</div>
-                            <ul>
-                                <li><a href="documents.php">Информация о юридическом лице</a></li>
-                                <li><a href="#">Правовая информация</a></li>
-                                <li><a href="page-policy.php">Политика конфиденциальности</a></li>
-                            </ul>
+                            <?php
+                                wp_nav_menu( [
+                                    'theme_location'  => 'menu_main_footer',
+                                    'menu_class'      => 'footer-menu', 
+                                ] );
+                            ?>
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6 order-lg-2 order-sm-1">
@@ -101,6 +102,7 @@
     </div>
 
     <!-- Javascript Files -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
     <script src="https://www.sng-it.ru/bitrix/templates/master/js/jquery.inputmask.bundle.min.js"></script>

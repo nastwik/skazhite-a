@@ -23,4 +23,8 @@ Container::make( 'theme_options', 'Настройки сайта' )
     Field::make( 'text', 'site_kpp', 'КПП' )->set_width(33),
     Field::make( 'text', 'site_ogrn', 'ОГРН' )->set_width(33),
     Field::make( 'rich_text', 'site_map_coordinates', 'Карта' ),
+])
+
+->add_tab( 'Галерея', [
+    Field::make( 'media_gallery', 'gallery', 'Галерея' ),
 ]);

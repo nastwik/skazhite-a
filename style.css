@@ -907,6 +907,11 @@ header.header-light #mainmenu a {
   display: block;
   float: none;
   text-transform: none;
+  border-radius: var(--rounded-1);
+}
+
+#mainmenu li li:hover {
+  background-color: var(--secondary-color);
 }
 
 #mainmenu li:hover>ul {
@@ -8706,7 +8711,7 @@ p.slider-teaser{
 /* scrollbar */
 body::-webkit-scrollbar,
 #de_modal::-webkit-scrollbar {
-  width: 5px;
+  width: 6px;
 }
 
 body::-webkit-scrollbar-track,
@@ -8716,7 +8721,7 @@ body::-webkit-scrollbar-track,
 
 body::-webkit-scrollbar-thumb,
 #de_modal::-webkit-scrollbar-thumb {
-  background-color: #ffffff;
+  background-color: var(--primary-color);
   border-radius: 5px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -13327,21 +13332,21 @@ footer .link-name{
 }
 
 .imglist {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
+  height: 260px;
+  border-radius: var(--rounded-1);
+  overflow: hidden;
+  cursor: -webkit-zoom-in;
+  cursor: zoom-in;
 }
 .imglist a {
   border-radius: var(--rounded-1);
   overflow: hidden;
-  width: calc(100% / 3 - 60px);
   position: relative;
 }
 
 .imglist img {
   width: 100%;
-  height: auto;
+  height: 100%;
   object-fit: cover;
 }
 .appeal__img img{
@@ -13661,4 +13666,8 @@ footer .link-name{
 
 .search-group__btn:active {
     transform: scale(0.95);
+}
+
+.fancybox-image{
+  border-radius: var(--rounded-1);
 }

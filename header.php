@@ -118,10 +118,6 @@
             </div>
         </header>
 
-        <?php
-            /* echo wp_get_attachment_image_url(carbon_get_theme_option('site_logo')); */
-        ?>
-
         <!-- header close -->
         <!-- content begin -->
         <div class="no-bottom no-top" id="content">

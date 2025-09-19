@@ -18,3 +18,12 @@ Container::make( 'post_meta', 'Дополнительные поля' )
       Field::make( 'text', 'top_second_btn_text', 'Текст кнопки 2' )->set_width(50),
       Field::make( 'text', 'top_second_btn_link', 'Ссылка кнопки 2' )->set_width(50),
   ]);
+
+
+Container::make( 'post_meta', 'Дополнительные поля' )
+    ->show_on_post_type('service')
+
+  ->add_tab( 'Информация услуги', [
+      Field::make( 'text', 'service_price', 'Стоимость услуги, руб.' )->set_width(50),
+      Field::make( 'image', 'service_icon', 'Иконка' )->set_width(50),
+]);

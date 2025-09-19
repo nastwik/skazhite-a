@@ -75,7 +75,7 @@ get_header();
             <div class="row g-4 grid-divider">
                <div class="col-md-4 wow fadeInRight" data-wow-delay=".2s">
                   <div class="text-center">
-                     <a href="<?php echo get_template_directory_uri(); ?>/images/documents/diplom1.pdf" data-fancybox target="_blank">       
+                     <a href="<?php echo get_template_directory_uri(); ?>/images/documents/diplom1.pdf" data-fancybox="images">       
                         <img src="<?php echo get_template_directory_uri(); ?>/images/icons/white/notes.png" class="bg-color w-90px p-15 rounded-1 mb-3 wow scaleIn" alt="">
                         <div class="link-name">Диплом с отличием о высшем образовании</div>
                      </a> 
@@ -83,7 +83,7 @@ get_header();
                </div>
                <div class="col-md-4 wow fadeInRight" data-wow-delay=".4s">
                   <div class="text-center">      
-                     <a href="<?php echo get_template_directory_uri(); ?>/images/documents/diplom2.pdf" data-fancybox target="_blank">            
+                     <a href="<?php echo get_template_directory_uri(); ?>/images/documents/diplom2.pdf" data-fancybox="images">            
                         <img src="<?php echo get_template_directory_uri(); ?>/images/icons/white/notes.png" class="bg-color w-90px p-15 rounded-1 mb-3 wow scaleIn" alt="">            
                         <div class="link-name">Диплом о профессиональном образование (ординатура)</div>
                      </a>
@@ -91,7 +91,7 @@ get_header();
                </div>
                <div class="col-md-4 wow fadeInRight" data-wow-delay=".6s">
                   <div class="text-center">
-                     <a href="<?php echo get_template_directory_uri(); ?>/images/documents/lic_merged.pdf" data-fancybox target="_blank">                         
+                     <a href="<?php echo get_template_directory_uri(); ?>/images/documents/lic_merged.pdf" data-fancybox="images">                         
                         <img src="<?php echo get_template_directory_uri(); ?>/images/icons/white/notes.png" class="bg-color w-90px p-15 rounded-1 mb-3 wow scaleIn" alt="">     
                         <div class="link-name">Медицинская лицензия №ЛО-61-01-007441</div>
                      </a>
@@ -99,7 +99,7 @@ get_header();
                </div>
                <div class="col-md-4 wow fadeInRight" data-wow-delay=".2s">
                   <div class="text-center">
-                     <a href="<?php echo get_template_directory_uri(); ?>/images/documents/sanpid2.pdf" data-fancybox target="_blank">
+                     <a href="<?php echo get_template_directory_uri(); ?>/images/documents/sanpid2.pdf" data-fancybox="images">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/icons/white/notes.png" class="bg-color w-90px p-15 rounded-1 mb-3 wow scaleIn" alt="">                         
                         <div class="link-name">Санитарно-эпидемиологическое заключение</div>
                      </a> 
@@ -107,7 +107,7 @@ get_header();
                </div>
                <div class="col-md-4 wow fadeInRight" data-wow-delay=".4s">
                   <div class="text-center"> 
-                     <a href="<?php echo get_template_directory_uri(); ?>/images/documents/sertif2.pdf" data-fancybox target="_blank">      
+                     <a href="<?php echo get_template_directory_uri(); ?>/images/documents/sertif2.pdf" data-fancybox="images">      
                         <img src="<?php echo get_template_directory_uri(); ?>/images/icons/white/notes.png" class="bg-color w-90px p-15 rounded-1 mb-3 wow scaleIn" alt="">                       
                         <div class="link-name">Сертификат специалиста</div>
                      </a> 
@@ -115,7 +115,7 @@ get_header();
                </div>
                <div class="col-md-4 wow fadeInRight" data-wow-delay=".6s">
                   <div class="text-center">    
-                     <a href="<?php echo get_template_directory_uri(); ?>/images/documents/redistrationIP.pdf" data-fancybox target="_blank">   
+                     <a href="<?php echo get_template_directory_uri(); ?>/images/documents/redistrationIP.pdf" data-fancybox="images">   
                         <img src="<?php echo get_template_directory_uri(); ?>/images/icons/white/notes.png" class="bg-color w-90px p-15 rounded-1 mb-3 wow scaleIn" alt="">                       
                         <div class="link-name">Свидетельство о регистрации ИП</div>
                      </a>

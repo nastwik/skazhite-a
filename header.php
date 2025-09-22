@@ -58,7 +58,6 @@
                                     <li><a class="menu-item" href="services.php">Услуги</a>
                                         <ul>
                                             <li><a class="menu-item" href="categories.php">Категории</a></li>
-                                            <li><a class="menu-item" href="price.php">Прайс</a></li>
                                         </ul>
                                     </li>
                                     <li><a class="menu-item" href="archive-doctors.php">Врачи</a>
@@ -66,7 +65,7 @@
                                             <li><a class="menu-item" href="single-doctor.php">Князева О.А.</a></li>
                                         </ul>
                                     </li>
-                                    <li><a class="menu-item" href="price.php">Цены</a></li>
+                                    <li><a class="menu-item" href="price.php">Прайс</a></li>
                                     <li><a class="menu-item" href="#">Документы</a>
                                         <ul>
                                             <li><a class="menu-item" href="documents.php">Информация о юридическом лице</a></li>

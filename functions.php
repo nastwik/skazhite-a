@@ -20,7 +20,6 @@ add_action('carbon_fields_register_fields', 'register_carbon_fields');
 function register_carbon_fields() {
     require_once( 'carbon-fields-options/theme-options.php' );
     require_once( 'carbon-fields-options/post-meta.php' );
-    require_once( 'carbon-fields-options/term-meta.php' );
 }
 
 add_action( 'after_setup_theme', 'theme_support' );

@@ -19,7 +19,6 @@ get_header();
                      <div class="header-title wow fadeInUp mb-2" data-wow-delay=".2s">Прайс</div>
                         <ul class="floens-breadcrumb list-unstyled wow fadeInUp" data-wow-delay=".3s">
                            <li><a href="/">Главная</a></li>
-                           <li><a href="categories.php">Услуги</a></li>
                            <li><span>Прайс</span></li>
                         </ul>
                      <div class="spacer-single"></div>

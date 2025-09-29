@@ -1,0 +1,121 @@
+<?php get_header(); 
+   
+   $term = get_queried_object();
+   if (!$term || is_wp_error($term)) {
+      echo '<p>Ошибка при получении категории.</p>'; 
+      return;
+   }
+?>
+
+   <div class="no-bottom no-top" id="content">
+      <div id="top"></div>
+
+      <section class="bg-blue section-dark pb-0 relative overflow-hidden">
+         <div class="container relative z-1000">
+            <div class="row g-3 align-items-center page-header">
+               <div class="col-lg-6 page-header__text">
+                  <div class="relative z-1000">
+                     <div class="header-title wow fadeInUp mb-2" data-wow-delay=".2s"><?php echo ($term->name); ?></div>
+                        <ul class="floens-breadcrumb list-unstyled wow fadeInUp" data-wow-delay=".3s">
+                           <li><a href="/">Главная</a></li>
+                           <li><a href="<?php echo (home_url('/services')); ?>">Услуги</a></li>
+                           <li><span><?php echo ($term->name); ?></span></li>
+                        </ul>
+                     <div class="spacer-single"></div>
+                  </div>
+               </div>
+               <div class="col-lg-6">
+                  <div class="template-offer__img">
+                     <img src="<?php echo get_template_directory_uri(); ?>/images/misc/7.png" class="w-100" alt="">
+                  </div>
+               </div>  
+            </div>
+         </div>
+      </section>
+
+      <?php if ( have_posts() ) : ?>
+         <section>
+            <div class="container">
+               <div class="row g-4">
+                  <div class="col-lg-6 offset-lg-3 text-center">
+                        <div class="subtitle wow fadeInUp mb-3">Устраняем лор-заболевания — от насморка до отита</div>
+                        <div class="section-title wow fadeInUp" data-wow-delay=".2s">Быстро. Персонально. В любой стадии</div>
+                        <div class="spacer-single"></div>
+                  </div>
+               </div>
+               <div class="row g-4 justify-content-center">
+                  <?php
+                  $args = array(
+                     'post_type' => 'service',
+                     'posts_per_page' => -1, // Получить все записи
+                     'tax_query' => array(
+                           array(
+                              'taxonomy' => 'service-categories', 
+                              'field'    => 'term_id',
+                              'terms'    => $term->term_id,
+                           ),
+                     ),
+                  );
+
+               $service_query = new WP_Query($args);
+
+               if ($service_query->have_posts()) :
+                  while ($service_query->have_posts()) : $service_query->the_post(); ?>
+                  <div class="col-lg-3 col-md-6">
+                        <div class="bg-white text-center p-40 shadow-soft h-100 rounded-1">
+                           <?php
+                              $service_icon_id = carbon_get_post_meta(get_the_ID(), 'service_icon'); 
+                              $service_icon_url = wp_get_attachment_image_url($service_icon_id, 'full');
+                              if ($service_icon_url) :
+                           ?>
+                           <img src="<?php echo esc_url($service_icon_url); ?>" class="bg-color w-90px p-15 rounded-1 mb-3" alt="<?php echo esc_attr(get_the_title()); ?>">
+                           <?php else : ?>
+                              <img src="<?php echo get_template_directory_uri(); ?>/images/icons/white/protection.png" class="bg-color w-90px p-15 rounded-1 mb-3" alt="">
+                           <?php endif; ?>
+
+                           <div class="relative wow fadeInUp">
+                              <div class="item-title"><?php the_title(); ?></div>
+                              <div class="item-title price"><?php $price = carbon_get_post_meta(get_the_ID(), 'service_price'); echo ($price ? $price : 'Цена не указана');?>₽</div>
+                           </div>
+                        </div>
+                  </div>
+                  <?php endwhile;
+                     else : ?>
+                  <?php endif; ?>
+
+                  <!-- <div class="text-center">
+                     <a target="_blank" href="price.php" class="btn-main btn-red wow fadeInUp" data-wow-delay=".2s">Полный список услуг</a>
+                  </div> -->
+
+                  <!-- pagination begin -->
+                  <!-- div class="col-lg-12 pt-4 text-center">
+                     <div class="d-inline-block">
+                        <nav aria-label="Page navigation example">
+                           <ul class="pagination">
+                           <li class="page-item">
+                              <a class="page-link" href="#" aria-label="Previous">
+                                 <span aria-hidden="true"><i class="fa fa-chevron-left"></i></span>
+                              </a>
+                           </li>
+                           <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                           <li class="page-item" aria-current="page"><a class="page-link" href="#">2</a></li>
+                           <li class="page-item"><a class="page-link" href="#">3</a></li>
+                           <li class="page-item">
+                              <a class="page-link" href="#" aria-label="Next">
+                                 <span aria-hidden="true"><i class="fa fa-chevron-right"></i></span>
+                              </a>
+                           </li>
+                           </ul>
+                        </nav>
+                     </div>
+                  </div> -->
+                  <!-- pagination end -->
+               </div>
+               
+            </div>
+         </section>
+      <?php wp_reset_postdata(); ?>
+      <?php endif; ?>                  
+      
+   </div>
+<?php get_footer(); ?>

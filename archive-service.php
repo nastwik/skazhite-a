@@ -11,7 +11,7 @@
                      <div class="header-title wow fadeInUp mb-2" data-wow-delay=".2s">Наши услуги</div>
                         <ul class="floens-breadcrumb list-unstyled wow fadeInUp" data-wow-delay=".3s">
                            <li><a href="/">Главная</a></li>
-                           <li><span>Наши услуги</span></li>
+                           <li><span>Услуги</span></li>
                         </ul>
                      <div class="spacer-single"></div>
                   </div>
@@ -32,14 +32,14 @@
             
            <section class="relative overflow-hidden">
                 <div class="container">
-                    <div class="row g-4">
+                    <!-- <div class="row g-4">
                         <div class="col-lg-6 offset-lg-3 text-center">
                             <div class="subtitle wow fadeInUp mb-3">Услуги</div>
                             <div class="section-title wow fadeInUp" data-wow-delay=".2s">Помощь, которую оказываем</div>
                             <div class="spacer-single"></div>
                             <div class="spacer-half"></div>
                         </div>
-                    </div>
+                    </div> -->
 
                     <div class="row g-4">
 

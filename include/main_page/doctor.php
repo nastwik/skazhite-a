@@ -14,7 +14,7 @@
                             <p>Ваш врач <span class="red">Князева О.А.</span></p>
                         </div>
                         <div class="team_butns">
-                            <a class="btn-main btn-red wow fadeInUp" data-wow-delay=".4s" href="single-doctor.php">Подробнее</a>
+                            <a class="btn-main btn-red wow fadeInUp" data-wow-delay=".4s" href="page-doctor.php">Подробнее</a>
                             <a class="btn-main btn-blue wow fadeInUp" data-wow-delay=".4s" href="#">Записаться</a>
                         </div>
                     </div>

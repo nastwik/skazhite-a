@@ -1,5 +1,13 @@
-<? require_once 'header.php' ?>       
-   <div class="no-bottom no-top" id="content">
+<?php
+
+/*
+Template Name: О враче
+*/
+
+get_header();
+?> 
+
+    <div class="no-bottom no-top" id="content">
       <div id="top"></div>
 
       <section class="bg-blue section-dark pb-0 relative overflow-hidden">
@@ -10,8 +18,7 @@
                      <div class="header-title wow fadeInUp mb-2" data-wow-delay=".2s">Князева Ольга Александровна</div>
                         <ul class="floens-breadcrumb list-unstyled wow fadeInUp" data-wow-delay=".3s">
                            <li><a href="/">Главная</a></li>
-                           <li><a href="archive-doctors.php">Врачи</a></li>
-                           <li><span>Князева Ольга Александровна</span></li>
+                           <li><span>О враче</span></li>
                         </ul>
                      <div class="spacer-single"></div>
                   </div>
@@ -51,4 +58,5 @@
       </section>
 
    </div>
-<? require_once 'footer.php' ?>
+
+<?php get_footer(); ?>

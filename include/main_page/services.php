@@ -27,13 +27,11 @@
                             $term_image_id = \Kama\WP_Term_Image::get_image_id($term);
                             $term_image_url = wp_get_attachment_image_url($term_image_id, 'full'); // Получаем URL изображения
 
-                            if (!$term_image_url) {
-                                continue;
-                            }
-
-                            $term_link = get_term_link($term);
+                        // Проверяем, есть ли изображение
+                        if ($term_image_url) {
+                        $term_link = get_term_link($term);
                     ?>
-                         <div class="col-lg-4 col-sm-6">
+                        <div class="col-lg-4 col-sm-6">
                             <div class="relative shadow-soft">
                                 <a href="<?php echo ($term_link); ?>" class="d-block hover">
                                     <div class="relative overflow-hidden rounded-1 shadow-soft">
@@ -53,6 +51,7 @@
                         </div>
 
                     <?php
+                                }
                             }
                         } else {
                             echo '<p>Нет доступных категорий.</p>';

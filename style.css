@@ -13671,3 +13671,45 @@ footer .link-name{
 .fancybox-image{
   border-radius: var(--rounded-1);
 }
+
+/* post paginations */
+.page-numbers {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 50%;
+  line-height: 1;
+  border: 1px solid transparent;
+  transition: all 400ms ease;
+}
+
+.pagination .current{
+  background-color: var(--primary-color);
+  color:#fff;
+}
+
+.pagination .next, .pagination .prev{
+  font-size: 18px;
+  transition: all 400ms ease;
+  background: none;
+}
+.pagination a:hover {
+  border-color: var(--primary-color);
+  color: #000;
+  background-color: transparent;
+}
+.pagination a:hover span {
+  color: var(--floens-base, #C7844F);
+}
+.pagination span.next a {
+  background-color: var(--tertiary-color);
+  color: #ffffff;
+}
+.pagination span.next a span {
+  color: #ffffff;
+}

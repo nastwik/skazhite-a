@@ -44,10 +44,12 @@
                   </div>
                </div>
                <div class="row g-4 justify-content-center">
-                  <?php
+               <?php
+                  $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
                   $args = array(
                      'post_type' => 'service',
-                     'posts_per_page' => -1, // Получить все записи
+                     'paged' => $paged, 
+                     'posts_per_page' => 12, // 12 услуг на страницу
                      'tax_query' => array(
                            array(
                               'taxonomy' => 'service-categories', 
@@ -61,6 +63,7 @@
 
                if ($service_query->have_posts()) :
                   while ($service_query->have_posts()) : $service_query->the_post(); ?>
+
                   <div class="col-lg-3 col-md-6">
                         <div class="bg-white text-center p-40 shadow-soft h-100 rounded-1">
                            <?php
@@ -79,20 +82,17 @@
                            </div>
                         </div>
                   </div>
+
                   <?php endwhile;
                      else : ?>
                   <?php endif; ?>
 
-                  <!-- <div class="text-center">
-                     <a target="_blank" href="price.php" class="btn-main btn-red wow fadeInUp" data-wow-delay=".2s">Полный список услуг</a>
-                  </div> -->
-
                   <!-- pagination begin -->
-                  <!-- div class="col-lg-12 pt-4 text-center">
+                  <div class="col-lg-12 pt-4 text-center">
                      <div class="d-inline-block">
                         <nav aria-label="Page navigation example">
                            <ul class="pagination">
-                           <li class="page-item">
+                           <!-- <li class="page-item">
                               <a class="page-link" href="#" aria-label="Previous">
                                  <span aria-hidden="true"><i class="fa fa-chevron-left"></i></span>
                               </a>
@@ -104,11 +104,29 @@
                               <a class="page-link" href="#" aria-label="Next">
                                  <span aria-hidden="true"><i class="fa fa-chevron-right"></i></span>
                               </a>
-                           </li>
+                           </li> -->
+                              <?php
+                                 $args = [
+                                    'show_all'     => false,
+                                    'end_size'     => 1,
+                                    'mid_size'     => 1,
+                                    'prev_next'    => true,
+                                    'prev_text'    => '<i class="fa fa-chevron-left"></i>',
+                                    'next_text'    => '<i class="fa fa-chevron-right"></i>',
+                                    'add_args'     => false,
+                                    'screen_reader_text' => __( 'Навигация по страницам' ),
+                                    'class' => 'nav-links',
+                                 ];
+
+                                 echo paginate_links(array_merge($args, [
+                                    'total' => $service_query->max_num_pages,
+                                    'current' => $paged,
+                                 ]));
+                              ?>
                            </ul>
                         </nav>
                      </div>
-                  </div> -->
+                  </div>
                   <!-- pagination end -->
                </div>
                

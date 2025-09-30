@@ -84,47 +84,49 @@ get_header();
          </div>
       </section>
 
-      <section class="contact-one">
-         <div class="contact-one__map">
-            <div id="maps">
-               <iframe src="https://yandex.ru/map-widget/v1/?lang=ru_RU&amp;scroll=false&amp;source=constructor-api&amp;um=constructor%3A8dcbc8e8222c809abda083987ef3ffcf35bbd709d04f0b549d6bd9ea4a594d6f" frameborder="0" allowfullscreen="true" width="100%" height="625px" style="display: block;"></iframe>
+      <? if(carbon_get_theme_option( 'site_map_coordinates' )) { ?>
+         <section class="contact-one">
+            <div class="contact-one__map">
+               <div id="maps">
+                     <?php echo carbon_get_theme_option('site_map_coordinates'); ?>
+               </div>
             </div>
-         </div>
-         <div class="container relative">
-            <div class="row g-4 justify-content-between align-items-center">
-                  <div class="col-lg-7"></div>
-                  <div class="col-lg-5 relative wow fadeInUp" data-wow-delay=".2s">
-                     <div class="bg-white p-40 shadow-soft h-100 rounded-1 contact-form">
-                     <div class="middle-title">Запись на прием</div>
-                     <p>Администратор перезвонит вам в течение 30 сек</p>
-                     <form name="contactForm" id="contact_form" class="form-border" method="post" action="contact.php">
-                        <div class="row g-3">
-                           <div class="col-12">
-                                 <div class="field-set">
-                                    <input type="text" id="phone1" name="phone" class="form-control" placeholder="+7(___)___--__--__" required>
+            <div class="container relative">
+               <div class="row g-4 justify-content-between align-items-center">
+                     <div class="col-lg-7"></div>
+                     <div class="col-lg-5 relative wow fadeInUp" data-wow-delay=".2s">
+                        <div class="bg-white p-40 shadow-soft h-100 rounded-1 contact-form">
+                        <div class="middle-title">Запись на прием</div>
+                        <p>Администратор перезвонит вам в течение 30 сек</p>
+                        <form name="contactForm" id="contact_form" class="form-border" method="post" action="contact.php">
+                           <div class="row g-3">
+                              <div class="col-12">
+                                    <div class="field-set">
+                                       <input type="text" id="phone1" name="phone" class="form-control" placeholder="+7(___)___--__--__" required>
+                                    </div>
+                              </div>
+                              <div class="col-12 mb-3">
+                                 <div id='submit' class="w-100">
+                                    <input type='submit' id='send_message' value='Отправить' class="btn-main btn-red w-100">
                                  </div>
-                           </div>
-                           <div class="col-12 mb-3">
-                              <div id='submit' class="w-100">
-                                 <input type='submit' id='send_message' value='Отправить' class="btn-main btn-red w-100">
                               </div>
                            </div>
-                        </div>
-                        <p>Нажимая на кнопку "Отправить", я даю согласие на <a href="">обработку персональных данных</a> и принимаю условия <a href="">политики обработки персональных данных</a></p>
-                        
-                        <div id="success_message" class='success' style="display: none;">
-                           Ваше сообщение было успешно отправлено!
-                        </div>
-                        <div id="error_message" class='error' style="display: none;">
-                           Произошла ошибка! Пожалуйста, проверьте введенные данные.
-                        </div>
-                     </form>
-                        
-                  </div>
-                  </div>
+                           <p>Нажимая на кнопку "Отправить", я даю согласие на <a href="">обработку персональных данных</a> и принимаю условия <a href="">политики обработки персональных данных</a></p>
+                           
+                           <div id="success_message" class='success' style="display: none;">
+                              Ваше сообщение было успешно отправлено!
+                           </div>
+                           <div id="error_message" class='error' style="display: none;">
+                              Произошла ошибка! Пожалуйста, проверьте введенные данные.
+                           </div>
+                        </form>
+                           
+                     </div>
+                     </div>
+               </div>
             </div>
-         </div>
-      </section>
+         </section>
+      <? } ?>
       
    </div>
 <?php get_footer(); ?>

@@ -18,8 +18,8 @@
                                         <div class="d-icon">
                                             1
                                         </div>
-                                        <div class="item-title">Заголовок</div>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                                        <div class="item-title">Шаг</div>
+                                        <p>Нажмите на "Перейти к записи" и Вы окажетесь на странице врачей.</p>
                                     </div>
                                 </div>
 
@@ -28,8 +28,8 @@
                                         <div class="d-icon">
                                             2
                                         </div>
-                                        <div class="item-title">Заголовок</div>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                                        <div class="item-title">Шаг</div>
+                                        <p>Выберите врача, дату и время когда Вам удобно прийти на прием. </p>
                                     </div>
                                 </div>
 
@@ -38,8 +38,8 @@
                                         <div class="d-icon">
                                             3
                                         </div>
-                                        <div class="item-title">Заголовок</div>
-                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+                                        <div class="item-title">Шаг</div>
+                                        <p>Введете свой номер телефона, а затем код из смс или ВКонтакте, чтобы закрепить за собой запись. </p>
                                     </div>
                                 </div>
 

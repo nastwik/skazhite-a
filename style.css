@@ -145,7 +145,6 @@ Table of content:
 .bg-dark-2{background-color: var(--bg-dark-2) !important}
 .bg-dark-3{background-color: var(--bg-dark-3) !important}
 .bg-grey{background-color: var(--bg-grey) !important}
-.bg-blue{background-color: var(--bg-blue) !important}
 .bg-gradient-1{
   background: -moz-linear-gradient(var(--bg-gradient-1)) !important;
   background: -webkit-linear-gradient(var(--bg-gradient-1)) !important;
@@ -13068,6 +13067,10 @@ table th {
 
 table tr td:nth-child(1), table tr td:nth-child(3){
   text-align: center;
+}
+
+table tbody tr:nth-child(2n){
+  background-color: var(--bg-blue) !important
 }
 
 

@@ -38,21 +38,37 @@ get_header();
                <div class="col-lg-6 wow fadeInLeft">
                   <div class="p-40 bg-light rounded-1 h-100">
                      <div class="middle-title" class="mb-4">Реквизиты</div>
-                        <strong>ИП</strong> Князева О.А.
-                        <br><strong>ИНН</strong>: 615524416390
-                        <br><strong>КПП</strong>: 616301001
-                        <br><strong>ОГРН</strong>: 1096165002438
-                        <br><strong>ОГРНИП</strong>: 318619600231488
-                        <br><strong>Юридический адрес</strong>: 344000, г.Ростов-на-Дону, пр. Ворошиловский, 52, помещение 1
-                        <br><strong>Фактический адрес</strong>: 344000, г.Ростов-на-Дону, ул. Соколова 61/52
+                        <strong>ИП</strong> Князева О.А.<br>
+                        <? if(carbon_get_theme_option( 'site_inn' )) { ?>
+                           <strong>ИНН</strong> <?php echo carbon_get_theme_option('site_inn'); ?>
+                        <? } ?><br>
+                        <? if(carbon_get_theme_option( 'site_kpp' )) { ?>
+                           <strong>КПП</strong> <?php echo carbon_get_theme_option('site_kpp'); ?>
+                        <? } ?><br>
+                        <? if(carbon_get_theme_option( 'site_ogrn' )) { ?>
+                           <strong>ОГРН</strong> <?php echo carbon_get_theme_option('site_ogrn'); ?>
+                        <? } ?><br>
+                        <? if(carbon_get_theme_option( 'site_ogrnip' )) { ?>
+                           <strong>ОГРНИП</strong> <?php echo carbon_get_theme_option('site_ogrnip'); ?>
+                        <? } ?><br>
+                        <? if(carbon_get_theme_option( 'site_ur_address' )) { ?>
+                           <strong>Юридический адрес:</strong> <?php echo carbon_get_theme_option('site_ur_address'); ?>
+                        <? } ?><br>
+                        <? if(carbon_get_theme_option( 'site_fact_address' )) { ?>
+                           <strong>Фактический адрес:</strong> <?php echo carbon_get_theme_option('site_fact_address'); ?>
+                        <? } ?>
                   </div>
                </div>
 
                <div class="col-lg-6 wow fadeInRight">
                   <div class="p-40 bg-light rounded-1 h-100">
                      <div class="middle-title" class="mb-4">Контакты</div>
-                     <strong>Телефон</strong>: <a href="tel:+78632049558" class="mb-0">+7 (863) 204-95-58</a>
-                     <br><strong>Почта</strong>: <a href="mailto:o-knyazeva89@bk.ru">o-knyazeva89@bk.ru</a>
+                     <? if(carbon_get_theme_option( 'site_phone' )) { ?>
+                        <strong>Телефон</strong>: <a href="tel:<?php echo carbon_get_theme_option('site_phone_digits'); ?>" class="mb-0"><?php echo carbon_get_theme_option('site_phone'); ?></a>
+                     <? } ?><br>
+                     <?php if(carbon_get_theme_option('site_email')) { ?>
+                        <strong>Почта</strong>: <a href="mailto:o-knyazeva89@bk.ru"><a href="mailto:<?php echo carbon_get_theme_option('site_email'); ?>"><?php echo carbon_get_theme_option('site_email'); ?></a></a>
+                     <? } ?>
                      <div class="middle-title mt-4 mb-4">График работы</div>
                      <strong>ПН-ПТ</strong>: 9:00-17:00
                      <br><strong>СБ</strong>: 9:00 - 15:00
@@ -63,67 +79,37 @@ get_header();
          </div>
       </section>
 
-      <section class="no-top">
-         <div class="container">
-            <div class="row g-4">
-               <div class="col-lg-6 offset-lg-3 text-center">
-                  <div class="subtitle wow fadeInUp mb-3">Гарантия качественного лечения</div>
-                  <div class="section-title wow fadeInUp" data-wow-delay=".2s">Сертифицированный специалист с дипломом и большим опытом</div>
-                  <div class="spacer-single"></div>
+      <?php 
+         $page_id = get_the_ID();
+         $certificates = carbon_get_post_meta($page_id, 'certificates');
+
+      ?>
+
+      <?php if ($certificates) : ?>
+         <section class="no-top">
+            <div class="container">
+               <div class="row g-4">
+                  <div class="col-lg-6 offset-lg-3 text-center">
+                     <div class="subtitle wow fadeInUp mb-3">Гарантия качественного лечения</div>
+                     <div class="section-title wow fadeInUp" data-wow-delay=".2s">Сертифицированный специалист с дипломом и большим опытом</div>
+                     <div class="spacer-single"></div>
+                  </div>
+               </div>
+               <div class="row g-4 grid-divider">
+                  <?php foreach ($certificates as $data) { ?>
+                     <div class="col-md-4 wow fadeInRight" data-wow-delay=".2s">
+                        <div class="text-center">
+                           <a href="<?=wp_get_attachment_url( $data['certificates_file'] )?>" data-fancybox="images">       
+                              <img src="<?php echo get_template_directory_uri(); ?>/images/icons/white/notes.png" class="bg-color w-90px p-15 rounded-1 mb-3 wow scaleIn" alt="">
+                              <div class="link-name"><?=$data['certificates_name']?></div>
+                           </a> 
+                        </div>
+                     </div>
+                  <? } ?>
                </div>
             </div>
-            <div class="row g-4 grid-divider">
-               <div class="col-md-4 wow fadeInRight" data-wow-delay=".2s">
-                  <div class="text-center">
-                     <a href="<?php echo get_template_directory_uri(); ?>/images/documents/diplom1.pdf" data-fancybox="images">       
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/icons/white/notes.png" class="bg-color w-90px p-15 rounded-1 mb-3 wow scaleIn" alt="">
-                        <div class="link-name">Диплом с отличием о высшем образовании</div>
-                     </a> 
-                  </div>
-               </div>
-               <div class="col-md-4 wow fadeInRight" data-wow-delay=".4s">
-                  <div class="text-center">      
-                     <a href="<?php echo get_template_directory_uri(); ?>/images/documents/diplom2.pdf" data-fancybox="images">            
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/icons/white/notes.png" class="bg-color w-90px p-15 rounded-1 mb-3 wow scaleIn" alt="">            
-                        <div class="link-name">Диплом о профессиональном образование (ординатура)</div>
-                     </a>
-                  </div>
-               </div>
-               <div class="col-md-4 wow fadeInRight" data-wow-delay=".6s">
-                  <div class="text-center">
-                     <a href="<?php echo get_template_directory_uri(); ?>/images/documents/lic_merged.pdf" data-fancybox="images">                         
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/icons/white/notes.png" class="bg-color w-90px p-15 rounded-1 mb-3 wow scaleIn" alt="">     
-                        <div class="link-name">Медицинская лицензия №ЛО-61-01-007441</div>
-                     </a>
-                  </div>
-               </div>
-               <div class="col-md-4 wow fadeInRight" data-wow-delay=".2s">
-                  <div class="text-center">
-                     <a href="<?php echo get_template_directory_uri(); ?>/images/documents/sanpid2.pdf" data-fancybox="images">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/icons/white/notes.png" class="bg-color w-90px p-15 rounded-1 mb-3 wow scaleIn" alt="">                         
-                        <div class="link-name">Санитарно-эпидемиологическое заключение</div>
-                     </a> 
-                  </div>
-               </div>
-               <div class="col-md-4 wow fadeInRight" data-wow-delay=".4s">
-                  <div class="text-center"> 
-                     <a href="<?php echo get_template_directory_uri(); ?>/images/documents/sertif2.pdf" data-fancybox="images">      
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/icons/white/notes.png" class="bg-color w-90px p-15 rounded-1 mb-3 wow scaleIn" alt="">                       
-                        <div class="link-name">Сертификат специалиста</div>
-                     </a> 
-                  </div>
-               </div>
-               <div class="col-md-4 wow fadeInRight" data-wow-delay=".6s">
-                  <div class="text-center">    
-                     <a href="<?php echo get_template_directory_uri(); ?>/images/documents/redistrationIP.pdf" data-fancybox="images">   
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/icons/white/notes.png" class="bg-color w-90px p-15 rounded-1 mb-3 wow scaleIn" alt="">                       
-                        <div class="link-name">Свидетельство о регистрации ИП</div>
-                     </a>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
+         </section>
+      <?php endif; ?>
       
    </div>
 <?php get_footer(); ?>

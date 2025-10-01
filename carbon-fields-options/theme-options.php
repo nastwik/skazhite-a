@@ -19,9 +19,10 @@ Container::make( 'theme_options', 'Настройки сайта' )
     Field::make( 'text', 'site_ur_address', 'Юридический адрес' )->set_width(50),
     Field::make( 'text', 'site_email', 'Почта' )->set_width(50),
     Field::make( 'rich_text', 'site_work_time', 'Время работы' )->set_width(50),
-    Field::make( 'text', 'site_inn', 'ИНН' )->set_width(33),
-    Field::make( 'text', 'site_kpp', 'КПП' )->set_width(33),
-    Field::make( 'text', 'site_ogrn', 'ОГРН' )->set_width(33),
+    Field::make( 'text', 'site_inn', 'ИНН' )->set_width(25),
+    Field::make( 'text', 'site_kpp', 'КПП' )->set_width(25),
+    Field::make( 'text', 'site_ogrn', 'ОГРН' )->set_width(25),
+    Field::make( 'text', 'site_ogrnip', 'ОГРНИП' )->set_width(25),
     Field::make( 'rich_text', 'site_map_coordinates', 'Карта' ),
 ])
 

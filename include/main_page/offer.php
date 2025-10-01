@@ -24,10 +24,10 @@
 
                                        <div class="team_butns">
                                           <? if(carbon_get_theme_option( 'site_phone' )) { ?>
-                                             <a href="tel:<?php echo carbon_get_theme_option('site_phone_digits'); ?>" class="btn-main btn-red wow fadeInUp" data-wow-delay=".4s" href="book-service.html"><?php echo carbon_get_theme_option('site_phone'); ?></a>
+                                             <a href="tel:<?php echo carbon_get_theme_option('site_phone_digits'); ?>" class="btn-main btn-red wow fadeInUp" data-wow-delay=".4s"><?php echo carbon_get_theme_option('site_phone'); ?></a>
                                           <? } ?>
                                           <?php if ($button_text_2) : ?>
-                                             <a href="" class="btn-main btn-blue wow fadeInUp" data-wow-delay=".4s" href="<?php echo carbon_get_post_meta( $page_id, 'top_second_btn_link'); ?>"><?php echo carbon_get_post_meta( $page_id, 'top_second_btn_text'); ?></a>
+                                             <a href="" class="btn-main btn-blue wow fadeInUp" data-wow-delay=".4s" href="<?php echo carbon_get_post_meta( $page_id, 'top_second_btn_link'); ?>"><?php echo $button_text_2; ?></a>
                                           <?php endif; ?>
                                           </div>
 

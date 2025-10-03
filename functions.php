@@ -16,12 +16,21 @@ function crb_load() {
     \Carbon_Fields\Carbon_Fields::boot();
 }
 
+// Кастомные поля
 add_action('carbon_fields_register_fields', 'register_carbon_fields');
 function register_carbon_fields() {
     require_once( 'carbon-fields-options/theme-options.php' );
     require_once( 'carbon-fields-options/post-meta.php' );
 }
 
+//Регистрация типа поста - Услуги
+require_once 'functions/action_custom_services.php';
+
+//Кастомное поле для миниатюры изображения терм
+require_once 'wp-term/wp_term_image.php';
+add_action( 'admin_init', [ \Kama\WP_Term_Image::class, 'init' ] );
+
+// Регистрация Меню
 add_action( 'after_setup_theme', 'theme_support' );
 function theme_support() {
   register_nav_menu( 'menu_main_header', 'Меню в шапке' );
@@ -29,16 +38,19 @@ function theme_support() {
   add_theme_support('post-thumbnails');
 }
 
-
 function convertToWebpSrc($src) {
   $src_webp = $src . '.webp';
   return str_replace('uploads', 'uploads-webpc/uploads', $src_webp);
 }
 
-//Кастомные типы постов
-//Регистрация типа поста - Услуги
-require_once 'functions/action_custom_services.php';
-
-//Кастомное поле для миниатюры изображения терм
-require_once 'wp-term/wp_term_image.php';
-add_action( 'admin_init', [ \Kama\WP_Term_Image::class, 'init' ] );
+// Добавление placeholder в поиск
+function my_search_form( $form ) {
+	$form = '<form role="search" method="get" id="searchform" class="searchform" action="' . home_url( '/' ) . '" >
+	<div>
+	<input type="text" value="' . get_search_query() . '" name="s" id="s" placeholder="Введите для поиска..." />
+	<input type="submit" id="searchsubmit" value="'. esc_attr__( 'Search' ) .'" />
+	</div>
+	</form>';
+	return $form;
+}   
+add_filter( 'get_search_form', 'my_search_form', 100 );

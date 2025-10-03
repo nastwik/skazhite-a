@@ -1887,6 +1887,72 @@
 		 
 		
      });
+    
+    /* --------------------------------------------------
+    * GO TO TOP
+    * --------------------------------------------------*/
+
+    $(document).ready(function() {
+        if ($(window).scrollTop() > 600) {
+            $('.go-top').addClass('active');
+        } else {
+            $('.go-top').removeClass('active');
+        }
+
+        $(window).on('scroll', function () {
+            var scrolled = $(window).scrollTop();
+            if (scrolled > 600) {
+                $('.go-top').addClass('active');
+            } else {
+                $('.go-top').removeClass('active');
+            }
+        });
+
+        $('.go-top').on('click', function () {
+            $("html, body").animate({ scrollTop: "0" }, 500);
+        });
+
+        jQuery(window).on('load', function () {
+            jQuery(".preloader").fadeOut(500);
+        });
+    });
+
+    /* --------------------------------------------------
+    * search
+    * --------------------------------------------------*/
+    
+    (function ($) {
+        'use strict';
+
+        var ThemeBuilder = function () {
+            var searchBar = function () {
+                $("#quikSearchBtn").on('click', function () { 
+                    // Открываем поисковую строку
+                    $('.nav-search-bar').fadeIn(500).addClass('On');
+                    $('#s').val('');
+                });
+
+                $("#searchRemove").on('click', function () { 
+                    // Закрываем поисковую строку
+                    $('.nav-search-bar').fadeOut(500).removeClass('On');
+                    $('#s').val('');
+                });
+            };
+
+            return {
+                initialHelper: searchBar 
+            };
+        }(); 
+
+        $(document).ready(function() {
+            ThemeBuilder.initialHelper(); 
+        });
+
+    })(jQuery);
+
+    /* --------------------------------------------------
+    * gallery | fancybox
+    * --------------------------------------------------*/
 
     $(window).on('load', function() {
         jQuery('#de-loader').fadeOut(500);
@@ -1966,63 +2032,6 @@
         });
     });
 
-
-    // Go to Top
-
-    $(document).ready(function() {
-        if ($(window).scrollTop() > 600) {
-            $('.go-top').addClass('active');
-        } else {
-            $('.go-top').removeClass('active');
-        }
-
-        $(window).on('scroll', function () {
-            var scrolled = $(window).scrollTop();
-            if (scrolled > 600) {
-                $('.go-top').addClass('active');
-            } else {
-                $('.go-top').removeClass('active');
-            }
-        });
-
-        $('.go-top').on('click', function () {
-            $("html, body").animate({ scrollTop: "0" }, 500);
-        });
-
-        jQuery(window).on('load', function () {
-            jQuery(".preloader").fadeOut(500);
-        });
-    });
-
-    
-    // Search Overlay
-
-    function openSearch() {
-        const overlay = document.getElementById("myOverlay");
-        overlay.classList.add("show");
-        document.body.style.overflow = 'hidden'; 
-    }
-
-    function closeSearch() {
-        const overlay = document.getElementById("myOverlay");
-        overlay.classList.remove("show");
-        document.body.style.overflow = ''; 
-    }
-
-    document.getElementById("myOverlay").addEventListener("click", function(e) {
-        if (e.target === this) {
-            closeSearch(); 
-        }
-    });
-
-    document.querySelector(".closebtn").addEventListener("click", function(e) {
-        closeSearch(); 
-    });
-
-    document.getElementById("search-button").addEventListener("click", function(e) {
-        e.preventDefault(); 
-        openSearch(); 
-    });
 
 }); 
 })(jQuery);

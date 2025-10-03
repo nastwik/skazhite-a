@@ -1,5 +1,5 @@
             <section class="relative overflow-hidden">
-                <div class="container relative z-1000">
+                <div class="container relative">
                     <div class="spacer-double sm-hide"></div>                    
                     <div class="row g-4 justify-content-between">
                         <div class="col-lg-6">

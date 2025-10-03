@@ -12,10 +12,10 @@
                    ?>
                   
                   <section class="slider-area relative overflow-hidden pb-0" data-bgimage="url(<?php echo $top_img_src_webp; ?>) center">
-                        <div class="container relative z-1000">
+                        <div class="container relative">
                            <div class="row g-4 align-items-center justify-content-between">
                               <div class="col-lg-6 offer_content">
-                                    <div class="relative z-1000">
+                                    <div class="relative">
                                        <div class="header-title wow fadeInUp" data-wow-delay=".0s"><?php echo carbon_get_post_meta( $page_id, 'top_title'); ?></div>
 
                                        <p class="wow fadeInUp" data-wow-delay=".2s"><?php echo carbon_get_post_meta( $page_id, 'top_subtitle'); ?></p>

@@ -5,7 +5,7 @@
                         <img src="<?php echo get_template_directory_uri(); ?>/images/doctors/olga_black-mini.jpg" class="w-100 rounded-1" alt="">
                     </div>
                     <div class="col-lg-6 relative">
-                        <div class="relative z-1000">
+                        <div class="relative">
                             <div class="subtitle wow fadeInUp" data-wow-delay=".0s">Врачи</div>
                             <div class="section-title">О враче</div>
                             <p>Более 10 лет оказываю высококвалифицированную медицинскую помощь пациентам с заболеваниями уха, горла и носа всех возрастных категорий (как взрослых, так и детей), используя самые современные технологии.</p>

@@ -11,10 +11,10 @@ get_header();
       <div id="top"></div>
 
       <section class="bg-blue section-dark pb-0 relative overflow-hidden">
-         <div class="container relative z-1000">
+         <div class="container relative">
             <div class="row g-3 align-items-center page-header">
                <div class="col-lg-6 page-header__text">
-                  <div class="relative z-1000">
+                  <div class="relative">
                      <div class="header-title wow fadeInUp mb-2" data-wow-delay=".2s">О центре</div>
                         <ul class="floens-breadcrumb list-unstyled wow fadeInUp" data-wow-delay=".3s">
                            <li><a href="/">Главная</a></li>
@@ -36,7 +36,7 @@ get_header();
          <div class="container relative">
             <div class="row g-4 gx-5 align-items-center">
                <div class="col-lg-6 relative">
-                  <div class="relative z-1000">
+                  <div class="relative">
                      <div class="subtitle wow fadeInUp" data-wow-delay=".0s">Уютный кабинет, где лечат с заботой</div>
                      <div class="section-title">От стетоскопа до эндоскопа — оснащение на высшем уровне</div>
                      <p>Когда вы сталкиваетесь с проблемами уха, горла или носа, найти хорошего отоларинголога — задача трудная. Потому что мало информации о специалистах, долгое ожидание записи к конкретному врачу, длинные очереди в медучреждениях. Что уж говорить про страх перед медицинским вмешательством или постановкой диагноза…</p>

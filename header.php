@@ -31,93 +31,60 @@
 
         <!-- header begin -->
         <header class="header-light transparent">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="de-flex xl-pt10">
-                            <div class="de-flex-col">
-                                <!-- logo begin -->
-                                <? if(carbon_get_theme_option( 'site_logo' )) { ?>
-                                    <div class="main-header__logo">
-                                        <a href="/">
-                                            <img src="<?php echo wp_get_attachment_image_url(carbon_get_theme_option('site_logo')); ?>" alt="logo" width="75">
-                                            <div>
-                                                <div>Скажите «А»</div>
-                                                <div>ЛОР центр</div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                <? } ?>
-                                <!-- logo end -->
-                            </div>
-                            <div class="de-flex-col header-col-mid">
-                                <!-- <ul id="mainmenu" class="menu">
-                                    <li><a class="menu-item" href="index.php">Главная</a>
-                                    </li>
-                                    <li><a class="menu-item" href="about.php">О центре</a></li>
-                                    <li><a class="menu-item" href="services.php">Услуги</a>
-                                        <ul>
-                                            <li><a class="menu-item" href="categories.php">Категории</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a class="menu-item" href="archive-doctors.php">Врачи</a>
-                                        <ul>
-                                            <li><a class="menu-item" href="single-doctor.php">Князева О.А.</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a class="menu-item" href="price.php">Прайс</a></li>
-                                    <li><a class="menu-item" href="#">Документы</a>
-                                        <ul>
-                                            <li><a class="menu-item" href="documents.php">Информация о юридическом лице</a></li>
-                                            <li><a class="menu-item" href="#">Правовая информация</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a class="menu-item" href="contacts.php">Контакты</a></li>
-                                </ul> -->
-                                <?php
-                                    wp_nav_menu( [
-                                        'theme_location'  => 'menu_main_header',
-                                        'menu_id'       => 'mainmenu', 
-                                        'menu_class'      => 'menu', 
-                                    ] );
-                                ?>
-                            </div>
-                            
-                            <div class="de-flex-col">
-                                <div id="init" class="search">
-                                    <a href="#" class="fw-bold text-dark" id="search-button">
-                                        <i class="icofont-search-1"></i>
-                                    </a>
+            <div class="sticky-header">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="de-flex xl-pt10">
+                                <div class="de-flex-col">
+                                    <!-- logo begin -->
+                                    <? if(carbon_get_theme_option( 'site_logo' )) { ?>
+                                        <div class="main-header__logo">
+                                            <a href="/">
+                                                <img src="<?php echo wp_get_attachment_image_url(carbon_get_theme_option('site_logo')); ?>" alt="logo" width="75">
+                                                <div>
+                                                    <div>Скажите «А»</div>
+                                                    <div>ЛОР центр</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    <? } ?>
+                                    <!-- logo end -->
+                                </div>
+                                <div class="de-flex-col header-col-mid">
+                                    <?php
+                                        wp_nav_menu( [
+                                            'theme_location'  => 'menu_main_header',
+                                            'menu_id'       => 'mainmenu', 
+                                            'menu_class'      => 'menu', 
+                                        ] );
+                                    ?>
                                 </div>
 
-                                <div id="myOverlay" class="search-overlay"> 
-                                    <div class="overlay-content">
-                                        <div class="overlay-header">
-                                            <div class="middle-title">Поиск</div>
-                                            <button class="closebtn"><i class="icofont-close"></i></button>
-                                        </div>
-                                        <div class="search-group">
-                                            <form action="action_page.php" style="flex-grow: 1; display: flex;">
-                                                <input type="text" placeholder="Введите для поиска" name="search" required>
-                                            </form>
-                                            <button type="submit" class="search-group__btn"><i class="fa fa-search"></i></button>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="menu_side_area">   
-                                    <a href="#" class="btn-main btn-blue-2">Версия для слабовидящих</a>
+                                <ul class="de-flex-col">
+                                    <li class="search">
+                                        <button id="quikSearchBtn" type="button" class="search-btn fw-bold text-dark"><i class="icofont-search-1"></i></button>
+                                    </li>
+                                    <li class="menu_side_area">
+                                        <a href="#" class="btn-main btn-blue-2"><span>Для слабовидящих</span> <i class="fas fa-eye"></i></a>
+                                    </li>
                                     <span id="menu-btn"></span>
-                                </div>
-                            </div>
+                                </ul>
 
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </header>
-
         <!-- header close -->
+
+        <!-- Search Box ==== -->
+        <div class="nav-search-bar">
+            <?php get_search_form(); ?>
+            <span id="searchRemove"><i class="icofont-close-line"></i></span>
+        </div>
+
         <!-- content begin -->
         <div class="no-bottom no-top" id="content">
 

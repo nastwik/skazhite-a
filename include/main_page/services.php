@@ -5,12 +5,17 @@
             
            <section class="relative overflow-hidden">
                 <div class="container">
+                    <div class="row mb-5">
                     <div class="row g-4">
                         <div class="col-lg-6 offset-lg-3 text-center">
                             <div class="subtitle wow fadeInUp mb-3">Услуги</div>
                             <div class="section-title wow fadeInUp" data-wow-delay=".2s">Помощь, которую оказываем</div>
                             <div class="spacer-single"></div>
                             <div class="spacer-half"></div>
+                        </div>
+                    </div>
+                        <div class="col-12">
+                            <?php get_search_form(); ?>
                         </div>
                     </div>
 

@@ -1,10 +1,8 @@
-<?php
-
+<?php 
 /*
-Template Name: О компании
+Template Name: О центре
 */
-
-get_header();
+get_header(); 
 ?>
 
    <div class="no-bottom no-top" id="content">
@@ -62,8 +60,9 @@ get_header();
          </div>
       </section>
 
-      <? require_once 'include/main_page/gallery.php' ?>
-
+      <? require_once(get_template_directory() . '/include/main_page/gallery.php');?>
+      
+   </div>
    </div>
    
 <?php get_footer(); ?>

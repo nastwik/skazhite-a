@@ -40,6 +40,9 @@
                            <div class="spacer-half"></div>
                      </div>
                   </div> -->
+                  <div class="col-12 mb-5">
+                     <?php get_search_form(); ?>
+                  </div>
 
                   <div class="row g-4">
 
@@ -235,5 +238,6 @@
          </section>
 
       </div>
+   </div>
 
-   <?php get_footer(); ?>
+<?php get_footer(); ?>

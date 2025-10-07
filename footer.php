@@ -97,9 +97,9 @@
     </div>
 
     <!-- footer close -->
-    <div class="go-top">
+    <button class="go-top">
         <i class="icofont-arrow-up text-white"></i>
-    </div>
+    </button>
 
     <!-- Javascript Files -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

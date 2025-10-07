@@ -7779,7 +7779,6 @@ footer .tiny-border span {
 .border-bottom-1-light{border-bottom: solid 1px rgba(255,255,255,.5);}
 
 /* hover effects */
-.hover:hover .hover-scale-1-2{transform: scale(1.2);}
 .hover-scale-in-1{transform: scale(1.1); }
 .hover:hover .hover-scale-in-1{transform: scale(1); }
 .hover-scale-in-3{transform: scale(3); }
@@ -13035,12 +13034,14 @@ img {
   align-items: center;
 }
 .services__img{
-    position: relative;
+  position: relative;
+  border-radius: var(--rounded-1);
 }
 .services__img img{
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: var(--rounded-1);
 }
 
 /* TABLE FOR PRICE */
@@ -13323,7 +13324,7 @@ footer .link-name{
 
 .slider-area{
   display: flex;
-  align-items: end;
+  align-items: center;
   flex-wrap: wrap;
   width: 100%;
   height: 100vh;
@@ -13503,6 +13504,7 @@ footer .link-name{
   height: 45px;
   opacity: 0;
   visibility: hidden;
+  border: none;
   border-radius: 50%;
   font-size: 22px;
   transition: 0.3s;
@@ -13983,4 +13985,67 @@ ul {
 }
 .pagination span.next a span {
   color: #ffffff;
+}
+
+
+/* body.bvi-active img {
+  filter: grayscale(100%) !important;
+  transition: filter 0.3s ease;
+}
+body.bvi-active img:hover {
+    filter: grayscale(0%) !important; 
+} */
+
+body.bvi-active .header-title{
+  font-size: 23px !important;
+}
+body.bvi-active [data-bgimage] {
+  background: none !important;
+}
+body.bvi-active #quikSearchBtn {
+  background: none !important;
+}
+body.bvi-active .nav-search-bar > span {
+  top: 125px;
+}
+body.bvi-active .btn-main {
+  border: 1px solid black;
+}
+body.bvi-active .subtitle{
+  border: 1px solid black;
+}
+
+body.bvi-active .absolute {
+  display: none; 
+}
+body.bvi-active .hover-op-0{
+   border: 1px solid #000;
+   border-top: none;
+}
+body.bvi-active .hover:hover .item-title {
+    background-color: #000 !important; 
+    color: white !important; 
+    transition: background-color 0.5s ease !important; 
+}
+body.bvi-active .hover:hover .hover-op-0 {
+    background-color: #000 !important;  
+}
+body.bvi-active .hover:hover .overlay {
+    opacity: 0 !important; 
+}
+body.bvi-active .hover:hover .hover-op-0 {
+    opacity: 1 !important; 
+}
+body.bvi-active .hover:hover .hover-scale-1-2 {
+    transform: scale(1) !important; 
+}
+body.bvi-active .services-item a {
+    border-radius: var(--rounded-1);
+}
+
+body.bvi-active .fl-search-area__block-answer{
+  border: 1px solid black;
+}
+body.bvi-active .go-top{
+  border: 1px solid black;
 }

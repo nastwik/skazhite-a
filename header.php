@@ -66,7 +66,7 @@
                                         <button id="quikSearchBtn" type="button" class="search-btn fw-bold text-dark"><i class="icofont-search-1"></i></button>
                                     </li>
                                     <li class="menu_side_area">
-                                        <a href="#" class="btn-main btn-blue-2"><span>Для слабовидящих</span> <i class="fas fa-eye"></i></a>
+                                        <a href="#" class="btn-main btn-blue-2 bvi-open"><span>Для слабовидящих</span> <i class="fas fa-eye"></i></a>
                                     </li>
                                     <span id="menu-btn"></span>
                                 </ul>

@@ -16,7 +16,7 @@
                            <div class="row g-4 align-items-center justify-content-between">
                               <div class="col-lg-6 offer_content">
                                     <div class="relative">
-                                       <div class="header-title wow fadeInUp" data-wow-delay=".0s"><?php echo carbon_get_post_meta( $page_id, 'top_title'); ?></div>
+                                       <h1 class="header-title wow fadeInUp" data-wow-delay=".0s"><?php echo carbon_get_post_meta( $page_id, 'top_title'); ?></h1>
 
                                        <p class="wow fadeInUp" data-wow-delay=".2s"><?php echo carbon_get_post_meta( $page_id, 'top_subtitle'); ?></p>
 
@@ -27,9 +27,9 @@
                                              <a href="tel:<?php echo carbon_get_theme_option('site_phone_digits'); ?>" class="btn-main btn-red wow fadeInUp" data-wow-delay=".4s"><?php echo carbon_get_theme_option('site_phone'); ?></a>
                                           <? } ?>
                                           <?php if ($button_text_2) : ?>
-                                             <a href="" class="btn-main btn-blue wow fadeInUp" data-wow-delay=".4s" href="<?php echo carbon_get_post_meta( $page_id, 'top_second_btn_link'); ?>"><?php echo $button_text_2; ?></a>
+                                             <a href="<?php echo carbon_get_post_meta( $page_id, 'top_second_btn_link'); ?>" class="btn-main btn-blue wow fadeInUp" data-wow-delay=".4s"><?php echo $button_text_2; ?></a>
                                           <?php endif; ?>
-                                          </div>
+                                       </div>
 
                                        <div class=""></div>
 

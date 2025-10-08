@@ -62,22 +62,24 @@
                         $term_link = get_term_link($term);
                     ?>
                         <div class="col-lg-4 col-sm-6">
-                            <div class="relative shadow-soft">
-                                <a href="<?php echo ($term_link); ?>" class="d-block hover">
+                           <div class="services-item">
+                              <div class="relative shadow-soft">
+                                 <a href="<?php echo ($term_link); ?>" class="d-block hover">
                                     <div class="relative overflow-hidden rounded-1 shadow-soft">
-                                        <div class="absolute z-2 start-0 w-100 abs-middle fs-36 text-white text-center">
-                                            <span class="btn-main hover-op-1">Узнать больше</span>
-                                        </div>
-                                        <div class="services__img"> 
-                                            <img src="<?php echo $term_image_url; ?>" class="img-fluid hover-scale-1-2" alt="">
-                                            <div class="overlay"></div>
-                                        </div>
-                                        <div class="hover-op-0 abs p-3 px-4 bottom-0 text-center text-light w-100 overlay-black-1 bg-blur">
-                                            <div class="item-title"><?php echo ($term->name); ?></div>
-                                        </div>
+                                       <div class="absolute z-2 start-0 w-100 abs-middle fs-36 text-white text-center">
+                                          <span class="btn-main hover-op-1">Узнать больше</span>
+                                       </div>
+                                       <div class="services__img"> 
+                                          <img src="<?php echo $term_image_url; ?>" class="img-fluid hover-scale-1-2" alt="">
+                                          <div class="overlay"></div>
+                                       </div>
+                                       <div class="hover-op-0 abs p-3 px-4 bottom-0 text-center text-light w-100 overlay-black-1 bg-blur">
+                                          <div class="item-title"><?php echo ($term->name); ?></div>
+                                       </div>
                                     </div>
-                                </a>
-                            </div>
+                                 </a>
+                              </div>
+                           </div>
                         </div>
 
                     <?php

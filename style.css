@@ -13324,7 +13324,7 @@ footer .link-name{
 
 .slider-area{
   display: flex;
-  align-items: center;
+  align-items: end;
   flex-wrap: wrap;
   width: 100%;
   height: 100vh;
@@ -14019,7 +14019,7 @@ body.bvi-active .absolute {
   display: none; 
 }
 body.bvi-active .hover-op-0{
-   border: 1px solid #000;
+   border: 2px solid #000;
    border-top: none;
 }
 body.bvi-active .hover:hover .item-title {
@@ -14042,10 +14042,15 @@ body.bvi-active .hover:hover .hover-scale-1-2 {
 body.bvi-active .services-item a {
     border-radius: var(--rounded-1);
 }
-
+body.bvi-active   #mainmenu li ul li a:hover {
+    border-radius: var(--rounded-1);
+}
 body.bvi-active .fl-search-area__block-answer{
   border: 1px solid black;
 }
 body.bvi-active .go-top{
   border: 1px solid black;
+}
+body.bvi-active .slider-area{
+  align-items: center;
 }

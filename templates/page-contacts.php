@@ -84,6 +84,7 @@ get_header();
          </div>
       </section>
 
+
       <? if(carbon_get_theme_option( 'site_map_coordinates' )) { ?>
          <section class="contact-one">
             <div class="contact-one__map">
@@ -93,36 +94,27 @@ get_header();
             </div>
             <div class="container relative">
                <div class="row g-4 justify-content-between align-items-center">
-                     <div class="col-lg-7"></div>
-                     <div class="col-lg-5 relative wow fadeInUp" data-wow-delay=".2s">
-                        <div class="bg-white p-40 shadow-soft h-100 rounded-1 contact-form">
-                        <div class="middle-title">Запись на прием</div>
-                        <p>Администратор перезвонит вам в течение 30 сек</p>
-                        <form name="contactForm" id="contact_form" class="form-border" method="post" action="contact.php">
-                           <div class="row g-3">
-                              <div class="col-12">
-                                    <div class="field-set">
-                                       <input type="text" id="phone1" name="phone" class="form-control" placeholder="+7(___)___--__--__" required>
-                                    </div>
+                  <div class="col-lg-7"></div>
+                  <div class="col-lg-5 relative wow fadeInUp" data-wow-delay=".2s">
+                     <div class="bg-white p-40 shadow-soft h-100 rounded-1">
+                        <form id="footer-form" class="contact-form ajax-form">
+                           <div class="row">
+                              <div class="middle-title">Запись на прием</div>
+                              <p>Администратор перезвонит вам в течение 30 сек</p>
+                              <div class="form-border col-md-12">
+                                 <input name="phone" type="text" required class="form-control" placeholder="+7(___)___-__-__">
                               </div>
-                              <div class="col-12 mb-3">
-                                 <div id='submit' class="w-100">
-                                    <input type='submit' id='send_message' value='Отправить' class="btn-main btn-red w-100">
-                                 </div>
+                              <div>
+                                 <p>Нажимая на кнопку "Отправить", я даю согласие на <a href="">обработку персональных данных</a> и принимаю условия <a href="">политики обработки персональных данных</a></p>
                               </div>
-                           </div>
-                           <p>Нажимая на кнопку "Отправить", я даю согласие на <a href="">обработку персональных данных</a> и принимаю условия <a href="">политики обработки персональных данных</a></p>
-                           
-                           <div id="success_message" class='success' style="display: none;">
-                              Ваше сообщение было успешно отправлено!
-                           </div>
-                           <div id="error_message" class='error' style="display: none;">
-                              Произошла ошибка! Пожалуйста, проверьте введенные данные.
+                              <div class="col-lg-12">
+                                 <button name="submit" type="submit" value="Submit" class="btn-main btn-red w-100">Отправить</button>
+                              </div>
                            </div>
                         </form>
-                           
                      </div>
-                     </div>
+                  </div>
+                  
                </div>
             </div>
          </section>

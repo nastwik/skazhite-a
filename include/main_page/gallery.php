@@ -23,7 +23,7 @@
                             ?>
                                 <div class="col-lg-4 col-md-6 pb-4">
                                     <div class="imglist">
-                                        <a href="<?php echo $img_src_webp; ?>" data-fancybox="images" class="shadow-soft">
+                                        <a href="<?php echo $img_src_webp; ?>" data-fancybox="gallery" class="shadow-soft">
                                             <img src="<?php echo $img_src_webp; ?>">
                                         </a>
                                     </div>

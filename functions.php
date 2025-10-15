@@ -43,6 +43,9 @@ function convertToWebpSrc($src) {
   return str_replace('uploads', 'uploads-webpc/uploads', $src_webp);
 }
 
+//Регистрация обработчика AJAX
+require_once 'sendmail.php'; 
+
 // Добавление placeholder в поиск
 function my_search_form( $form ) {
 	$form = '<form role="search" method="get" id="searchform" class="searchform" action="' . home_url( '/' ) . '" >

@@ -26,7 +26,7 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="template-offer__img">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/misc/10.png" class="w-100" alt="" >
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/misc/10.webp" class="w-100" alt="" >
                     </div>
                 </div>  
                 </div>

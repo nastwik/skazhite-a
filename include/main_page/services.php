@@ -27,12 +27,13 @@
 
                         if (!empty($terms) && !is_wp_error($terms)) {
                             foreach ($terms as $term) {
-                            $term_image_id = \Kama\WP_Term_Image::get_image_id($term);
-                            $term_image_url = wp_get_attachment_image_url($term_image_id, 'full'); // Получаем URL изображения
+                                $term_image_id = \Kama\WP_Term_Image::get_image_id($term);
+                                $term_image_url = wp_get_attachment_image_url($term_image_id, 'full'); // Получаем URL изображения
 
-                        // Проверяем, есть ли изображение
-                        if ($term_image_url) {
-                        $term_link = get_term_link($term);
+                                // Проверяем, есть ли изображение
+                                if ($term_image_url) {
+                                    $term_image_url_webp = convertToWebpSrc($term_image_url);  
+                                    $term_link = get_term_link($term);
                     ?>
                         <div class="col-lg-4 col-sm-6">
                             <div class="services-item">
@@ -43,7 +44,7 @@
                                                 <span class="btn-main hover-op-1">Узнать больше</span>
                                             </div>
                                             <div class="services__img"> 
-                                                <img src="<?php echo $term_image_url; ?>" class="img-fluid hover-scale-1-2" alt="">
+                                                <img src="<?php echo $term_image_url_webp; ?>" class="img-fluid hover-scale-1-2" alt="">
                                                 <div class="overlay"></div>
                                             </div>
                                             <div class="hover-op-0 abs p-3 px-4 bottom-0 text-center text-light w-100 overlay-black-1 bg-blur">

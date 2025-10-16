@@ -25,7 +25,7 @@ get_header();
                </div>
                <div class="col-lg-6">
                   <div class="template-offer__img">
-                     <img src="<?php echo get_template_directory_uri(); ?>/images/misc/8.png" class="w-100" alt="" >
+                     <img src="<?php echo get_template_directory_uri(); ?>/images/misc/8.webp" class="w-100" alt="" >
                   </div>
                </div>  
             </div>
@@ -36,7 +36,7 @@ get_header();
          <div class="container relative">
             <div class="row g-4 gx-5 align-items-center">
                <div class="col-lg-6">
-                  <img src="<?php echo get_template_directory_uri(); ?>/images/doctors/olga_black-bg.jpg" class="w-100 rounded-1" alt="">
+                  <img src="<?php echo get_template_directory_uri(); ?>/images/doctors/olga_black-bg.webp" class="w-100 rounded-1" alt="">
                </div>
                <div class="col-lg-6 relative">
                   <div class="relative">
@@ -49,7 +49,7 @@ get_header();
                   </div>
                   <div class="about-author d-flex align-items-center">
                      <div class="author-ava cs_author-painting">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/doctors/author-painting.png" alt="Подпись врача">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/doctors/author-painting.webp" alt="">
                      </div>
                   </div>
                </div>

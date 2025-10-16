@@ -23,7 +23,7 @@ get_header();
                </div>
                <div class="col-lg-6">
                   <div class="template-offer__img">
-                     <img src="<?php echo get_template_directory_uri(); ?>/images/misc/1.png" class="w-100" alt="">
+                     <img src="<?php echo get_template_directory_uri(); ?>/images/misc/1.webp" class="w-100" alt="">
                   </div>
                </div>  
             </div>
@@ -46,13 +46,13 @@ get_header();
                <div class="col-lg-6">
                   <div class="row g-4">
                      <div class="col-6">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/gallery/6.jpg" class="img-fluid rounded-1 mb-4 w-70 ms-30 wow scaleIn shadow-soft" alt="">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/gallery/8.png" class="img-fluid rounded-1 wow scaleIn shadow-soft" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/gallery/6.webp" class="img-fluid rounded-1 mb-4 w-70 ms-30 wow scaleIn shadow-soft" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/gallery/3.webp" class="img-fluid rounded-1 wow scaleIn shadow-soft" alt="">
                      </div>
                      <div class="col-6">
                         <div class="spacer-single sm-hide"></div>
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/gallery/7.jpg" class="img-fluid rounded-1 mb-4 wow scaleIn shadow-soft" alt="">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/gallery/4.jpeg" class="img-fluid rounded-1 w-70 wow scaleIn shadow-soft" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/gallery/7.webp" class="img-fluid rounded-1 mb-4 wow scaleIn shadow-soft" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/gallery/4.webp" class="img-fluid rounded-1 w-70 wow scaleIn shadow-soft" alt="">
                      </div>
                   </div>
                </div>

@@ -25,7 +25,7 @@ get_header();
                </div>
                <div class="col-lg-6">
                   <div class="template-offer__img">
-                     <img src="<?php echo get_template_directory_uri(); ?>/images/misc/4.png" class="w-100" alt="" >
+                     <img src="<?php echo get_template_directory_uri(); ?>/images/misc/4.webp" class="w-100" alt="" >
                   </div>
                </div>  
             </div>
@@ -38,7 +38,7 @@ get_header();
                <?php if(carbon_get_theme_option( 'site_ur_address' )) { ?>
                   <div class="col-md-1-5 wow fadeInRight" data-wow-delay=".2s">
                      <div class="text-center">       
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/icons/white/notes.png" class="bg-color w-90px p-15 rounded-1 mb-3 wow scaleIn" alt="">                     
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/icons/notes.webp" class="bg-color w-90px p-15 rounded-1 mb-3 wow scaleIn" alt="">                     
                         <div class="item-title">Юридический адрес</div>
                         <p class="mb-0"><?php echo carbon_get_theme_option('site_ur_address'); ?></p>
                      </div>
@@ -47,7 +47,7 @@ get_header();
                <?php if(carbon_get_theme_option('site_fact_address')) { ?>
                   <div class="col-md-1-5 wow fadeInRight" data-wow-delay=".4s">
                      <div class="text-center">                  
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/icons/white/location.png" class="bg-color w-90px p-15 rounded-1 mb-3 wow scaleIn" alt="">            
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/icons/location.webp" class="bg-color w-90px p-15 rounded-1 mb-3 wow scaleIn" alt="">            
                         <div class="item-title">Фактический адрес</div>
                         <p class="mb-0"><?php echo carbon_get_theme_option('site_fact_address'); ?></p>
                      </div>
@@ -56,7 +56,7 @@ get_header();
                <?php if(carbon_get_theme_option('site_work_time')) { ?>
                   <div class="col-md-1-5 wow fadeInRight" data-wow-delay=".6s">
                      <div class="text-center">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/icons/white/calendar.webp" class="bg-color w-90px p-15 rounded-1 mb-3 wow scaleIn" alt="">                              
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/icons/calendar.webp" class="bg-color w-90px p-15 rounded-1 mb-3 wow scaleIn" alt="">                              
                         <div class="item-title">Режим работы</div>
                         <p class="mb-0"><?php echo carbon_get_theme_option('site_work_time'); ?></p>
                      </div>
@@ -65,7 +65,7 @@ get_header();
                <?php if(carbon_get_theme_option('site_phone')) { ?>
                   <div class="col-md-1-5 wow fadeInRight" data-wow-delay=".8s">
                      <div class="text-center contact__link">                         
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/icons/white/phone.png" class="bg-color w-90px p-15 rounded-1 mb-3 wow scaleIn" alt="">     
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/icons/phone.webp" class="bg-color w-90px p-15 rounded-1 mb-3 wow scaleIn" alt="">     
                         <div class="item-title">Телефон</div>
                         <a href="tel:<?php echo carbon_get_theme_option('site_phone_digits'); ?>" class="mb-0"><?php echo carbon_get_theme_option('site_phone') ?></a><br>
                      </div>
@@ -74,7 +74,7 @@ get_header();
                <?php if(carbon_get_theme_option('site_email')) { ?>
                   <div class="col-md-1-5 wow fadeInRight" data-wow-delay="1s">
                      <div class="text-center contact__link">       
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/icons/white/email.png" class="bg-color w-90px p-15 rounded-1 mb-3 wow scaleIn" alt="">                       
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/icons/email.webp" class="bg-color w-90px p-15 rounded-1 mb-3 wow scaleIn" alt="">                       
                         <div class="item-title">Почта</div>
                         <a href="mailto:<?php echo carbon_get_theme_option('site_email'); ?>"><?php echo carbon_get_theme_option('site_email'); ?></a>
                      </div>

@@ -26,7 +26,7 @@
                </div>
                <div class="col-lg-6">
                   <div class="template-offer__img">
-                     <img src="<?php echo get_template_directory_uri(); ?>/images/misc/7.png" class="w-100" alt="">
+                     <img src="<?php echo get_template_directory_uri(); ?>/images/misc/7.webp" class="w-100" alt="">
                   </div>
                </div>  
             </div>
@@ -69,11 +69,13 @@
                            <?php
                               $service_icon_id = carbon_get_post_meta(get_the_ID(), 'service_icon'); 
                               $service_icon_url = wp_get_attachment_image_url($service_icon_id, 'full');
+
                               if ($service_icon_url) :
+                                 $service_icon_url_webp = convertToWebpSrc($service_icon_url);
                            ?>
-                           <img src="<?php echo esc_url($service_icon_url); ?>" class="bg-color w-90px p-15 rounded-1 mb-3" alt="<?php echo esc_attr(get_the_title()); ?>">
+                           <img src="<?php echo $service_icon_url_webp; ?>" class="bg-color w-90px p-15 rounded-1 mb-3" alt="<?php echo esc_attr(get_the_title()); ?>">
                            <?php else : ?>
-                              <img src="<?php echo get_template_directory_uri(); ?>/images/icons/white/protection.png" class="bg-color w-90px p-15 rounded-1 mb-3" alt="">
+                              <img src="<?php echo get_template_directory_uri(); ?>/images/icons/protection.webp" class="bg-color w-90px p-15 rounded-1 mb-3" alt="">
                            <?php endif; ?>
 
                            <div class="relative wow fadeInUp">

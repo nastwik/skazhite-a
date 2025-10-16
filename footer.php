@@ -1,6 +1,12 @@
         </div>
         <!-- content close -->
 
+        <?php
+            $site_logo = carbon_get_theme_option( 'site_logo' );
+            $site_logo_src = wp_get_attachment_image_url($site_logo, 'full');
+            $site_logo_src_webp = convertToWebpSrc($site_logo_src);
+        ?>
+
         <!-- footer begin -->
         <footer class="section-dark">
             <div class="container">
@@ -10,7 +16,7 @@
                             <div class="de-flex-col">
                                 <div class="footer__logo">
                                     <a href="/">
-                                        <img src="<?php echo wp_get_attachment_image_url(carbon_get_theme_option('site_logo')); ?>" alt="logo" width="75">
+                                        <img src="<?php echo $site_logo_src_webp; ?>" alt="logo" width="75">
                                         <div>
                                             <div class="text-white">Скажите «А»</div>
                                             <div class="text-white">ЛОР центр</div>

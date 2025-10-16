@@ -18,7 +18,7 @@
                </div>
                <div class="col-lg-6">
                   <div class="template-offer__img">
-                     <img src="<?php echo get_template_directory_uri(); ?>/images/misc/2.png" class="w-100" alt="">
+                     <img src="<?php echo get_template_directory_uri(); ?>/images/misc/2.webp" class="w-100" alt="">
                   </div>
                </div>  
             </div>
@@ -54,12 +54,13 @@
 
                         if (!empty($terms) && !is_wp_error($terms)) {
                             foreach ($terms as $term) {
-                            $term_image_id = \Kama\WP_Term_Image::get_image_id($term);
-                            $term_image_url = wp_get_attachment_image_url($term_image_id, 'full'); // Получаем URL изображения
+                                $term_image_id = \Kama\WP_Term_Image::get_image_id($term);
+                                $term_image_url = wp_get_attachment_image_url($term_image_id, 'full'); // Получаем URL изображения
 
-                        // Проверяем, есть ли изображение
-                        if ($term_image_url) {
-                        $term_link = get_term_link($term);
+                              // Проверяем, есть ли изображение
+                              if ($term_image_url) {
+                                 $term_image_url_webp = convertToWebpSrc($term_image_url);  
+                                 $term_link = get_term_link($term);
                     ?>
                         <div class="col-lg-4 col-sm-6">
                            <div class="services-item">
@@ -70,7 +71,7 @@
                                           <span class="btn-main hover-op-1">Узнать больше</span>
                                        </div>
                                        <div class="services__img"> 
-                                          <img src="<?php echo $term_image_url; ?>" class="img-fluid hover-scale-1-2" alt="">
+                                          <img src="<?php echo $term_image_url_webp; ?>" class="img-fluid hover-scale-1-2" alt="">
                                           <div class="overlay"></div>
                                        </div>
                                        <div class="hover-op-0 abs p-3 px-4 bottom-0 text-center text-light w-100 overlay-black-1 bg-blur">
@@ -112,7 +113,7 @@
                   <div class="col-lg-4 col-sm-6">
                      <div class="bg-white p-40 shadow-soft h-100 rounded-1">
                         <div class="bells_icons text-center">
-                           <img src="<?php echo get_template_directory_uri(); ?>/images/icons/white/ear.png" class="bg-color w-90px p-15 rounded-1 mb-3" alt="">
+                           <img src="<?php echo get_template_directory_uri(); ?>/images/icons/ear.webp" class="bg-color w-90px p-15 rounded-1 mb-3" alt="">
                         </div>           
                         <div class="relative wow fadeInUp">
                            <div class="item-title text-center">Ухо</div>
@@ -134,7 +135,7 @@
                   <div class="col-lg-4 col-sm-6">
                      <div class="bg-white p-40 shadow-soft h-100 rounded-1">
                         <div class="bells_icons text-center">
-                           <img src="<?php echo get_template_directory_uri(); ?>/images/icons/white/throat.png" class="bg-color w-90px p-15 rounded-1 mb-3" alt="">
+                           <img src="<?php echo get_template_directory_uri(); ?>/images/icons/throat.webp" class="bg-color w-90px p-15 rounded-1 mb-3" alt="">
                         </div>                      
                         <div class="relative wow fadeInUp">
                            <div class="item-title text-center">Горло</div>
@@ -154,7 +155,7 @@
                   <div class="col-lg-4 col-sm-6">
                      <div class="bg-white p-40 shadow-soft h-100 rounded-1">
                         <div class="bells_icons text-center">
-                           <img src="<?php echo get_template_directory_uri(); ?>/images/icons/white/nose.png" class="bg-color w-90px p-15 rounded-1 mb-3" alt="">
+                           <img src="<?php echo get_template_directory_uri(); ?>/images/icons/nose.webp" class="bg-color w-90px p-15 rounded-1 mb-3" alt="">
                         </div>                      
                         <div class="relative wow fadeInUp">
                            <div class="item-title text-center">Нос</div>
@@ -189,7 +190,7 @@
                <div class="row g-4 formula-area">
                   <div class="col-lg-4 col-md-6">
                         <div class="relative">
-                           <img src="<?php echo get_template_directory_uri(); ?>/images/icons/white/individuality.png" class="abs bg-color-3 w-90px p-15 rounded-1 mb-3" alt="">
+                           <img src="<?php echo get_template_directory_uri(); ?>/images/icons/individuality.webp" class="abs bg-color-3 w-90px p-15 rounded-1 mb-3" alt="">
                            <div class="relative ps-100 ms-4 wow fadeInUp">
                               <div class="item-title">индивидуаль<wbr>ный подход к каждому</div>
                            </div>
@@ -198,7 +199,7 @@
 
                   <div class="col-lg-4 col-md-6">
                         <div class="relative">
-                           <img src="<?php echo get_template_directory_uri(); ?>/images/icons/white/otoscope.png" class="abs bg-color-3 w-90px p-15 rounded-1 mb-3" alt="">
+                           <img src="<?php echo get_template_directory_uri(); ?>/images/icons/otoscope.webp" class="abs bg-color-3 w-90px p-15 rounded-1 mb-3" alt="">
                            <div class="relative ps-100 ms-4 wow fadeInUp">
                               <div class="item-title">профессио<wbr>нальное оборудование</div>
                            </div>
@@ -207,7 +208,7 @@
 
                   <div class="col-lg-4 col-md-6">
                         <div class="relative">
-                           <img src="<?php echo get_template_directory_uri(); ?>/images/icons/white/qualification.png" class="abs bg-color-3 w-90px p-15 rounded-1 mb-3" alt="">
+                           <img src="<?php echo get_template_directory_uri(); ?>/images/icons/qualification.webp" class="abs bg-color-3 w-90px p-15 rounded-1 mb-3" alt="">
                            <div class="relative ps-100 ms-4 wow fadeInUp contact__link">
                               <div class="item-title">квалифициро<wbr>ванная помощь</div>
                            </div>
@@ -231,7 +232,7 @@
 
                   <div class="col-lg-4 wow fadeInRight">
                      <div class="appeal__img">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/doctors/olga.png" class="w-100" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/doctors/olga.webp" class="w-100" alt="">
                      </div>
                   </div>
 

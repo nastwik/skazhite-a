@@ -25,7 +25,7 @@ get_header();
                </div>
                <div class="col-lg-6">
                   <div class="template-offer__img">
-                     <img src="<?php echo get_template_directory_uri(); ?>/images/misc/5.png" class="w-100" alt="" >
+                     <img src="<?php echo get_template_directory_uri(); ?>/images/misc/5.webp" class="w-100" alt="" >
                   </div>
                </div>  
             </div>
@@ -100,7 +100,7 @@ get_header();
                      <div class="col-md-4 wow fadeInRight" data-wow-delay=".2s">
                         <div class="text-center">
                            <a href="<?=wp_get_attachment_url( $data['certificates_file'] )?>" data-fancybox="images">       
-                              <img src="<?php echo get_template_directory_uri(); ?>/images/icons/white/notes.png" class="bg-color w-90px p-15 rounded-1 mb-3 wow scaleIn" alt="">
+                              <img src="<?php echo get_template_directory_uri(); ?>/images/icons/notes.webp" class="bg-color w-90px p-15 rounded-1 mb-3 wow scaleIn" alt="">
                               <div class="link-name"><?=$data['certificates_name']?></div>
                            </a> 
                         </div>

@@ -33,7 +33,7 @@
                         ?>
                         <img src="<?php echo esc_url($service_icon_url); ?>" class="bg-color w-90px p-15 rounded-1 mb-3" alt="<?php echo esc_attr(get_the_title()); ?>">
                         <?php else : ?>
-                            <img src="<?php echo esc_url(get_template_directory_uri() . '/images/icons/white/protection.png'); ?>" class="bg-color w-90px p-15 rounded-1 mb-3" alt="">
+                            <img src="<?php echo esc_url(get_template_directory_uri() . '/images/icons/protection.webp'); ?>" class="bg-color w-90px p-15 rounded-1 mb-3" alt="">
                         <?php endif; ?>
 
                         <div class="relative wow fadeInUp">
